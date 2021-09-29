@@ -1,0 +1,1 @@
+export { ParticleInfo } from './info'
