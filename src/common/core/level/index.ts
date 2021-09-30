@@ -1,2 +1,2 @@
-export { LevelData } from './data'
+export * from './data'
 export { LevelItem, UseItem } from './item'

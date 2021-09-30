@@ -1,20 +1,7 @@
 import { SRL } from '../../resource/srl'
+import { EffectClip } from '../effect-clip'
 
-export type Clip = {
+export type EffectDataClip = {
     id: EffectClip
     clip: SRL<'EffectClip'>
-}
-
-export enum EffectClip {
-    Miss = 0,
-    Perfect,
-    Great,
-    Good,
-
-    MissAlternative = 1000,
-    PerfectAlternative,
-    GreatAlternative,
-    GoodAlternative,
-
-    Stage = 10000,
 }

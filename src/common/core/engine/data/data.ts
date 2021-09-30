@@ -1,11 +1,11 @@
-import { Archetype } from './archetype'
-import { Bucket } from './bucket'
-import { Node } from './node'
-import { Script } from './script'
+import { EngineDataArchetype } from './archetype'
+import { EngineDataBucket } from './bucket'
+import { EngineDataNode } from './node'
+import { EngineDataScript } from './script'
 
 export type EngineData = {
-    buckets: Bucket[]
-    archetypes: Archetype[]
-    scripts: Script[]
-    nodes: Node[]
+    buckets: EngineDataBucket[]
+    archetypes: EngineDataArchetype[]
+    scripts: EngineDataScript[]
+    nodes: EngineDataNode[]
 }

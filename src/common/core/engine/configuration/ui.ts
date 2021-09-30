@@ -1,39 +1,44 @@
-export type UI = {
+export type EngineConfigurationUI = {
     scope?: string
-    primaryMetric: Metric
-    secondaryMetric: Metric
-    menuVisibility: Visibility
-    judgmentVisibility: Visibility
-    comboVisibility: Visibility
-    primaryMetricVisibility: Visibility
-    secondaryMetricVisibility: Visibility
-    judgmentAnimation: Animation
-    comboAnimation: Animation
-    judgmentErrorStyle: JudgmentErrorStyle
-    judgmentErrorPlacement: JudgmentErrorPlacement
+    primaryMetric: EngineConfigurationMetric
+    secondaryMetric: EngineConfigurationMetric
+    menuVisibility: EngineConfigurationVisibility
+    judgmentVisibility: EngineConfigurationVisibility
+    comboVisibility: EngineConfigurationVisibility
+    primaryMetricVisibility: EngineConfigurationVisibility
+    secondaryMetricVisibility: EngineConfigurationVisibility
+    judgmentAnimation: EngineConfigurationAnimation
+    comboAnimation: EngineConfigurationAnimation
+    judgmentErrorStyle: EngineConfigurationJudgmentErrorStyle
+    judgmentErrorPlacement: EngineConfigurationJudgmentErrorPlacement
     judgmentErrorMin: number
 }
 
-type Metric = 'arcade' | 'accuracy' | 'life' | 'perfectRate' | 'errorHeatmap'
+export type EngineConfigurationMetric =
+    | 'arcade'
+    | 'accuracy'
+    | 'life'
+    | 'perfectRate'
+    | 'errorHeatmap'
 
-type Visibility = {
+export type EngineConfigurationVisibility = {
     scale: number
     alpha: number
 }
 
-type Animation = {
-    scale: Tween
-    alpha: Tween
+export type EngineConfigurationAnimation = {
+    scale: EngineConfigurationAnimationTween
+    alpha: EngineConfigurationAnimationTween
 }
 
-type Tween = {
+export type EngineConfigurationAnimationTween = {
     from: number
     to: number
     duration: number
     ease: string
 }
 
-type JudgmentErrorStyle =
+export type EngineConfigurationJudgmentErrorStyle =
     | 'none'
     | 'plus'
     | 'minus'
@@ -46,4 +51,7 @@ type JudgmentErrorStyle =
     | 'triangleLeft'
     | 'triangleRight'
 
-type JudgmentErrorPlacement = 'both' | 'left' | 'right'
+export type EngineConfigurationJudgmentErrorPlacement =
+    | 'both'
+    | 'left'
+    | 'right'

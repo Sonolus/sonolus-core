@@ -1,4 +1,4 @@
-export type Archetype = {
+export type EngineDataArchetype = {
     script: number
     data?: {
         index: number

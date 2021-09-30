@@ -1,2 +1,2 @@
-export { EffectClip } from './clip'
+export { EffectDataClip } from './clip'
 export { EffectData } from './data'

@@ -1,4 +1,4 @@
-export type Sprite = {
+export type ParticleDataSprite = {
     x: number
     y: number
     w: number

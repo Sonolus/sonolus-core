@@ -1,2 +1,10 @@
 export { ParticleData } from './data'
-export { ParticleEffect } from './effect'
+export {
+    ParticleDataEffect,
+    ParticleDataGroup,
+    ParticleDataGroupParticle,
+    ParticleDataGroupParticleProperty,
+    ParticleDataGroupParticlePropertyExpression,
+    ParticleDataTransform,
+} from './effect'
+export { ParticleDataSprite } from './sprite'

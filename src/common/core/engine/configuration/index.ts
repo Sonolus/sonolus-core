@@ -1,2 +1,15 @@
 export { EngineConfiguration } from './configuration'
-export { OptionName } from './option'
+export {
+    EngineConfigurationOption,
+    EngineConfigurationSliderOption,
+    EngineConfigurationToggleOption,
+} from './option'
+export {
+    EngineConfigurationAnimation,
+    EngineConfigurationAnimationTween,
+    EngineConfigurationJudgmentErrorPlacement,
+    EngineConfigurationJudgmentErrorStyle,
+    EngineConfigurationMetric,
+    EngineConfigurationUI,
+    EngineConfigurationVisibility,
+} from './ui'

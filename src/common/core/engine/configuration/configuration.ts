@@ -1,7 +1,7 @@
-import { Option } from './option'
-import { UI } from './ui'
+import { EngineConfigurationOption } from './option'
+import { EngineConfigurationUI } from './ui'
 
 export type EngineConfiguration = {
-    options: Option[]
-    ui: UI
+    options: EngineConfigurationOption[]
+    ui: EngineConfigurationUI
 }

@@ -1,69 +1,12 @@
-export type Effect = {
+import { ParticleEffect } from '../particle-effect'
+
+export type ParticleDataEffect = {
     id: ParticleEffect
-    transform: Transform
-    groups: Group[]
+    transform: ParticleDataTransform
+    groups: ParticleDataGroup[]
 }
 
-export enum ParticleEffect {
-    NoteCircularTapBase = 110000,
-    NoteCircularTapRed,
-    NoteCircularTapGreen,
-    NoteCircularTapBlue,
-    NoteCircularTapYellow,
-    NoteCircularTapPurple,
-    NoteCircularTapCyan,
-
-    NoteCircularAlternativeBase = 111000,
-    NoteCircularAlternativeRed,
-    NoteCircularAlternativeGreen,
-    NoteCircularAlternativeBlue,
-    NoteCircularAlternativeYellow,
-    NoteCircularAlternativePurple,
-    NoteCircularAlternativeCyan,
-
-    NoteCircularHoldBase = 112000,
-    NoteCircularHoldRed,
-    NoteCircularHoldGreen,
-    NoteCircularHoldBlue,
-    NoteCircularHoldYellow,
-    NoteCircularHoldPurple,
-    NoteCircularHoldCyan,
-
-    NoteLinearTapBase = 120000,
-    NoteLinearTapRed,
-    NoteLinearTapGreen,
-    NoteLinearTapBlue,
-    NoteLinearTapYellow,
-    NoteLinearTapPurple,
-    NoteLinearTapCyan,
-
-    NoteLinearAlternativeBase = 121000,
-    NoteLinearAlternativeRed,
-    NoteLinearAlternativeGreen,
-    NoteLinearAlternativeBlue,
-    NoteLinearAlternativeYellow,
-    NoteLinearAlternativePurple,
-    NoteLinearAlternativeCyan,
-
-    NoteLinearHoldBase = 122000,
-    NoteLinearHoldRed,
-    NoteLinearHoldGreen,
-    NoteLinearHoldBlue,
-    NoteLinearHoldYellow,
-    NoteLinearHoldPurple,
-    NoteLinearHoldCyan,
-
-    LaneCircular = 310000,
-    LaneLinear = 320000,
-
-    SlotCircular = 410000,
-    SlotLinear = 420000,
-
-    JudgeLineCircular = 510000,
-    JudgeLineLinear = 520000,
-}
-
-type Transform = Record<
+export type ParticleDataTransform = Record<
     `${'x' | 'y'}${1 | 2 | 3 | 4}`,
     Partial<
         Record<
@@ -75,27 +18,27 @@ type Transform = Record<
     >
 >
 
-type Group = {
+export type ParticleDataGroup = {
     count: number
-    particles: Particle[]
+    particles: ParticleDataGroupParticle[]
 }
 
-type Particle = {
+export type ParticleDataGroupParticle = {
     sprite: number
     color: string
     start: number
     duration: number
-    x: Property
-    y: Property
-    w: Property
-    h: Property
-    r: Property
-    a: Property
+    x: ParticleDataGroupParticleProperty
+    y: ParticleDataGroupParticleProperty
+    w: ParticleDataGroupParticleProperty
+    h: ParticleDataGroupParticleProperty
+    r: ParticleDataGroupParticleProperty
+    a: ParticleDataGroupParticleProperty
 }
 
-type Property = {
-    from?: PropertyExpression
-    to?: PropertyExpression
+export type ParticleDataGroupParticleProperty = {
+    from?: ParticleDataGroupParticlePropertyExpression
+    to?: ParticleDataGroupParticlePropertyExpression
     ease?:
         | 'Linear'
         | `${'In' | 'Out' | 'InOut' | 'OutIn'}${
@@ -110,6 +53,6 @@ type Property = {
               | 'Elastic'}`
 }
 
-type PropertyExpression = Partial<
+export type ParticleDataGroupParticlePropertyExpression = Partial<
     Record<'c' | `${'r' | 'sinr' | 'cosr'}${1 | 2 | 3 | 4}`, number>
 >

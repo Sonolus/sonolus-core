@@ -1,10 +1,10 @@
-import { SkinSprite } from '../../skin/data/sprite'
+import { SkinSprite } from '../../skin/skin-sprite'
 
-export type Bucket = {
-    sprites: Sprite[]
+export type EngineDataBucket = {
+    sprites: EngineDataSprite[]
 }
 
-type Sprite = {
+export type EngineDataSprite = {
     id: SkinSprite
     x: number
     y: number

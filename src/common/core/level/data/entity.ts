@@ -1,4 +1,4 @@
-export type Entity = {
+export type LevelDataEntity = {
     archetype: number
     data?: {
         index: number

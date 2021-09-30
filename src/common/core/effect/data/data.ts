@@ -1,5 +1,5 @@
-import { Clip } from './clip'
+import { EffectDataClip } from './clip'
 
 export type EffectData = {
-    clips: Clip[]
+    clips: EffectDataClip[]
 }

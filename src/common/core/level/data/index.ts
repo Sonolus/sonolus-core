@@ -1,5 +1,2 @@
-import { Entity } from './entity'
-
-export type LevelData = {
-    entities: Entity[]
-}
+export { LevelData } from './data'
+export { LevelDataEntity } from './entity'

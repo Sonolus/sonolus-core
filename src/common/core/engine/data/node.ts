@@ -1,15 +1,15 @@
-export type Node = ValueNode | FunctionNode
+export type EngineDataNode = EngineDataValueNode | EngineDataFunctionNode
 
-type ValueNode = {
+export type EngineDataValueNode = {
     value: number
 }
 
-type FunctionNode = {
-    func: FunctionName
+export type EngineDataFunctionNode = {
+    func: EngineDataFunctionName
     args: number[]
 }
 
-type FunctionName =
+export type EngineDataFunctionName =
     | 'Constant'
     | 'Execute'
     | 'Execute0'

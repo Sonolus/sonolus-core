@@ -1,15 +1,15 @@
-export type Script = {
-    preprocess?: Callback
-    spawnOrder?: Callback
-    shouldSpawn?: Callback
-    initialize?: Callback
-    updateSequential?: Callback
-    touch?: Callback
-    updateParallel?: Callback
-    terminate?: Callback
+export type EngineDataScript = {
+    preprocess?: EngineDataScriptCallback
+    spawnOrder?: EngineDataScriptCallback
+    shouldSpawn?: EngineDataScriptCallback
+    initialize?: EngineDataScriptCallback
+    updateSequential?: EngineDataScriptCallback
+    touch?: EngineDataScriptCallback
+    updateParallel?: EngineDataScriptCallback
+    terminate?: EngineDataScriptCallback
 }
 
-type Callback = {
+export type EngineDataScriptCallback = {
     index: number
     order?: number
 }
