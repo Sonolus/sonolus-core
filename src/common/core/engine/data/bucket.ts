@@ -10,5 +10,5 @@ type Sprite = {
     y: number
     w: number
     h: number
-    rotation: -90
+    rotation: number
 }
