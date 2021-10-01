@@ -94,3 +94,7 @@ export enum SkinSprite {
 
     StageCover = 42000,
 }
+
+export function customSkinSprite(engineId: number, spriteId: number): number {
+    return 100000 + engineId * 100 + spriteId
+}

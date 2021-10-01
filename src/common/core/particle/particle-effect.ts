@@ -56,3 +56,10 @@ export enum ParticleEffect {
     JudgeLineCircular = 510000,
     JudgeLineLinear = 520000,
 }
+
+export function customParticleEffect(
+    engineId: number,
+    effectId: number
+): number {
+    return 100000 + engineId * 100 + effectId
+}

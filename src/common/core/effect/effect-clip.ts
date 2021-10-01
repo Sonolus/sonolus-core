@@ -11,3 +11,7 @@ export enum EffectClip {
 
     Stage = 10000,
 }
+
+export function customEffectClip(engineId: number, clipId: number): number {
+    return 100000 + engineId * 100 + clipId
+}
