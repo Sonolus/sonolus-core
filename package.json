@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Core library for Sonolus",
   "author": "NonSpicyBurrito",
-  "repository": "github:NonSpicyBurrito/sonolus-core",
+  "repository": "github:Sonolus/sonolus-core",
   "license": "MIT",
   "keywords": [
     "Sonolus"
