@@ -1,4 +1,4 @@
-import { OptionName } from '../option-name'
+import { OptionName } from '../../option/name'
 
 export type EngineConfigurationOption =
     | EngineConfigurationSliderOption
