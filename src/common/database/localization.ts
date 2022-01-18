@@ -1,9 +1,14 @@
-export type LocalizationText = Record<string, string>
+export type LocalizationText<T extends string = string> = Record<string, T>
 
-export function localize(
-    text: LocalizationText,
+export function localize<T extends string>(
+    text: LocalizationText<T>,
     locale: string,
     fallbackLocale: string
-): string {
-    return text[locale] || text[fallbackLocale] || Object.values(text)[0] || ''
+): T {
+    return (
+        text[locale] ||
+        text[fallbackLocale] ||
+        Object.values(text)[0] ||
+        ('' as T)
+    )
 }
