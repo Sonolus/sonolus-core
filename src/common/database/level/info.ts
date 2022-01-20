@@ -21,5 +21,6 @@ export interface LevelInfo {
     useParticle: UseInfo
     cover: SRL<'LevelCover'>
     bgm: SRL<'LevelBgm'>
+    preview?: SRL<'LevelPreview'>
     data: SRL<'LevelData'>
 }

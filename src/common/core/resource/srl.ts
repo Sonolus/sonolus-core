@@ -1,6 +1,7 @@
 export type ResourceType =
     | 'LevelCover'
     | 'LevelBgm'
+    | 'LevelPreview'
     | 'LevelData'
     | 'SkinThumbnail'
     | 'SkinData'
