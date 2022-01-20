@@ -1,4 +1,6 @@
 import { OptionName } from '../../option/name'
+import { OptionPlaceholder } from '../../option/placeholder'
+import { OptionValue } from '../../option/value'
 
 export type SearchOption =
     | SearchTextOption
@@ -10,7 +12,7 @@ export type SearchTextOption = {
     query: string
     name: OptionName
     type: 'text'
-    placeholder: string
+    placeholder: OptionPlaceholder
 }
 
 export type SearchSliderOption = {
@@ -36,5 +38,5 @@ export type SearchSelectOption = {
     name: OptionName
     type: 'select'
     def: number
-    values: string[]
+    values: OptionValue[]
 }
