@@ -77,6 +77,10 @@ export enum SkinSprite {
     StageRightBorder = 40002,
     StageTopBorder = 40004,
     StageBottomBorder = 40008,
+    StageLeftBorderSeamless = 40101,
+    StageRightBorderSeamless = 40102,
+    StageTopBorderSeamless = 40104,
+    StageBottomBorderSeamless = 40108,
 
     StageTopLeftCorner = 40005,
     StageTopRightCorner = 40006,
