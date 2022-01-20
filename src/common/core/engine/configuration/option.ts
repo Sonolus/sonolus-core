@@ -1,8 +1,10 @@
 import { OptionName } from '../../option/name'
+import { OptionValue } from '../../option/value'
 
 export type EngineConfigurationOption =
     | EngineConfigurationSliderOption
     | EngineConfigurationToggleOption
+    | EngineConfigurationSelectOption
 
 export type EngineConfigurationSliderOption = {
     name: OptionName
@@ -22,4 +24,13 @@ export type EngineConfigurationToggleOption = {
     scope?: string
     type: 'toggle'
     def: 0 | 1
+}
+
+export type EngineConfigurationSelectOption = {
+    name: OptionName
+    standard?: boolean
+    scope?: string
+    type: 'select'
+    def: number
+    values: OptionValue[]
 }

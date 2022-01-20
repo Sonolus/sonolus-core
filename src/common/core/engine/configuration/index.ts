@@ -1,6 +1,7 @@
 export { EngineConfiguration } from './configuration'
 export {
     EngineConfigurationOption,
+    EngineConfigurationSelectOption,
     EngineConfigurationSliderOption,
     EngineConfigurationToggleOption,
 } from './option'
