@@ -40,4 +40,5 @@ export enum OptionValue {
     Master = '#MASTER',
     Pro = '#PRO',
     Technical = '#TECHNICAL',
+    Special = '#SPECIAL',
 }
