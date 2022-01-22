@@ -1,6 +1,8 @@
 export enum OptionValue {
     None = '#NONE',
     Any = '#ANY',
+    All = '#ALL',
+    Others = '#OTHERS',
     Short = '#SHORT',
     Long = '#LONG',
     High = '#HIGH',
