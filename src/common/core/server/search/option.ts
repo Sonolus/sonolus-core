@@ -1,7 +1,3 @@
-import { OptionName } from '../../option/name'
-import { OptionPlaceholder } from '../../option/placeholder'
-import { OptionValue } from '../../option/value'
-
 export type SearchOption =
     | SearchTextOption
     | SearchSliderOption
@@ -10,14 +6,14 @@ export type SearchOption =
 
 export type SearchTextOption = {
     query: string
-    name: OptionName
+    name: string
     type: 'text'
-    placeholder: OptionPlaceholder
+    placeholder: string
 }
 
 export type SearchSliderOption = {
     query: string
-    name: OptionName
+    name: string
     type: 'slider'
     def: number
     min: number
@@ -28,15 +24,15 @@ export type SearchSliderOption = {
 
 export type SearchToggleOption = {
     query: string
-    name: OptionName
+    name: string
     type: 'toggle'
     def: 0 | 1
 }
 
 export type SearchSelectOption = {
     query: string
-    name: OptionName
+    name: string
     type: 'select'
     def: number
-    values: OptionValue[]
+    values: string[]
 }
