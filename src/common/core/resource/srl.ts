@@ -18,6 +18,7 @@ export type ResourceType =
     | 'ParticleTexture'
     | 'EngineThumbnail'
     | 'EngineData'
+    | 'EngineRom'
     | 'EngineConfiguration'
 
 export type SRL<T extends ResourceType> = {
