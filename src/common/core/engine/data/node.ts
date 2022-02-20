@@ -19,6 +19,7 @@ export type EngineDataFunctionName =
     | 'SwitchInteger'
     | 'SwitchIntegerWithDefault'
     | 'While'
+    | 'JumpLoop'
     | 'Add'
     | 'Subtract'
     | 'Multiply'
