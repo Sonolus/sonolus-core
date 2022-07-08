@@ -3,7 +3,7 @@ import { LocalizationText } from '../localization'
 
 export interface EngineInfo {
     name: string
-    version: 5
+    version: 6
     title: LocalizationText
     subtitle: LocalizationText
     author: LocalizationText
