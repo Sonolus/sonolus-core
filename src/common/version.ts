@@ -1,4 +1,4 @@
 export const version = {
-    package: '1.1.2',
+    package: '2.0.0',
     sonolus: '0.6.0',
 }
