@@ -7,10 +7,10 @@ import { SkinItem } from '../skin/item'
 
 export type UseItem<T> = UseItemTrue | UseItemFalse<T>
 
-export type UseItemTrue  ={
+export type UseItemTrue = {
     useDefault: true
 }
-export type UseItemFalse<T>  ={
+export type UseItemFalse<T> = {
     useDefault: false
     item: T
 }
