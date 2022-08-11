@@ -5,9 +5,14 @@ import { ParticleItem } from '../particle/item'
 import { SRL } from '../resource/srl'
 import { SkinItem } from '../skin/item'
 
-export type UseItem<T> = {
-    useDefault: boolean
-    item?: T
+export type UseItem<T> = UseItemTrue | UseItemFalse<T>
+
+export type UseItemTrue = {
+    useDefault: true
+}
+export type UseItemFalse<T> = {
+    useDefault: false
+    item: T
 }
 
 export type LevelItem = {
