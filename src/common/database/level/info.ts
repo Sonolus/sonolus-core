@@ -1,10 +1,14 @@
 import { SRL } from '../../core/resource/srl'
 import { LocalizationText } from '../localization'
 
-export type UseInfo = {
-    useDefault: boolean
-    item?: string
-}
+export type UseInfo =
+    | {
+          useDefault: true
+      }
+    | {
+          useDefault: false
+          item: string
+      }
 
 export interface LevelInfo {
     name: string
