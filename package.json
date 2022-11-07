@@ -9,6 +9,7 @@
     "Sonolus"
   ],
   "main": "dist/index.node",
+  "browser": "dist/index.browser",
   "files": [
     "dist"
   ],
