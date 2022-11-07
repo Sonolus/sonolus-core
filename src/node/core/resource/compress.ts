@@ -5,8 +5,10 @@ const zlibOptions = {
     level: 9,
 }
 
-export async function compress<T>(data: T): Promise<Buffer> {
-    return promisify(gzip)(JSON.stringify(data), zlibOptions)
+const gzipPromise = promisify(gzip)
+
+export function compress<T>(data: T): Promise<Buffer> {
+    return gzipPromise(JSON.stringify(data), zlibOptions)
 }
 
 export function compressSync<T>(data: T): Buffer {
