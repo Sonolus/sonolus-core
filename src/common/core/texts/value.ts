@@ -1,4 +1,4 @@
-export enum OptionValue {
+export enum ValueText {
     None = '#NONE',
     Any = '#ANY',
     All = '#ALL',
