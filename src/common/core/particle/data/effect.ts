@@ -51,6 +51,7 @@ export type ParticleDataGroupParticleProperty = {
               | 'Circ'
               | 'Back'
               | 'Elastic'}`
+        | 'None'
 }
 
 export type ParticleDataGroupParticlePropertyExpression = Partial<
