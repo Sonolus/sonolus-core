@@ -12,7 +12,7 @@ export type EngineConfigurationSliderOption = {
     min: number
     max: number
     step: number
-    display: 'number' | 'percentage'
+    unit?: string
 }
 
 export type EngineConfigurationToggleOption = {
