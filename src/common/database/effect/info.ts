@@ -3,7 +3,7 @@ import { LocalizationText } from '../localization'
 
 export interface EffectInfo {
     name: string
-    version: 3
+    version: 4
     title: LocalizationText
     subtitle: LocalizationText
     author: LocalizationText
