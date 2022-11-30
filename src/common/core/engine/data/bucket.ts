@@ -6,6 +6,7 @@ export type EngineDataBucket = {
 
 export type EngineDataSprite = {
     id: SkinSprite
+    fallbackId?: SkinSprite
     x: number
     y: number
     w: number
