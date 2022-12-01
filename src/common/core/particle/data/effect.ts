@@ -11,8 +11,8 @@ export type ParticleDataTransform = Record<
     Partial<
         Record<
             | 'c'
-            | `${'r' | 'sinr' | 'cosr'}${1 | 2 | 3 | 4}`
-            | `${'x' | 'y'}${1 | 2 | 3 | 4}`,
+            | `${'x' | 'y'}${1 | 2 | 3 | 4}`
+            | `${'r' | 'sinr' | 'cosr'}${1 | 2 | 3 | 4 | 5 | 6 | 7 | 8}`,
             number
         >
     >
@@ -55,5 +55,8 @@ export type ParticleDataGroupParticleProperty = {
 }
 
 export type ParticleDataGroupParticlePropertyExpression = Partial<
-    Record<'c' | `${'r' | 'sinr' | 'cosr'}${1 | 2 | 3 | 4}`, number>
+    Record<
+        'c' | `${'r' | 'sinr' | 'cosr'}${1 | 2 | 3 | 4 | 5 | 6 | 7 | 8}`,
+        number
+    >
 >
