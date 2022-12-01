@@ -61,5 +61,5 @@ export function customParticleEffect(
     engineId: number,
     effectId: number
 ): number {
-    return 100000 + engineId * 100 + effectId
+    return 1000000 + engineId * 1000 + effectId
 }
