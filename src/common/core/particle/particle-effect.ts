@@ -1,5 +1,5 @@
 export enum ParticleEffect {
-    NoteCircularTapBase = 110000,
+    NoteCircularTapNeutral = 110000,
     NoteCircularTapRed,
     NoteCircularTapGreen,
     NoteCircularTapBlue,
@@ -7,7 +7,7 @@ export enum ParticleEffect {
     NoteCircularTapPurple,
     NoteCircularTapCyan,
 
-    NoteCircularAlternativeBase = 111000,
+    NoteCircularAlternativeNeutral = 111000,
     NoteCircularAlternativeRed,
     NoteCircularAlternativeGreen,
     NoteCircularAlternativeBlue,
@@ -15,7 +15,7 @@ export enum ParticleEffect {
     NoteCircularAlternativePurple,
     NoteCircularAlternativeCyan,
 
-    NoteCircularHoldBase = 112000,
+    NoteCircularHoldNeutral = 112000,
     NoteCircularHoldRed,
     NoteCircularHoldGreen,
     NoteCircularHoldBlue,
@@ -23,7 +23,7 @@ export enum ParticleEffect {
     NoteCircularHoldPurple,
     NoteCircularHoldCyan,
 
-    NoteLinearTapBase = 120000,
+    NoteLinearTapNeutral = 120000,
     NoteLinearTapRed,
     NoteLinearTapGreen,
     NoteLinearTapBlue,
@@ -31,7 +31,7 @@ export enum ParticleEffect {
     NoteLinearTapPurple,
     NoteLinearTapCyan,
 
-    NoteLinearAlternativeBase = 121000,
+    NoteLinearAlternativeNeutral = 121000,
     NoteLinearAlternativeRed,
     NoteLinearAlternativeGreen,
     NoteLinearAlternativeBlue,
@@ -39,7 +39,7 @@ export enum ParticleEffect {
     NoteLinearAlternativePurple,
     NoteLinearAlternativeCyan,
 
-    NoteLinearHoldBase = 122000,
+    NoteLinearHoldNeutral = 122000,
     NoteLinearHoldRed,
     NoteLinearHoldGreen,
     NoteLinearHoldBlue,
@@ -61,5 +61,5 @@ export function customParticleEffect(
     engineId: number,
     effectId: number
 ): number {
-    return 100000 + engineId * 100 + effectId
+    return 1000000 + engineId * 1000 + effectId
 }

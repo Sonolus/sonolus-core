@@ -4,10 +4,14 @@ export enum EffectClip {
     Great,
     Good,
 
+    Hold = 100,
+
     MissAlternative = 1000,
     PerfectAlternative,
     GreatAlternative,
     GoodAlternative,
+
+    HoldAlternative = 1100,
 
     Stage = 10000,
 }

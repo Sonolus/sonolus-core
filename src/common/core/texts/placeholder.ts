@@ -1,4 +1,4 @@
-export enum OptionPlaceholder {
+export enum PlaceholderText {
     Keywords = '#KEYWORDS',
     Name = '#NAME',
     Rating = '#RATING',

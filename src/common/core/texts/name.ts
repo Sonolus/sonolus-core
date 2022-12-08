@@ -1,4 +1,4 @@
-export enum OptionName {
+export enum NameText {
     Keywords = '#KEYWORDS',
     Name = '#NAME',
     Rating = '#RATING',
