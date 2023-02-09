@@ -1,5 +1,8 @@
 export { EngineDataArchetype } from './archetype'
-export { EngineDataBucket, EngineDataSprite } from './bucket'
+export {
+    EngineDataBucket,
+    EngineDataBucketSprite as EngineDataSprite,
+} from './bucket'
 export { EngineData } from './data'
 export {
     EngineDataFunctionName,
@@ -7,4 +10,3 @@ export {
     EngineDataNode,
     EngineDataValueNode,
 } from './node'
-export { EngineDataScript, EngineDataScriptCallback } from './script'

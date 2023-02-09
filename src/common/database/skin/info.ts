@@ -3,7 +3,7 @@ import { LocalizationText } from '../localization'
 
 export interface SkinInfo {
     name: string
-    version: 2
+    version: 3
     title: LocalizationText
     subtitle: LocalizationText
     author: LocalizationText

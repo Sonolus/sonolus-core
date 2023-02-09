@@ -2,7 +2,7 @@ import { SRL } from '../resource/srl'
 
 export type SkinItem = {
     name: string
-    version: 2
+    version: 3
     title: string
     subtitle: string
     author: string

@@ -2,7 +2,7 @@ import { SRL } from '../resource/srl'
 
 export type ParticleItem = {
     name: string
-    version: 1
+    version: 2
     title: string
     subtitle: string
     author: string

@@ -1,3 +1,3 @@
 export * from './data'
 export { ParticleItem } from './item'
-export { customParticleEffect, ParticleEffect } from './particle-effect'
+export { ParticleEffectName } from './particle-effect-name'

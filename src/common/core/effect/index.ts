@@ -1,3 +1,3 @@
 export * from './data'
-export { customEffectClip, EffectClip } from './effect-clip'
+export { EffectClipName } from './effect-clip-name'
 export { EffectItem } from './item'

@@ -3,7 +3,7 @@ import { LocalizationText } from '../localization'
 
 export interface ParticleInfo {
     name: string
-    version: 1
+    version: 2
     title: LocalizationText
     subtitle: LocalizationText
     author: LocalizationText

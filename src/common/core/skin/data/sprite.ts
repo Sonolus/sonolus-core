@@ -1,7 +1,7 @@
-import { SkinSprite } from '../skin-sprite'
+import { SkinSpriteName } from '../skin-sprite-name'
 
 export type SkinDataSprite = {
-    id: SkinSprite
+    name: SkinSpriteName | (string & {})
     x: number
     y: number
     w: number

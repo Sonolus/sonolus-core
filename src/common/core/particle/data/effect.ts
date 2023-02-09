@@ -1,7 +1,7 @@
-import { ParticleEffect } from '../particle-effect'
+import { ParticleEffectName } from '../particle-effect-name'
 
 export type ParticleDataEffect = {
-    id: ParticleEffect
+    name: ParticleEffectName | (string & {})
     transform: ParticleDataTransform
     groups: ParticleDataGroup[]
 }
