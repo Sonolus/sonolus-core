@@ -5,5 +5,5 @@ export function localize(
     locale: string,
     fallbackLocale: string
 ): string {
-    return text[locale] || text[fallbackLocale] || Object.values(text)[0] || ''
+    return text[locale] ?? text[fallbackLocale] ?? Object.values(text)[0] ?? ''
 }
