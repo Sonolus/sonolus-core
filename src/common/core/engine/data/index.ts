@@ -5,7 +5,6 @@ export {
 } from './bucket'
 export { EngineData } from './data'
 export {
-    EngineDataFunctionName,
     EngineDataFunctionNode,
     EngineDataNode,
     EngineDataValueNode,
