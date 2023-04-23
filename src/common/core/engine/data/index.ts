@@ -1,8 +1,5 @@
 export { EngineDataArchetype } from './archetype'
-export {
-    EngineDataBucket,
-    EngineDataBucketSprite as EngineDataSprite,
-} from './bucket'
+export { EngineDataBucket, EngineDataBucketSprite } from './bucket'
 export { EngineData } from './data'
 export {
     EngineDataFunctionNode,
