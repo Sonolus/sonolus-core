@@ -1,5 +1,4 @@
 export type LocalizationText = Record<string, string>
 
-export function localize(text: LocalizationText, locale: string, fallbackLocale: string): string {
-    return text[locale] ?? text[fallbackLocale] ?? Object.values(text)[0] ?? ''
-}
+export const localize = (text: LocalizationText, locale: string, fallbackLocale: string): string =>
+    text[locale] ?? text[fallbackLocale] ?? Object.values(text)[0] ?? ''

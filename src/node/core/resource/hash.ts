@@ -1,5 +1,3 @@
 import { createHash } from 'crypto'
 
-export function hash(buffer: Buffer): string {
-    return createHash('sha1').update(buffer).digest('hex')
-}
+export const hash = (buffer: Buffer): string => createHash('sha1').update(buffer).digest('hex')
