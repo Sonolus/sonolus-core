@@ -14,7 +14,7 @@
     "dist"
   ],
   "scripts": {
-    "lint": "tsc -p . --noEmit && eslint --ext .ts src/",
+    "prebuild": "tsc -p . --noEmit && eslint --ext .ts ./src",
     "build": "tsc -p ."
   },
   "devDependencies": {
