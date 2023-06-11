@@ -183,5 +183,4 @@ export const RuntimeFunction = {
     While: 'While',
 } as const
 
-export type RuntimeFunction =
-    (typeof RuntimeFunction)[keyof typeof RuntimeFunction]
+export type RuntimeFunction = (typeof RuntimeFunction)[keyof typeof RuntimeFunction]

@@ -57,5 +57,4 @@ export const ParticleEffectName = {
     JudgeLineLinear: '#JUDGE_LINE_LINEAR',
 } as const
 
-export type ParticleEffectName =
-    (typeof ParticleEffectName)[keyof typeof ParticleEffectName]
+export type ParticleEffectName = (typeof ParticleEffectName)[keyof typeof ParticleEffectName]

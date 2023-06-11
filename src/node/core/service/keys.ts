@@ -10,7 +10,7 @@ export async function getEncryptionPublicKey() {
             Buffer.from(encryptionPublicKeySPKI, 'base64'),
             { name: 'RSA-OAEP', hash: { name: 'SHA-1' } },
             false,
-            ['encrypt']
+            ['encrypt'],
         )
     }
 

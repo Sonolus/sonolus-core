@@ -47,19 +47,13 @@ export const SkinSpriteName = {
     SimultaneousConnectionPurple: '#SIMULTANEOUS_CONNECTION_PURPLE',
     SimultaneousConnectionCyan: '#SIMULTANEOUS_CONNECTION_CYAN',
 
-    SimultaneousConnectionNeutralSeamless:
-        '#SIMULTANEOUS_CONNECTION_NEUTRAL_SEAMLESS',
+    SimultaneousConnectionNeutralSeamless: '#SIMULTANEOUS_CONNECTION_NEUTRAL_SEAMLESS',
     SimultaneousConnectionRedSeamless: '#SIMULTANEOUS_CONNECTION_RED_SEAMLESS',
-    SimultaneousConnectionGreenSeamless:
-        '#SIMULTANEOUS_CONNECTION_GREEN_SEAMLESS',
-    SimultaneousConnectionBlueSeamless:
-        '#SIMULTANEOUS_CONNECTION_BLUE_SEAMLESS',
-    SimultaneousConnectionYellowSeamless:
-        '#SIMULTANEOUS_CONNECTION_YELLOW_SEAMLESS',
-    SimultaneousConnectionPurpleSeamless:
-        '#SIMULTANEOUS_CONNECTION_PURPLE_SEAMLESS',
-    SimultaneousConnectionCyanSeamless:
-        '#SIMULTANEOUS_CONNECTION_CYAN_SEAMLESS',
+    SimultaneousConnectionGreenSeamless: '#SIMULTANEOUS_CONNECTION_GREEN_SEAMLESS',
+    SimultaneousConnectionBlueSeamless: '#SIMULTANEOUS_CONNECTION_BLUE_SEAMLESS',
+    SimultaneousConnectionYellowSeamless: '#SIMULTANEOUS_CONNECTION_YELLOW_SEAMLESS',
+    SimultaneousConnectionPurpleSeamless: '#SIMULTANEOUS_CONNECTION_PURPLE_SEAMLESS',
+    SimultaneousConnectionCyanSeamless: '#SIMULTANEOUS_CONNECTION_CYAN_SEAMLESS',
 
     DirectionalMarkerNeutral: '#DIRECTIONAL_MARKER_NEUTRAL',
     DirectionalMarkerRed: '#DIRECTIONAL_MARKER_RED',
@@ -105,5 +99,4 @@ export const SkinSpriteName = {
     StageCover: '#STAGE_COVER',
 } as const
 
-export type SkinSpriteName =
-    (typeof SkinSpriteName)[keyof typeof SkinSpriteName]
+export type SkinSpriteName = (typeof SkinSpriteName)[keyof typeof SkinSpriteName]

@@ -9,11 +9,6 @@ export type SkinDataSprite = {
     transform: SkinDataTransform
 }
 
-export type SkinDataTransform = Record<
-    `${'x' | 'y'}${1 | 2 | 3 | 4}`,
-    SkinDataExpression
->
+export type SkinDataTransform = Record<`${'x' | 'y'}${1 | 2 | 3 | 4}`, SkinDataExpression>
 
-export type SkinDataExpression = Partial<
-    Record<`${'x' | 'y'}${1 | 2 | 3 | 4}`, number>
->
+export type SkinDataExpression = Partial<Record<`${'x' | 'y'}${1 | 2 | 3 | 4}`, number>>

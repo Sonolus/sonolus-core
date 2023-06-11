@@ -3,5 +3,4 @@ export const EngineArchetypeName = {
     TimeScaleChange: '#TIMESCALE_CHANGE',
 } as const
 
-export type EngineArchetypeName =
-    (typeof EngineArchetypeName)[keyof typeof EngineArchetypeName]
+export type EngineArchetypeName = (typeof EngineArchetypeName)[keyof typeof EngineArchetypeName]

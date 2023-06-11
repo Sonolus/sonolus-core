@@ -17,5 +17,4 @@ export const PlaceholderText = {
     MaximumLength: '#LENGTH_MAXIMUM',
 } as const
 
-export type PlaceholderText =
-    (typeof PlaceholderText)[keyof typeof PlaceholderText]
+export type PlaceholderText = (typeof PlaceholderText)[keyof typeof PlaceholderText]
