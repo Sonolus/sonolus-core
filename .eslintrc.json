@@ -11,6 +11,7 @@
     ],
     "rules": {
         "prettier/prettier": "error",
+        "@typescript-eslint/explicit-module-boundary-types": "error",
         "@typescript-eslint/ban-types": [
             "error",
             {
