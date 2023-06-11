@@ -5,4 +5,4 @@ export const EngineArchetypeDataName = {
 } as const
 
 export type EngineArchetypeDataName =
-    typeof EngineArchetypeDataName[keyof typeof EngineArchetypeDataName]
+    (typeof EngineArchetypeDataName)[keyof typeof EngineArchetypeDataName]

@@ -184,4 +184,4 @@ export const RuntimeFunction = {
 } as const
 
 export type RuntimeFunction =
-    typeof RuntimeFunction[keyof typeof RuntimeFunction]
+    (typeof RuntimeFunction)[keyof typeof RuntimeFunction]

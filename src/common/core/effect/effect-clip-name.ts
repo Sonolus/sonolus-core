@@ -16,4 +16,5 @@ export const EffectClipName = {
     Stage: '#STAGE',
 } as const
 
-export type EffectClipName = typeof EffectClipName[keyof typeof EffectClipName]
+export type EffectClipName =
+    (typeof EffectClipName)[keyof typeof EffectClipName]

@@ -58,4 +58,4 @@ export const ParticleEffectName = {
 } as const
 
 export type ParticleEffectName =
-    typeof ParticleEffectName[keyof typeof ParticleEffectName]
+    (typeof ParticleEffectName)[keyof typeof ParticleEffectName]

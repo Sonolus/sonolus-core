@@ -4,4 +4,4 @@ export const UnitText = {
     Millisecond: '#MILLISECOND',
 } as const
 
-export type UnitText = typeof UnitText[keyof typeof UnitText]
+export type UnitText = (typeof UnitText)[keyof typeof UnitText]

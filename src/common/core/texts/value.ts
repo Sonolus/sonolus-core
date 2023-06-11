@@ -43,4 +43,4 @@ export const ValueText = {
     Special: '#SPECIAL',
 } as const
 
-export type ValueText = typeof ValueText[keyof typeof ValueText]
+export type ValueText = (typeof ValueText)[keyof typeof ValueText]

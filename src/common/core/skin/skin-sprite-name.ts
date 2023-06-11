@@ -105,4 +105,5 @@ export const SkinSpriteName = {
     StageCover: '#STAGE_COVER',
 } as const
 
-export type SkinSpriteName = typeof SkinSpriteName[keyof typeof SkinSpriteName]
+export type SkinSpriteName =
+    (typeof SkinSpriteName)[keyof typeof SkinSpriteName]

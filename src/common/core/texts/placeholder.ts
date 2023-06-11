@@ -18,4 +18,4 @@ export const PlaceholderText = {
 } as const
 
 export type PlaceholderText =
-    typeof PlaceholderText[keyof typeof PlaceholderText]
+    (typeof PlaceholderText)[keyof typeof PlaceholderText]

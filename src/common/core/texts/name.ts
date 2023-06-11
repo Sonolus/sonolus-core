@@ -93,4 +93,4 @@ export const NameText = {
     SimultaneousLineAnimation: '#SIMLINE_ANIMATION',
 } as const
 
-export type NameText = typeof NameText[keyof typeof NameText]
+export type NameText = (typeof NameText)[keyof typeof NameText]
