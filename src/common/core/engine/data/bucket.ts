@@ -1,12 +1,13 @@
-import { SkinSprite } from '../../skin/skin-sprite'
+import { UnitText } from '../../texts'
 
 export type EngineDataBucket = {
-    sprites: EngineDataSprite[]
+    sprites: EngineDataBucketSprite[]
+    unit?: UnitText | (string & {})
 }
 
-export type EngineDataSprite = {
-    id: SkinSprite
-    fallbackId?: SkinSprite
+export type EngineDataBucketSprite = {
+    id: number
+    fallbackId?: number
     x: number
     y: number
     w: number

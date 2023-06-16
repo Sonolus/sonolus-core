@@ -63,7 +63,4 @@ export type EngineConfigurationJudgmentErrorStyle =
     | 'triangleLeft'
     | 'triangleRight'
 
-export type EngineConfigurationJudgmentErrorPlacement =
-    | 'both'
-    | 'left'
-    | 'right'
+export type EngineConfigurationJudgmentErrorPlacement = 'both' | 'left' | 'right'

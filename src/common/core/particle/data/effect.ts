@@ -1,7 +1,7 @@
-import { ParticleEffect } from '../particle-effect'
+import { ParticleEffectName } from '../particle-effect-name'
 
 export type ParticleDataEffect = {
-    id: ParticleEffect
+    name: ParticleEffectName | (string & {})
     transform: ParticleDataTransform
     groups: ParticleDataGroup[]
 }
@@ -55,8 +55,5 @@ export type ParticleDataGroupParticleProperty = {
 }
 
 export type ParticleDataGroupParticlePropertyExpression = Partial<
-    Record<
-        'c' | `${'r' | 'sinr' | 'cosr'}${1 | 2 | 3 | 4 | 5 | 6 | 7 | 8}`,
-        number
-    >
+    Record<'c' | `${'r' | 'sinr' | 'cosr'}${1 | 2 | 3 | 4 | 5 | 6 | 7 | 8}`, number>
 >

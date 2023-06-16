@@ -1,6 +1,18 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
+    "lib": [
+      "ES2021"
+    ],
+    "module": "Node16",
+    "target": "ES2021",
+    "moduleResolution": "Node16",
+
+    "strict": true,
+    "skipLibCheck": true,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
+
     "outDir": "./dist",
     "rootDir": "./src",
     "declaration": true

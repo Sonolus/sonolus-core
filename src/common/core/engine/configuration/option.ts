@@ -1,10 +1,12 @@
+import { NameText, UnitText, ValueText } from '../../texts'
+
 export type EngineConfigurationOption =
     | EngineConfigurationSliderOption
     | EngineConfigurationToggleOption
     | EngineConfigurationSelectOption
 
 export type EngineConfigurationSliderOption = {
-    name: string
+    name: NameText | (string & {})
     standard?: boolean
     scope?: string
     type: 'slider'
@@ -12,11 +14,11 @@ export type EngineConfigurationSliderOption = {
     min: number
     max: number
     step: number
-    unit?: string
+    unit?: UnitText | (string & {})
 }
 
 export type EngineConfigurationToggleOption = {
-    name: string
+    name: NameText | (string & {})
     standard?: boolean
     scope?: string
     type: 'toggle'
@@ -24,10 +26,10 @@ export type EngineConfigurationToggleOption = {
 }
 
 export type EngineConfigurationSelectOption = {
-    name: string
+    name: NameText | (string & {})
     standard?: boolean
     scope?: string
     type: 'select'
     def: number
-    values: string[]
+    values: (ValueText | (string & {}))[]
 }

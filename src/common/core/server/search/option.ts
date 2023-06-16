@@ -1,3 +1,5 @@
+import { NameText, PlaceholderText, UnitText, ValueText } from '../../texts'
+
 export type SearchOption =
     | SearchTextOption
     | SearchSliderOption
@@ -6,33 +8,33 @@ export type SearchOption =
 
 export type SearchTextOption = {
     query: string
-    name: string
+    name: NameText | (string & {})
     type: 'text'
-    placeholder: string
+    placeholder: PlaceholderText | (string & {})
 }
 
 export type SearchSliderOption = {
     query: string
-    name: string
+    name: NameText | (string & {})
     type: 'slider'
     def: number
     min: number
     max: number
     step: number
-    unit?: string
+    unit?: UnitText | (string & {})
 }
 
 export type SearchToggleOption = {
     query: string
-    name: string
+    name: NameText | (string & {})
     type: 'toggle'
     def: 0 | 1
 }
 
 export type SearchSelectOption = {
     query: string
-    name: string
+    name: NameText | (string & {})
     type: 'select'
     def: number
-    values: string[]
+    values: (ValueText | (string & {}))[]
 }

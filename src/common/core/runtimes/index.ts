@@ -1,0 +1,1 @@
+export { RuntimeFunction } from './function'

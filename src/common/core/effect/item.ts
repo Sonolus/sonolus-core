@@ -2,7 +2,7 @@ import { SRL } from '../resource/srl'
 
 export type EffectItem = {
     name: string
-    version: 4
+    version: 5
     title: string
     subtitle: string
     author: string
