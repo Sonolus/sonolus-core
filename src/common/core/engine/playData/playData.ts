@@ -1,9 +1,9 @@
 import { EffectClipName } from '../../effect'
 import { ParticleEffectName } from '../../particle'
 import { SkinSpriteName } from '../../skin'
+import { EngineDataNode } from '../node'
 import { EnginePlayDataArchetype } from './archetype'
 import { EnginePlayDataBucket } from './bucket'
-import { EngineDataNode } from '../node'
 
 export type EnginePlayData = {
     skin: {
