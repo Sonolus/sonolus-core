@@ -1,4 +1,4 @@
-import { RuntimeFunction } from '../../runtimes'
+import { RuntimeFunction } from '../runtimes'
 
 export type EngineDataNode = EngineDataValueNode | EngineDataFunctionNode
 

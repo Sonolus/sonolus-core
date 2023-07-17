@@ -15,7 +15,7 @@ export type EngineItem = {
     effect: EffectItem
     particle: ParticleItem
     thumbnail: SRL<'EngineThumbnail'>
-    data: SRL<'EngineData'>
+    playData: SRL<'EnginePlayData'>
     rom?: SRL<'EngineRom'>
     configuration: SRL<'EngineConfiguration'>
 }
