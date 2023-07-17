@@ -10,6 +10,7 @@ export type UseInfo =
           item: string
       }
 
+// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
 export interface LevelInfo {
     name: string
     version: 1
