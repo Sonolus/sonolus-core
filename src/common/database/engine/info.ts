@@ -15,6 +15,7 @@ export interface EngineInfo {
     particle: string
     thumbnail: SRL<'EngineThumbnail'>
     playData: SRL<'EnginePlayData'>
+    tutorialData: SRL<'EngineTutorialData'>
     rom?: SRL<'EngineRom'>
     configuration: SRL<'EngineConfiguration'>
 }
