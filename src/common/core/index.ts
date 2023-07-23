@@ -1,6 +1,7 @@
 export * from './background'
 export * from './effect'
 export * from './engine'
+export * from './instruction'
 export * from './level'
 export * from './particle'
 export * from './resource'
