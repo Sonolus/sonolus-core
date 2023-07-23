@@ -1,4 +1,5 @@
 import { EffectClipName } from '../../effect'
+import { InstructionIconName } from '../../instruction/instruction-icon-name'
 import { ParticleEffectName } from '../../particle'
 import { SkinSpriteName } from '../../skin'
 import { InstructionText } from '../../texts/instruction'
@@ -26,6 +27,10 @@ export type EngineTutorialData = {
     instruction: {
         texts: {
             name: InstructionText | (string & {})
+            id: number
+        }[]
+        icons: {
+            name: InstructionIconName | (string & {})
             id: number
         }[]
     }
