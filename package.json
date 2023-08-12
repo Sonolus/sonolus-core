@@ -18,13 +18,13 @@
     "build": "tsc -p ."
   },
   "devDependencies": {
-    "@types/node": "^16.18.39",
-    "@typescript-eslint/eslint-plugin": "^6.2.0",
-    "@typescript-eslint/parser": "^6.2.0",
-    "eslint": "^8.45.0",
-    "eslint-config-prettier": "^8.8.0",
+    "@types/node": "^16.18.40",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "^3.0.0",
+    "prettier": "^3.0.1",
     "prettier-plugin-organize-imports": "^3.2.3",
     "typescript": "~5.1.6"
   }
