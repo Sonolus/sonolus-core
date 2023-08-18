@@ -8,6 +8,7 @@ export type EngineConfigurationOption =
 export type EngineConfigurationSliderOption = {
     name: NameText | (string & {})
     standard?: boolean
+    advanced?: boolean
     scope?: string
     type: 'slider'
     def: number
@@ -20,6 +21,7 @@ export type EngineConfigurationSliderOption = {
 export type EngineConfigurationToggleOption = {
     name: NameText | (string & {})
     standard?: boolean
+    advanced?: boolean
     scope?: string
     type: 'toggle'
     def: 0 | 1
@@ -28,6 +30,7 @@ export type EngineConfigurationToggleOption = {
 export type EngineConfigurationSelectOption = {
     name: NameText | (string & {})
     standard?: boolean
+    advanced?: boolean
     scope?: string
     type: 'select'
     def: number

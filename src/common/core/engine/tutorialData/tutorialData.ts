@@ -1,11 +1,11 @@
 import { EffectClipName } from '../../effect'
+import { InstructionIconName } from '../../instruction/instruction-icon-name'
 import { ParticleEffectName } from '../../particle'
 import { SkinSpriteName } from '../../skin'
-import { EngineDataArchetype } from './archetype'
-import { EngineDataBucket } from './bucket'
-import { EngineDataNode } from './node'
+import { InstructionText } from '../../texts/instruction'
+import { EngineDataNode } from '../node'
 
-export type EngineData = {
+export type EngineTutorialData = {
     skin: {
         sprites: {
             name: SkinSpriteName | (string & {})
@@ -24,7 +24,18 @@ export type EngineData = {
             id: number
         }[]
     }
-    buckets: EngineDataBucket[]
-    archetypes: EngineDataArchetype[]
+    instruction: {
+        texts: {
+            name: InstructionText | (string & {})
+            id: number
+        }[]
+        icons: {
+            name: InstructionIconName | (string & {})
+            id: number
+        }[]
+    }
+    preprocess?: number
+    navigate?: number
+    update?: number
     nodes: EngineDataNode[]
 }

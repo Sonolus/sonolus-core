@@ -109,6 +109,7 @@ export const RuntimeFunction = {
     Not: 'Not',
     NotEqual: 'NotEqual',
     Or: 'Or',
+    Paint: 'Paint',
     Play: 'Play',
     PlayLooped: 'PlayLooped',
     PlayLoopedScheduled: 'PlayLoopedScheduled',

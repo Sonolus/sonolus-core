@@ -1,3 +1,4 @@
+export { InstructionText } from './instruction'
 export { NameText } from './name'
 export { PlaceholderText } from './placeholder'
 export { UnitText } from './unit'

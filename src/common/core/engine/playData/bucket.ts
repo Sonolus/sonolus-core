@@ -1,11 +1,11 @@
 import { UnitText } from '../../texts'
 
-export type EngineDataBucket = {
-    sprites: EngineDataBucketSprite[]
+export type EnginePlayDataBucket = {
+    sprites: EnginePlayDataBucketSprite[]
     unit?: UnitText | (string & {})
 }
 
-export type EngineDataBucketSprite = {
+export type EnginePlayDataBucketSprite = {
     id: number
     fallbackId?: number
     x: number

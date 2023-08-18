@@ -1,6 +1,7 @@
 import { SRL } from '../../core/resource/srl'
 import { LocalizationText } from '../localization'
 
+// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
 export interface SkinInfo {
     name: string
     version: 3
