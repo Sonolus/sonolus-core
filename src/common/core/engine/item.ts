@@ -6,7 +6,7 @@ import { SkinItem } from '../skin/item'
 
 export type EngineItem = {
     name: string
-    version: 9
+    version: 10
     title: string
     subtitle: string
     author: string
