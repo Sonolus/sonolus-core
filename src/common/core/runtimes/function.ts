@@ -115,6 +115,7 @@ export const RuntimeFunction = {
     PlayLoopedScheduled: 'PlayLoopedScheduled',
     PlayScheduled: 'PlayScheduled',
     Power: 'Power',
+    Print: 'Print',
     Radian: 'Radian',
     Random: 'Random',
     RandomInteger: 'RandomInteger',
