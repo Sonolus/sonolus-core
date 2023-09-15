@@ -4,7 +4,7 @@ import { LocalizationText } from '../localization'
 // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
 export interface EngineInfo {
     name: string
-    version: 9
+    version: 10
     title: LocalizationText
     subtitle: LocalizationText
     author: LocalizationText
@@ -15,6 +15,7 @@ export interface EngineInfo {
     particle: string
     thumbnail: SRL<'EngineThumbnail'>
     playData: SRL<'EnginePlayData'>
+    previewData: SRL<'EnginePreviewData'>
     tutorialData: SRL<'EngineTutorialData'>
     rom?: SRL<'EngineRom'>
     configuration: SRL<'EngineConfiguration'>

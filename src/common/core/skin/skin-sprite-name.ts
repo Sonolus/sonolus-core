@@ -97,6 +97,14 @@ export const SkinSpriteName = {
     NoteSlot: '#NOTE_SLOT',
 
     StageCover: '#STAGE_COVER',
+
+    GridNeutral: '#GRID_NEUTRAL',
+    GridRed: '#GRID_RED',
+    GridGreen: '#GRID_GREEN',
+    GridBlue: '#GRID_BLUE',
+    GridYellow: '#GRID_YELLOW',
+    GridPurple: '#GRID_PURPLE',
+    GridCyan: '#GRID_CYAN',
 } as const
 
 export type SkinSpriteName = (typeof SkinSpriteName)[keyof typeof SkinSpriteName]
