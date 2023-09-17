@@ -7,6 +7,7 @@ export type EngineConfigurationUI = {
     comboVisibility: EngineConfigurationVisibility
     primaryMetricVisibility: EngineConfigurationVisibility
     secondaryMetricVisibility: EngineConfigurationVisibility
+    progressVisibility: EngineConfigurationVisibility
     tutorialNavigationVisibility: EngineConfigurationVisibility
     tutorialInstructionVisibility: EngineConfigurationVisibility
     judgmentAnimation: EngineConfigurationAnimation
