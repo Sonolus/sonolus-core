@@ -16,6 +16,7 @@ export type EngineItem = {
     particle: ParticleItem
     thumbnail: SRL<'EngineThumbnail'>
     playData: SRL<'EnginePlayData'>
+    watchData: SRL<'EngineWatchData'>
     previewData: SRL<'EnginePreviewData'>
     tutorialData: SRL<'EngineTutorialData'>
     rom?: SRL<'EngineRom'>
