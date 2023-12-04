@@ -16,7 +16,6 @@ export const NameText = {
     MinimumLength: '#LENGTH_MINIMUM',
     MaximumLength: '#LENGTH_MAXIMUM',
     LevelSpeed: '#SPEED',
-    AutoPlay: '#AUTO',
     MirrorLevel: '#MIRROR',
     Random: '#RANDOM',
     Hidden: '#HIDDEN',

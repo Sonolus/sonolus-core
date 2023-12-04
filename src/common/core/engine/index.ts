@@ -6,3 +6,4 @@ export { EngineDataFunctionNode, EngineDataNode, EngineDataValueNode } from './n
 export * from './playData'
 export * from './previewData'
 export * from './tutorialData'
+export * from './watchData'

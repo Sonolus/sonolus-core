@@ -6,7 +6,7 @@ import { SkinItem } from '../skin/item'
 
 export type EngineItem = {
     name: string
-    version: 10
+    version: 11
     title: string
     subtitle: string
     author: string
@@ -16,6 +16,7 @@ export type EngineItem = {
     particle: ParticleItem
     thumbnail: SRL<'EngineThumbnail'>
     playData: SRL<'EnginePlayData'>
+    watchData: SRL<'EngineWatchData'>
     previewData: SRL<'EnginePreviewData'>
     tutorialData: SRL<'EngineTutorialData'>
     rom?: SRL<'EngineRom'>

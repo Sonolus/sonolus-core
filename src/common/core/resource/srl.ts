@@ -19,6 +19,7 @@ export type ResourceType =
     | 'ParticleTexture'
     | 'EngineThumbnail'
     | 'EnginePlayData'
+    | 'EngineWatchData'
     | 'EnginePreviewData'
     | 'EngineTutorialData'
     | 'EngineRom'
