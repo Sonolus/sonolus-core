@@ -5,7 +5,7 @@ export type EnginePreviewDataArchetype = {
     name: EngineArchetypeName | (string & {})
     preprocess?: EnginePreviewDataArchetypeCallback
     render?: EnginePreviewDataArchetypeCallback
-    data: {
+    imports: {
         name: EngineArchetypeDataName | (string & {})
         index: number
     }[]

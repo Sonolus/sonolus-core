@@ -4,7 +4,7 @@ import { LocalizationText } from '../localization'
 // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
 export interface EngineInfo {
     name: string
-    version: 11
+    version: 12
     title: LocalizationText
     subtitle: LocalizationText
     author: LocalizationText
