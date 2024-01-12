@@ -24,6 +24,8 @@ export type ResourceType =
     | 'EngineTutorialData'
     | 'EngineRom'
     | 'EngineConfiguration'
+    | 'ReplayData'
+    | 'ReplayConfiguration'
 
 export type SRL<T extends ResourceType> = {
     type: T

@@ -3,6 +3,7 @@ import { EffectItem } from '../effect/item'
 import { EngineItem } from '../engine/item'
 import { LevelItem } from '../level/item'
 import { ParticleItem } from '../particle/item'
+import { ReplayItem } from '../replay/item'
 import { SRL } from '../resource'
 import { SkinItem } from '../skin/item'
 import { Search } from './search'
@@ -16,6 +17,7 @@ export type ServerInfo = {
     effects: Section<EffectItem>
     particles: Section<ParticleItem>
     engines: Section<EngineItem>
+    replays: Section<ReplayItem>
 }
 
 export type Section<T> = {

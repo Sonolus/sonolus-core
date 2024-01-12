@@ -5,6 +5,7 @@ import { EngineInfo } from './engine/info'
 import { LevelInfo } from './level/info'
 import { LocalizationText } from './localization'
 import { ParticleInfo } from './particle/info'
+import { ReplayInfo } from './replay/info'
 import { SkinInfo } from './skin/info'
 
 export type Database = {
@@ -18,4 +19,5 @@ export type Database = {
     effects: EffectInfo[]
     particles: ParticleInfo[]
     engines: EngineInfo[]
+    replays: ReplayInfo[]
 }
