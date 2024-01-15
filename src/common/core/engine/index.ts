@@ -1,3 +1,4 @@
+export { EngineDataBucket, EngineDataBucketSprite } from './bucket'
 export * from './configuration'
 export { EngineArchetypeDataName } from './engine-archetype-data-name'
 export { EngineArchetypeName } from './engine-archetype-name'

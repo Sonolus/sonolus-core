@@ -1,6 +1,7 @@
 import { EffectClipName } from '../../effect'
 import { ParticleEffectName } from '../../particle'
 import { SkinSpriteName } from '../../skin'
+import { EngineDataBucket } from '../bucket'
 import { EngineDataNode } from '../node'
 import { EngineWatchDataArchetype } from './archetype'
 
@@ -23,6 +24,7 @@ export type EngineWatchData = {
             id: number
         }[]
     }
+    buckets: EngineDataBucket[]
     archetypes: EngineWatchDataArchetype[]
     updateSpawn: number
     nodes: EngineDataNode[]
