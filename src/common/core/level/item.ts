@@ -4,6 +4,7 @@ import { EngineItem } from '../engine/item'
 import { ParticleItem } from '../particle/item'
 import { SRL } from '../resource/srl'
 import { SkinItem } from '../skin/item'
+import { Tag } from '../tag'
 
 export type UseItem<T> =
     | {
@@ -21,6 +22,7 @@ export type LevelItem = {
     title: string
     artists: string
     author: string
+    tags: Tag[]
     engine: EngineItem
     useSkin: UseItem<SkinItem>
     useBackground: UseItem<BackgroundItem>

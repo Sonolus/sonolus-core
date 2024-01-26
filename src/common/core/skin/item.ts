@@ -1,4 +1,5 @@
 import { SRL } from '../resource/srl'
+import { Tag } from '../tag'
 
 export type SkinItem = {
     name: string
@@ -6,6 +7,7 @@ export type SkinItem = {
     title: string
     subtitle: string
     author: string
+    tags: Tag[]
     thumbnail: SRL<'SkinThumbnail'>
     data: SRL<'SkinData'>
     texture: SRL<'SkinTexture'>

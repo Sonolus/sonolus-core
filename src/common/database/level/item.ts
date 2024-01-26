@@ -1,5 +1,6 @@
 import { SRL } from '../../core/resource/srl'
 import { LocalizationText } from '../localization'
+import { DatabaseTag } from '../tag'
 
 export type DatabaseUseItem =
     | {
@@ -18,6 +19,7 @@ export interface DatabaseLevelItem {
     title: LocalizationText
     artists: LocalizationText
     author: LocalizationText
+    tags: DatabaseTag[]
     description: LocalizationText
     engine: string
     useSkin: DatabaseUseItem

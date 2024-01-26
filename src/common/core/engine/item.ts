@@ -3,6 +3,7 @@ import { EffectItem } from '../effect/item'
 import { ParticleItem } from '../particle/item'
 import { SRL } from '../resource/srl'
 import { SkinItem } from '../skin/item'
+import { Tag } from '../tag'
 
 export type EngineItem = {
     name: string
@@ -10,6 +11,7 @@ export type EngineItem = {
     title: string
     subtitle: string
     author: string
+    tags: Tag[]
     skin: SkinItem
     background: BackgroundItem
     effect: EffectItem

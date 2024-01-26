@@ -1,4 +1,5 @@
 import { SRL } from '../resource/srl'
+import { Tag } from '../tag'
 
 export type BackgroundItem = {
     name: string
@@ -6,6 +7,7 @@ export type BackgroundItem = {
     title: string
     subtitle: string
     author: string
+    tags: Tag[]
     thumbnail: SRL<'BackgroundThumbnail'>
     data: SRL<'BackgroundData'>
     image: SRL<'BackgroundImage'>
