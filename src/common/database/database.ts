@@ -3,12 +3,14 @@ import { DatabaseEffectItem } from './effect/item'
 import { DatabaseEngineItem } from './engine/item'
 import { DatabaseLevelItem } from './level/item'
 import { DatabaseParticleItem } from './particle/item'
+import { DatabasePostItem } from './post/item'
 import { DatabaseReplayItem } from './replay/item'
 import { DatabaseServerInfo } from './server/server-info'
 import { DatabaseSkinItem } from './skin/item'
 
 export type Database = {
     info: DatabaseServerInfo
+    posts: DatabasePostItem[]
     levels: DatabaseLevelItem[]
     skins: DatabaseSkinItem[]
     backgrounds: DatabaseBackgroundItem[]
