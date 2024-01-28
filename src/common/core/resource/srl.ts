@@ -1,6 +1,7 @@
 export type ResourceType =
     | 'ServerBanner'
     | 'PostThumbnail'
+    | 'PlaylistThumbnail'
     | 'LevelCover'
     | 'LevelBgm'
     | 'LevelPreview'
