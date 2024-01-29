@@ -1,1 +1,1 @@
-export { SkinInfo } from './info'
+export { DatabaseSkinItem } from './item'

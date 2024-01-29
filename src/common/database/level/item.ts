@@ -1,7 +1,7 @@
 import { SRL } from '../../core/resource/srl'
 import { LocalizationText } from '../localization'
 
-export type UseInfo =
+export type DatabaseUseItem =
     | {
           useDefault: true
       }
@@ -11,7 +11,7 @@ export type UseInfo =
       }
 
 // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
-export interface LevelInfo {
+export interface DatabaseLevelItem {
     name: string
     version: 1
     rating: number
@@ -20,10 +20,10 @@ export interface LevelInfo {
     author: LocalizationText
     description: LocalizationText
     engine: string
-    useSkin: UseInfo
-    useBackground: UseInfo
-    useEffect: UseInfo
-    useParticle: UseInfo
+    useSkin: DatabaseUseItem
+    useBackground: DatabaseUseItem
+    useEffect: DatabaseUseItem
+    useParticle: DatabaseUseItem
     cover: SRL<'LevelCover'>
     bgm: SRL<'LevelBgm'>
     preview?: SRL<'LevelPreview'>

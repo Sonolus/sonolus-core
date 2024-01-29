@@ -2,7 +2,7 @@ import { SRL } from '../../core/resource/srl'
 import { LocalizationText } from '../localization'
 
 // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
-export interface EngineInfo {
+export interface DatabaseEngineItem {
     name: string
     version: 12
     title: LocalizationText

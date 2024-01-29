@@ -2,14 +2,15 @@ import { SRL } from '../../core/resource/srl'
 import { LocalizationText } from '../localization'
 
 // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
-export interface ReplayInfo {
+export interface DatabaseBackgroundItem {
     name: string
-    version: 1
+    version: 2
     title: LocalizationText
     subtitle: LocalizationText
     author: LocalizationText
     description: LocalizationText
-    level: string
-    data: SRL<'ReplayData'>
-    configuration: SRL<'ReplayConfiguration'>
+    thumbnail: SRL<'BackgroundThumbnail'>
+    data: SRL<'BackgroundData'>
+    image: SRL<'BackgroundImage'>
+    configuration: SRL<'BackgroundConfiguration'>
 }

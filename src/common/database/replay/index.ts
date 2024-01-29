@@ -1,1 +1,1 @@
-export { ReplayInfo } from './info'
+export { DatabaseReplayItem } from './item'
