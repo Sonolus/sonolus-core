@@ -1,5 +1,5 @@
-export { ItemDetails } from './details'
-export { Section, ServerInfo } from './info'
-export { ItemList } from './list'
+export { ItemDetails } from './item-details'
+export { ItemList } from './item-list'
 export * from './search'
+export { Section, ServerInfo } from './server-info'
 export * from './session'
