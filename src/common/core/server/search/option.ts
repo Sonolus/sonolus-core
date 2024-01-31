@@ -1,4 +1,4 @@
-import { NameText, PlaceholderText, UnitText, ValueText } from '../../texts'
+import { Text } from '../../texts'
 
 export type SearchOption =
     | SearchTextOption
@@ -8,33 +8,33 @@ export type SearchOption =
 
 export type SearchTextOption = {
     query: string
-    name: NameText | (string & {})
+    name: Text | (string & {})
     type: 'text'
-    placeholder: PlaceholderText | (string & {})
+    placeholder: Text | (string & {})
 }
 
 export type SearchSliderOption = {
     query: string
-    name: NameText | (string & {})
+    name: Text | (string & {})
     type: 'slider'
     def: number
     min: number
     max: number
     step: number
-    unit?: UnitText | (string & {})
+    unit?: Text | (string & {})
 }
 
 export type SearchToggleOption = {
     query: string
-    name: NameText | (string & {})
+    name: Text | (string & {})
     type: 'toggle'
     def: 0 | 1
 }
 
 export type SearchSelectOption = {
     query: string
-    name: NameText | (string & {})
+    name: Text | (string & {})
     type: 'select'
     def: number
-    values: (ValueText | (string & {}))[]
+    values: (Text | (string & {}))[]
 }

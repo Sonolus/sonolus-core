@@ -1,8 +1,8 @@
-import { UnitText } from '../texts'
+import { Text } from '../texts'
 
 export type EngineDataBucket = {
     sprites: EngineDataBucketSprite[]
-    unit?: UnitText | (string & {})
+    unit?: Text | (string & {})
 }
 
 export type EngineDataBucketSprite = {
