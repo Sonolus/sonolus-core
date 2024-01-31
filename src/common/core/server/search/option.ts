@@ -5,6 +5,7 @@ export type SearchOption =
     | SearchSliderOption
     | SearchToggleOption
     | SearchSelectOption
+    | SearchMultiOption
 
 export type SearchTextOption = {
     query: string
@@ -36,5 +37,13 @@ export type SearchSelectOption = {
     name: Text | (string & {})
     type: 'select'
     def: number
+    values: (Text | (string & {}))[]
+}
+
+export type SearchMultiOption = {
+    query: string
+    name: Text | (string & {})
+    type: 'multi'
+    defs: boolean[]
     values: (Text | (string & {}))[]
 }

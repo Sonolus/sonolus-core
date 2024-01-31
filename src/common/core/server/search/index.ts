@@ -1,4 +1,5 @@
 export {
+    SearchMultiOption,
     SearchOption,
     SearchSelectOption,
     SearchSliderOption,
