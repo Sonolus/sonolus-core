@@ -17,6 +17,7 @@ export type UseItem<T> =
 
 export type LevelItem = {
     name: string
+    source?: string
     version: 1
     rating: number
     title: string

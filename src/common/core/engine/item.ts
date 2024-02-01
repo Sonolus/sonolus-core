@@ -7,6 +7,7 @@ import { Tag } from '../tag'
 
 export type EngineItem = {
     name: string
+    source?: string
     version: 12
     title: string
     subtitle: string
