@@ -1,16 +1,16 @@
 import { webcrypto } from 'crypto'
-import { encryptionPublicKeySPKI } from '../../../common/core/service/keys'
+import { signaturePublicKeyJWK } from '../../../common/core/service/keys'
 
-let encryptionPublicKey: webcrypto.CryptoKey | undefined
+let signaturePublicKey: webcrypto.CryptoKey | undefined
 
-export const getEncryptionPublicKey = async (): Promise<webcrypto.CryptoKey> => {
-    encryptionPublicKey ??= await webcrypto.subtle.importKey(
-        'spki',
-        Buffer.from(encryptionPublicKeySPKI, 'base64'),
-        { name: 'RSA-OAEP', hash: { name: 'SHA-1' } },
+export const getSignaturePublicKey = async (): Promise<webcrypto.CryptoKey> => {
+    signaturePublicKey ??= await webcrypto.subtle.importKey(
+        'jwk',
+        signaturePublicKeyJWK,
+        { name: 'ECDSA', namedCurve: 'P-256' },
         false,
-        ['encrypt'],
+        ['verify'],
     )
 
-    return encryptionPublicKey
+    return signaturePublicKey
 }

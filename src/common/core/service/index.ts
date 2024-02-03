@@ -1,2 +1,2 @@
-export { encryptionPublicKeySPKI } from './keys'
+export { signaturePublicKeyJWK } from './keys'
 export { UserProfile } from './user-profile'
