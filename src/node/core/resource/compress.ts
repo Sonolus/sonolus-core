@@ -1,5 +1,5 @@
-import { promisify } from 'util'
-import { gzip, gzipSync } from 'zlib'
+import { promisify } from 'node:util'
+import { gzip, gzipSync } from 'node:zlib'
 
 const zlibOptions = {
     level: 9,
