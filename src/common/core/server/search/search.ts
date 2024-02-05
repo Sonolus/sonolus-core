@@ -1,5 +1,5 @@
 import { Icon } from '../../icon'
-import { Text } from '../../texts'
+import { Text } from '../../text'
 import { SearchOption } from './option'
 
 export type Search = {

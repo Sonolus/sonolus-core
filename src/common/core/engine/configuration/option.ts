@@ -1,4 +1,4 @@
-import { Text } from '../../texts'
+import { Text } from '../../text'
 
 export type EngineConfigurationOption =
     | EngineConfigurationSliderOption

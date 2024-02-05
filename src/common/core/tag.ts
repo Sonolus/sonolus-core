@@ -1,5 +1,5 @@
 import { Icon } from './icon'
-import { Text } from './texts'
+import { Text } from './text'
 
 export type Tag = {
     title: Text | (string & {})

@@ -2,7 +2,7 @@ import { EffectClipName } from '../../effect'
 import { InstructionIconName } from '../../instruction/instruction-icon-name'
 import { ParticleEffectName } from '../../particle'
 import { SkinSpriteName } from '../../skin'
-import { Text } from '../../texts'
+import { Text } from '../../text'
 import { EngineDataNode } from '../node'
 
 export type EngineTutorialData = {
