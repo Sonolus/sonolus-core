@@ -4,5 +4,5 @@ export type ServerInfo = {
     title: string
     description?: string
     hasAuthentication: boolean
-    banner?: SRL<'ServerBanner'>
+    banner?: SRL
 }

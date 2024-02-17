@@ -1,1 +1,1 @@
-export { ResourceType, SRL } from './srl'
+export { SRL } from './srl'

@@ -11,7 +11,7 @@ export interface DatabaseEffectItem {
     author: LocalizationText
     tags: DatabaseTag[]
     description: LocalizationText
-    thumbnail: SRL<'EffectThumbnail'>
-    data: SRL<'EffectData'>
-    audio: SRL<'EffectAudio'>
+    thumbnail: SRL
+    data: SRL
+    audio: SRL
 }

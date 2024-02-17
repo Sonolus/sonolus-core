@@ -9,5 +9,5 @@ export type PostItem = {
     time: number
     author: string
     tags: Tag[]
-    thumbnail?: SRL<'PostThumbnail'>
+    thumbnail?: SRL
 }

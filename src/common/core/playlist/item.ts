@@ -11,5 +11,5 @@ export type PlaylistItem = {
     author: string
     tags: Tag[]
     levels: LevelItem[]
-    thumbnail?: SRL<'PlaylistThumbnail'>
+    thumbnail?: SRL
 }

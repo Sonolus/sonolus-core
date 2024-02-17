@@ -11,5 +11,5 @@ export interface DatabasePostItem {
     author: LocalizationText
     tags: DatabaseTag[]
     description: LocalizationText
-    thumbnail?: SRL<'PostThumbnail'>
+    thumbnail?: SRL
 }

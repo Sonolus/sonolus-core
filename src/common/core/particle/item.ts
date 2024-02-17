@@ -9,7 +9,7 @@ export type ParticleItem = {
     subtitle: string
     author: string
     tags: Tag[]
-    thumbnail: SRL<'ParticleThumbnail'>
-    data: SRL<'ParticleData'>
-    texture: SRL<'ParticleTexture'>
+    thumbnail: SRL
+    data: SRL
+    texture: SRL
 }

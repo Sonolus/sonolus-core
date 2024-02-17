@@ -26,8 +26,8 @@ export interface DatabaseLevelItem {
     useBackground: DatabaseUseItem
     useEffect: DatabaseUseItem
     useParticle: DatabaseUseItem
-    cover: SRL<'LevelCover'>
-    bgm: SRL<'LevelBgm'>
-    preview?: SRL<'LevelPreview'>
-    data: SRL<'LevelData'>
+    cover: SRL
+    bgm: SRL
+    preview?: SRL
+    data: SRL
 }

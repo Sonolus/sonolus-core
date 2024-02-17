@@ -9,7 +9,7 @@ export type SkinItem = {
     subtitle: string
     author: string
     tags: Tag[]
-    thumbnail: SRL<'SkinThumbnail'>
-    data: SRL<'SkinData'>
-    texture: SRL<'SkinTexture'>
+    thumbnail: SRL
+    data: SRL
+    texture: SRL
 }

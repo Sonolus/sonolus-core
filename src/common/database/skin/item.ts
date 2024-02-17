@@ -11,7 +11,7 @@ export interface DatabaseSkinItem {
     author: LocalizationText
     tags: DatabaseTag[]
     description: LocalizationText
-    thumbnail: SRL<'SkinThumbnail'>
-    data: SRL<'SkinData'>
-    texture: SRL<'SkinTexture'>
+    thumbnail: SRL
+    data: SRL
+    texture: SRL
 }

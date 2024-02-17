@@ -9,7 +9,7 @@ export type EffectItem = {
     subtitle: string
     author: string
     tags: Tag[]
-    thumbnail: SRL<'EffectThumbnail'>
-    data: SRL<'EffectData'>
-    audio: SRL<'EffectAudio'>
+    thumbnail: SRL
+    data: SRL
+    audio: SRL
 }

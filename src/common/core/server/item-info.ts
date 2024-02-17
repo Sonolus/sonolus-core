@@ -5,5 +5,5 @@ import { Search } from './search/search'
 export type ItemInfo<T> = {
     searches?: Search[]
     sections: ItemSection<T>[]
-    banner?: SRL<'ServerBanner'>
+    banner?: SRL
 }

@@ -11,7 +11,7 @@ export interface DatabaseParticleItem {
     author: LocalizationText
     tags: DatabaseTag[]
     description: LocalizationText
-    thumbnail: SRL<'ParticleThumbnail'>
-    data: SRL<'ParticleData'>
-    texture: SRL<'ParticleTexture'>
+    thumbnail: SRL
+    data: SRL
+    texture: SRL
 }

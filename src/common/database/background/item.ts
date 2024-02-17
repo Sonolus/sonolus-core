@@ -11,8 +11,8 @@ export interface DatabaseBackgroundItem {
     author: LocalizationText
     tags: DatabaseTag[]
     description: LocalizationText
-    thumbnail: SRL<'BackgroundThumbnail'>
-    data: SRL<'BackgroundData'>
-    image: SRL<'BackgroundImage'>
-    configuration: SRL<'BackgroundConfiguration'>
+    thumbnail: SRL
+    data: SRL
+    image: SRL
+    configuration: SRL
 }

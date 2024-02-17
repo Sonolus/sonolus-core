@@ -17,11 +17,11 @@ export type EngineItem = {
     background: BackgroundItem
     effect: EffectItem
     particle: ParticleItem
-    thumbnail: SRL<'EngineThumbnail'>
-    playData: SRL<'EnginePlayData'>
-    watchData: SRL<'EngineWatchData'>
-    previewData: SRL<'EnginePreviewData'>
-    tutorialData: SRL<'EngineTutorialData'>
-    rom?: SRL<'EngineRom'>
-    configuration: SRL<'EngineConfiguration'>
+    thumbnail: SRL
+    playData: SRL
+    watchData: SRL
+    previewData: SRL
+    tutorialData: SRL
+    rom?: SRL
+    configuration: SRL
 }

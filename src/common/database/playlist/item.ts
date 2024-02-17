@@ -12,5 +12,5 @@ export interface DatabasePlaylistItem {
     tags: DatabaseTag[]
     description: LocalizationText
     levels: string[]
-    thumbnail?: SRL<'PlaylistThumbnail'>
+    thumbnail?: SRL
 }

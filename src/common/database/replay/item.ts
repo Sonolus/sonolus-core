@@ -12,6 +12,6 @@ export interface DatabaseReplayItem {
     tags: DatabaseTag[]
     description: LocalizationText
     level: string
-    data: SRL<'ReplayData'>
-    configuration: SRL<'ReplayConfiguration'>
+    data: SRL
+    configuration: SRL
 }

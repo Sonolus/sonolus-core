@@ -29,8 +29,8 @@ export type LevelItem = {
     useBackground: UseItem<BackgroundItem>
     useEffect: UseItem<EffectItem>
     useParticle: UseItem<ParticleItem>
-    cover: SRL<'LevelCover'>
-    bgm: SRL<'LevelBgm'>
-    preview?: SRL<'LevelPreview'>
-    data: SRL<'LevelData'>
+    cover: SRL
+    bgm: SRL
+    preview?: SRL
+    data: SRL
 }

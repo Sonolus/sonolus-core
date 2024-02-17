@@ -11,6 +11,6 @@ export type ReplayItem = {
     author: string
     tags: Tag[]
     level: LevelItem
-    data: SRL<'ReplayData'>
-    configuration: SRL<'ReplayConfiguration'>
+    data: SRL
+    configuration: SRL
 }
