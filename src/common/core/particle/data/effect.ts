@@ -40,8 +40,8 @@ export type ParticleDataGroupParticleProperty = {
     from?: ParticleDataGroupParticlePropertyExpression
     to?: ParticleDataGroupParticlePropertyExpression
     ease?:
-        | 'Linear'
-        | `${'In' | 'Out' | 'InOut' | 'OutIn'}${
+        | 'linear'
+        | `${'in' | 'out' | 'inOut' | 'outIn'}${
               | 'Sine'
               | 'Quad'
               | 'Cubic'
@@ -51,7 +51,7 @@ export type ParticleDataGroupParticleProperty = {
               | 'Circ'
               | 'Back'
               | 'Elastic'}`
-        | 'None'
+        | 'none'
 }
 
 export type ParticleDataGroupParticlePropertyExpression = Partial<
