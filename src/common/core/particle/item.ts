@@ -4,7 +4,7 @@ import { Tag } from '../tag'
 export type ParticleItem = {
     name: string
     source?: string
-    version: 2
+    version: 3
     title: string
     subtitle: string
     author: string
