@@ -1,20 +1,20 @@
-import { Text } from '../../text'
+import { Text } from '../text'
 
-export type SearchOption =
-    | SearchTextOption
-    | SearchSliderOption
-    | SearchToggleOption
-    | SearchSelectOption
-    | SearchMultiOption
+export type ServerOption =
+    | ServerTextOption
+    | ServerSliderOption
+    | ServerToggleOption
+    | ServerSelectOption
+    | ServerMultiOption
 
-export type SearchTextOption = {
+export type ServerTextOption = {
     query: string
     name: Text | (string & {})
     type: 'text'
     placeholder: Text | (string & {})
 }
 
-export type SearchSliderOption = {
+export type ServerSliderOption = {
     query: string
     name: Text | (string & {})
     type: 'slider'
@@ -25,14 +25,14 @@ export type SearchSliderOption = {
     unit?: Text | (string & {})
 }
 
-export type SearchToggleOption = {
+export type ServerToggleOption = {
     query: string
     name: Text | (string & {})
     type: 'toggle'
     def: 0 | 1
 }
 
-export type SearchSelectOption = {
+export type ServerSelectOption = {
     query: string
     name: Text | (string & {})
     type: 'select'
@@ -40,7 +40,7 @@ export type SearchSelectOption = {
     values: (Text | (string & {}))[]
 }
 
-export type SearchMultiOption = {
+export type ServerMultiOption = {
     query: string
     name: Text | (string & {})
     type: 'multi'

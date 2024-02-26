@@ -1,9 +1,9 @@
 import { SRL } from '../resource/srl'
 import { ItemSection } from './item-section'
-import { Search } from './search/search'
+import { ServerOptionsSection } from './options-section'
 
 export type ItemInfo<T> = {
-    searches?: Search[]
+    searches?: ServerOptionsSection[]
     sections: ItemSection<T>[]
     banner?: SRL
 }

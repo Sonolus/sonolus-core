@@ -1,7 +1,7 @@
-import { Search } from './search'
+import { ServerOptionsSection } from './options-section'
 
 export type ItemList<T> = {
     pageCount: number
     items: T[]
-    searches?: Search[]
+    searches?: ServerOptionsSection[]
 }
