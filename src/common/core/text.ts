@@ -33,6 +33,8 @@ export const Text = {
     LengthMinimum: '#LENGTH_MINIMUM',
     /** en: Maximum Length */
     LengthMaximum: '#LENGTH_MAXIMUM',
+    /** en: Additional Information */
+    AdditionalInformation: '#ADDITIONAL_INFORMATION',
     /** en: Level Speed */
     Speed: '#SPEED',
     /** en: Mirror Level */
@@ -325,6 +327,8 @@ export const Text = {
     LengthMinimumPlaceholder: '#LENGTH_MINIMUM_PLACEHOLDER',
     /** en: Enter maximum length... */
     LengthMaximumPlaceholder: '#LENGTH_MAXIMUM_PLACEHOLDER',
+    /** en: Enter additional information... */
+    AdditionalInformationPlaceholder: '#ADDITIONAL_INFORMATION_PLACEHOLDER',
     /** en: {0}% */
     PercentageUnit: '#PERCENTAGE_UNIT',
     /** en: {0} s */
@@ -463,6 +467,70 @@ export const Text = {
     LongVersion: '#LONG_VERSION',
     /** en: Live Version */
     LiveVersion: '#LIVE_VERSION',
+    /** en: Illegal Activities */
+    IllegalActivities: '#ILLEGAL_ACTIVITIES',
+    /** en: Cheating */
+    Cheating: '#CHEATING',
+    /** en: AFK */
+    Afk: '#AFK',
+    /** en: Spamming */
+    Spamming: '#SPAMMING',
+    /** en: Verbal Abuse */
+    VerbalAbuse: '#VERBAL_ABUSE',
+    /** en: Inappropriate Language */
+    InappropriateLanguage: '#INAPPROPRIATE_LANGUAGE',
+    /** en: Negative Attitude */
+    NegativeAttitude: '#NEGATIVE_ATTITUDE',
+    /** en: DNF */
+    Dnf: '#DNF',
+    /** en: Qualified */
+    Qualified: '#QUALIFIED',
+    /** en: Disqualified */
+    Disqualified: '#DISQUALIFIED',
+    /** en: Spectator */
+    Spectator: '#SPECTATOR',
+    /** en: Finalist */
+    Finalist: '#FINALIST',
+    /** en: Finished */
+    Finished: '#FINISHED',
+    /** en: Gold Medal */
+    GoldMedal: '#GOLD_MEDAL',
+    /** en: Silver Medal */
+    SilverMedal: '#SILVER_MEDAL',
+    /** en: Bronze Medal */
+    BronzeMedal: '#BRONZE_MEDAL',
+    /** en: Team 1 */
+    Team1: '#TEAM_1',
+    /** en: Team 2 */
+    Team2: '#TEAM_2',
+    /** en: Team 3 */
+    Team3: '#TEAM_3',
+    /** en: Team 4 */
+    Team4: '#TEAM_4',
+    /** en: Team 5 */
+    Team5: '#TEAM_5',
+    /** en: Team 6 */
+    Team6: '#TEAM_6',
+    /** en: Team 7 */
+    Team7: '#TEAM_7',
+    /** en: Team 8 */
+    Team8: '#TEAM_8',
+    /** en: Team Red */
+    TeamRed: '#TEAM_RED',
+    /** en: Team Green */
+    TeamGreen: '#TEAM_GREEN',
+    /** en: Team Blue */
+    TeamBlue: '#TEAM_BLUE',
+    /** en: Team Yellow */
+    TeamYellow: '#TEAM_YELLOW',
+    /** en: Team Purple */
+    TeamPurple: '#TEAM_PURPLE',
+    /** en: Team Cyan */
+    TeamCyan: '#TEAM_CYAN',
+    /** en: Team White */
+    TeamWhite: '#TEAM_WHITE',
+    /** en: Team Black */
+    TeamBlack: '#TEAM_BLACK',
 } as const
 
 export type Text = (typeof Text)[keyof typeof Text]
