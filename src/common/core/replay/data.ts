@@ -1,3 +1,5 @@
+import { GameplayResult } from '../gameplay-result'
+
 export type ReplayData = {
     startTime: number
     saveTime: number
@@ -7,17 +9,7 @@ export type ReplayData = {
         width: number
         height: number
     }
-    result: {
-        grade: 'allPerfect' | 'fullCombo' | 'pass' | 'fail'
-        arcadeScore: number
-        accuracyScore: number
-        combo: number
-        perfect: number
-        great: number
-        good: number
-        miss: number
-        totalCount: number
-    }
+    result: GameplayResult
     inputs: {
         entityIndex: number[]
         time: number[]
