@@ -4,5 +4,6 @@ export type ServerInfo = {
     title: string
     description?: string
     hasAuthentication: boolean
+    hasMultiplayer: boolean
     banner?: SRL
 }
