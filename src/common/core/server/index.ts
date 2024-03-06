@@ -5,6 +5,7 @@ export { ItemInfo } from './item-info'
 export { ItemList } from './item-list'
 export { ItemSection } from './item-section'
 export { JoinRoomRequest, JoinRoomResponse } from './join-room'
+export * from './multiplayer'
 export {
     ServerMultiOption,
     ServerOption,

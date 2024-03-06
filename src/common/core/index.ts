@@ -1,3 +1,4 @@
+export { AutoExit } from './auto-exit'
 export * from './background'
 export * from './effect'
 export * from './engine'
