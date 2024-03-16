@@ -1,4 +1,20 @@
 export const Text = {
+    /** en: Grade */
+    Grade: '#GRADE',
+    /** en: Arcade Score */
+    ArcadeScore: '#ARCADE_SCORE',
+    /** en: Accuracy Score */
+    AccuracyScore: '#ACCURACY_SCORE',
+    /** en: Combo */
+    Combo: '#COMBO',
+    /** en: Perfect */
+    Perfect: '#PERFECT',
+    /** en: Great */
+    Great: '#GREAT',
+    /** en: Good */
+    Good: '#GOOD',
+    /** en: Miss */
+    Miss: '#MISS',
     /** en: Keywords */
     Keywords: '#KEYWORDS',
     /** en: Name */
@@ -59,6 +75,8 @@ export const Text = {
     StageSize: '#STAGE_SIZE',
     /** en: Stage Rotation */
     StageRotation: '#STAGE_ROTATION',
+    /** en: Stage Direction */
+    StageDirection: '#STAGE_DIRECTION',
     /** en: Stage Transparency */
     StageAlpha: '#STAGE_ALPHA',
     /** en: Stage Animation */
@@ -81,6 +99,8 @@ export const Text = {
     StageEffectSize: '#STAGE_EFFECT_SIZE',
     /** en: Stage Effect Rotation */
     StageEffectRotation: '#STAGE_EFFECT_ROTATION',
+    /** en: Stage Effect Direction */
+    StageEffectDirection: '#STAGE_EFFECT_DIRECTION',
     /** en: Stage Effect Transparency */
     StageEffectAlpha: '#STAGE_EFFECT_ALPHA',
     /** en: Lane */
@@ -91,6 +111,8 @@ export const Text = {
     LaneSize: '#LANE_SIZE',
     /** en: Lane Rotation */
     LaneRotation: '#LANE_ROTATION',
+    /** en: Lane Direction */
+    LaneDirection: '#LANE_DIRECTION',
     /** en: Lane Transparency */
     LaneAlpha: '#LANE_ALPHA',
     /** en: Lane Animation */
@@ -103,6 +125,8 @@ export const Text = {
     LaneEffectSize: '#LANE_EFFECT_SIZE',
     /** en: Lane Effect Rotation */
     LaneEffectRotation: '#LANE_EFFECT_ROTATION',
+    /** en: Lane Effect Direction */
+    LaneEffectDirection: '#LANE_EFFECT_DIRECTION',
     /** en: Lane Effect Transparency */
     LaneEffectAlpha: '#LANE_EFFECT_ALPHA',
     /** en: Judgment Line */
@@ -113,6 +137,8 @@ export const Text = {
     JudgelineSize: '#JUDGELINE_SIZE',
     /** en: Judgment Line Rotation */
     JudgelineRotation: '#JUDGELINE_ROTATION',
+    /** en: Judgment Line Direction */
+    JudgelineDirection: '#JUDGELINE_DIRECTION',
     /** en: Judgment Line Transparency */
     JudgelineAlpha: '#JUDGELINE_ALPHA',
     /** en: Judgment Line Animation */
@@ -125,6 +151,8 @@ export const Text = {
     JudgelineEffectSize: '#JUDGELINE_EFFECT_SIZE',
     /** en: Judgment Line Effect Rotation */
     JudgelineEffectRotation: '#JUDGELINE_EFFECT_ROTATION',
+    /** en: Judgment Line Effect Direction */
+    JudgelineEffectDirection: '#JUDGELINE_EFFECT_DIRECTION',
     /** en: Judgment Line Effect Transparency */
     JudgelineEffectAlpha: '#JUDGELINE_EFFECT_ALPHA',
     /** en: Slot */
@@ -135,6 +163,8 @@ export const Text = {
     SlotSize: '#SLOT_SIZE',
     /** en: Slot Rotation */
     SlotRotation: '#SLOT_ROTATION',
+    /** en: Slot Direction */
+    SlotDirection: '#SLOT_DIRECTION',
     /** en: Slot Transparency */
     SlotAlpha: '#SLOT_ALPHA',
     /** en: Slot Animation */
@@ -147,6 +177,8 @@ export const Text = {
     SlotEffectSize: '#SLOT_EFFECT_SIZE',
     /** en: Slot Effect Rotation */
     SlotEffectRotation: '#SLOT_EFFECT_ROTATION',
+    /** en: Slot Effect Direction */
+    SlotEffectDirection: '#SLOT_EFFECT_DIRECTION',
     /** en: Slot Effect Transparency */
     SlotEffectAlpha: '#SLOT_EFFECT_ALPHA',
     /** en: Note */
@@ -161,6 +193,8 @@ export const Text = {
     NoteSize: '#NOTE_SIZE',
     /** en: Note Rotation */
     NoteRotation: '#NOTE_ROTATION',
+    /** en: Note Direction */
+    NoteDirection: '#NOTE_DIRECTION',
     /** en: Note Transparency */
     NoteAlpha: '#NOTE_ALPHA',
     /** en: Note Animation */
@@ -173,6 +207,8 @@ export const Text = {
     NoteEffectSize: '#NOTE_EFFECT_SIZE',
     /** en: Note Effect Rotation */
     NoteEffectRotation: '#NOTE_EFFECT_ROTATION',
+    /** en: Note Effect Direction */
+    NoteEffectDirection: '#NOTE_EFFECT_DIRECTION',
     /** en: Note Effect Transparency */
     NoteEffectAlpha: '#NOTE_EFFECT_ALPHA',
     /** en: Marker */
@@ -183,6 +219,8 @@ export const Text = {
     MarkerSize: '#MARKER_SIZE',
     /** en: Marker Rotation */
     MarkerRotation: '#MARKER_ROTATION',
+    /** en: Marker Direction */
+    MarkerDirection: '#MARKER_DIRECTION',
     /** en: Marker Transparency */
     MarkerAlpha: '#MARKER_ALPHA',
     /** en: Marker Animation */
@@ -195,6 +233,8 @@ export const Text = {
     ConnectorSize: '#CONNECTOR_SIZE',
     /** en: Connector Rotation */
     ConnectorRotation: '#CONNECTOR_ROTATION',
+    /** en: Connector Direction */
+    ConnectorDirection: '#CONNECTOR_DIRECTION',
     /** en: Connector Transparency */
     ConnectorAlpha: '#CONNECTOR_ALPHA',
     /** en: Connector Animation */
@@ -207,6 +247,8 @@ export const Text = {
     SimlineSize: '#SIMLINE_SIZE',
     /** en: Simultaneous Line Rotation */
     SimlineRotation: '#SIMLINE_ROTATION',
+    /** en: Simultaneous Line Direction */
+    SimlineDirection: '#SIMLINE_DIRECTION',
     /** en: Simultaneous Line Transparency */
     SimlineAlpha: '#SIMLINE_ALPHA',
     /** en: Simultaneous Line Animation */
@@ -467,6 +509,10 @@ export const Text = {
     LongVersion: '#LONG_VERSION',
     /** en: Live Version */
     LiveVersion: '#LIVE_VERSION',
+    /** en: Report */
+    Report: '#REPORT',
+    /** en: Reason */
+    Reason: '#REASON',
     /** en: Illegal Activities */
     IllegalActivities: '#ILLEGAL_ACTIVITIES',
     /** en: Cheating */
@@ -483,6 +529,24 @@ export const Text = {
     NegativeAttitude: '#NEGATIVE_ATTITUDE',
     /** en: DNF */
     Dnf: '#DNF',
+    /** en: Match Scoring */
+    MatchScoring: '#MATCH_SCORING',
+    /** en: Match Tiebreaker */
+    MatchTiebreaker: '#MATCH_TIEBREAKER',
+    /** en: Match Count */
+    MatchCount: '#MATCH_COUNT',
+    /** en: Round Scoring */
+    RoundScoring: '#ROUND_SCORING',
+    /** en: Round Tiebreaker */
+    RoundTiebreaker: '#ROUND_TIEBREAKER',
+    /** en: Round Count */
+    RoundCount: '#ROUND_COUNT',
+    /** en: Team Scoring */
+    TeamScoring: '#TEAM_SCORING',
+    /** en: Team Tiebreaker */
+    TeamTiebreaker: '#TEAM_TIEBREAKER',
+    /** en: Team Count */
+    TeamCount: '#TEAM_COUNT',
     /** en: Qualified */
     Qualified: '#QUALIFIED',
     /** en: Disqualified */
