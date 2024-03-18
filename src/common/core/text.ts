@@ -35,6 +35,8 @@ export const Text = {
     Author: '#AUTHOR',
     /** en: Genre */
     Genre: '#GENRE',
+    /** en: Type */
+    Type: '#TYPE',
     /** en: Category */
     Category: '#CATEGORY',
     /** en: Language */
@@ -463,7 +465,7 @@ export const Text = {
     OtherCategories: '#OTHER_CATEGORIES',
     /** en: Other Difficulties */
     OtherDifficulties: '#OTHER_DIFFICULTIES',
-    /** en: Same Genres */
+    /** en: Other Genres */
     OtherGenres: '#OTHER_GENRES',
     /** en: Other Versions */
     OtherVersions: '#OTHER_VERSIONS',
@@ -477,6 +479,8 @@ export const Text = {
     Public: '#PUBLIC',
     /** en: Private */
     Private: '#PRIVATE',
+    /** en: Locked */
+    Locked: '#LOCKED',
     /** en: Pop */
     Pop: '#POP',
     /** en: Rock */
@@ -529,34 +533,56 @@ export const Text = {
     NegativeAttitude: '#NEGATIVE_ATTITUDE',
     /** en: DNF */
     Dnf: '#DNF',
+    /** en: Suggestions */
+    Suggestions: '#SUGGESTIONS',
+    /** en: Suggestions per Player */
+    SuggestionsPerPlayer: '#SUGGESTIONS_PER_PLAYER',
     /** en: Match Scoring */
     MatchScoring: '#MATCH_SCORING',
     /** en: Match Tiebreaker */
     MatchTiebreaker: '#MATCH_TIEBREAKER',
     /** en: Match Count */
     MatchCount: '#MATCH_COUNT',
+    /** en: Match Limit */
+    MatchLimit: '#MATCH_LIMIT',
     /** en: Round Scoring */
     RoundScoring: '#ROUND_SCORING',
     /** en: Round Tiebreaker */
     RoundTiebreaker: '#ROUND_TIEBREAKER',
     /** en: Round Count */
     RoundCount: '#ROUND_COUNT',
+    /** en: Round Limit */
+    RoundLimit: '#ROUND_LIMIT',
     /** en: Team Scoring */
     TeamScoring: '#TEAM_SCORING',
     /** en: Team Tiebreaker */
     TeamTiebreaker: '#TEAM_TIEBREAKER',
     /** en: Team Count */
     TeamCount: '#TEAM_COUNT',
+    /** en: Team Limit */
+    TeamLimit: '#TEAM_LIMIT',
     /** en: Qualified */
     Qualified: '#QUALIFIED',
     /** en: Disqualified */
     Disqualified: '#DISQUALIFIED',
+    /** en: Ranking */
+    Ranking: '#RANKING',
+    /** en: Score */
+    Score: '#SCORE',
+    /** en: Player */
+    Player: '#PLAYER',
     /** en: Spectator */
     Spectator: '#SPECTATOR',
+    /** en: Referee */
+    Referee: '#REFEREE',
+    /** en: Eliminated */
+    Eliminated: '#ELIMINATED',
     /** en: Finalist */
     Finalist: '#FINALIST',
     /** en: Finished */
     Finished: '#FINISHED',
+    /** en: Winner */
+    Winner: '#WINNER',
     /** en: Gold Medal */
     GoldMedal: '#GOLD_MEDAL',
     /** en: Silver Medal */
