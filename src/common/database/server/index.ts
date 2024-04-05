@@ -1,2 +1,1 @@
-export { InfoDetails } from './details'
-export { InfoList } from './list'
+export { DatabaseServerInfo } from './server-info'

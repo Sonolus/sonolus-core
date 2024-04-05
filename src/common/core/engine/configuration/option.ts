@@ -1,4 +1,4 @@
-import { NameText, UnitText, ValueText } from '../../texts'
+import { Text } from '../../text'
 
 export type EngineConfigurationOption =
     | EngineConfigurationSliderOption
@@ -6,7 +6,7 @@ export type EngineConfigurationOption =
     | EngineConfigurationSelectOption
 
 export type EngineConfigurationSliderOption = {
-    name: NameText | (string & {})
+    name: Text | (string & {})
     standard?: boolean
     advanced?: boolean
     scope?: string
@@ -15,11 +15,11 @@ export type EngineConfigurationSliderOption = {
     min: number
     max: number
     step: number
-    unit?: UnitText | (string & {})
+    unit?: Text | (string & {})
 }
 
 export type EngineConfigurationToggleOption = {
-    name: NameText | (string & {})
+    name: Text | (string & {})
     standard?: boolean
     advanced?: boolean
     scope?: string
@@ -28,11 +28,11 @@ export type EngineConfigurationToggleOption = {
 }
 
 export type EngineConfigurationSelectOption = {
-    name: NameText | (string & {})
+    name: Text | (string & {})
     standard?: boolean
     advanced?: boolean
     scope?: string
     type: 'select'
     def: number
-    values: (ValueText | (string & {}))[]
+    values: (Text | (string & {}))[]
 }

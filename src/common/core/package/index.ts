@@ -1,0 +1,1 @@
+export { PackageInfo } from './info'

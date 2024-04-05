@@ -1,1 +1,1 @@
-export { ParticleInfo } from './info'
+export { DatabaseParticleItem } from './item'

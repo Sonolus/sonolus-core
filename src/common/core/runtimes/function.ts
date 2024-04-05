@@ -75,6 +75,7 @@ export const RuntimeFunction = {
     Equal: 'Equal',
     Execute: 'Execute',
     Execute0: 'Execute0',
+    ExportValue: 'ExportValue',
     Floor: 'Floor',
     Frac: 'Frac',
     Get: 'Get',

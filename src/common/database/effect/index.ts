@@ -1,1 +1,1 @@
-export { EffectInfo } from './info'
+export { DatabaseEffectItem } from './item'

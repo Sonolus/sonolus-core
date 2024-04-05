@@ -12,10 +12,11 @@ export type EnginePlayDataArchetype = {
     touch?: EnginePlayDataArchetypeCallback
     updateParallel?: EnginePlayDataArchetypeCallback
     terminate?: EnginePlayDataArchetypeCallback
-    data: {
+    imports: {
         name: EngineArchetypeDataName | (string & {})
         index: number
     }[]
+    exports: (EngineArchetypeDataName | (string & {}))[]
 }
 
 export type EnginePlayDataArchetypeCallback = {

@@ -1,12 +1,15 @@
 import { SRL } from '../resource/srl'
+import { Tag } from '../tag'
 
 export type ParticleItem = {
     name: string
-    version: 2
+    source?: string
+    version: 3
     title: string
     subtitle: string
     author: string
-    thumbnail: SRL<'ParticleThumbnail'>
-    data: SRL<'ParticleData'>
-    texture: SRL<'ParticleTexture'>
+    tags: Tag[]
+    thumbnail: SRL
+    data: SRL
+    texture: SRL
 }

@@ -1,1 +1,1 @@
-export { getEncryptionPublicKey } from './keys'
+export { getSignaturePublicKey } from './keys'

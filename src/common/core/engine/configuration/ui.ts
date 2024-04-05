@@ -39,8 +39,8 @@ export type EngineConfigurationAnimationTween = {
     to: number
     duration: number
     ease:
-        | 'Linear'
-        | `${'In' | 'Out' | 'InOut' | 'OutIn'}${
+        | 'linear'
+        | `${'in' | 'out' | 'inOut' | 'outIn'}${
               | 'Sine'
               | 'Quad'
               | 'Cubic'
@@ -50,7 +50,7 @@ export type EngineConfigurationAnimationTween = {
               | 'Circ'
               | 'Back'
               | 'Elastic'}`
-        | 'None'
+        | 'none'
 }
 
 export type EngineConfigurationJudgmentErrorStyle =

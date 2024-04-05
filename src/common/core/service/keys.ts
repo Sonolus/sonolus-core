@@ -1,2 +1,8 @@
-export const encryptionPublicKeySPKI =
-    'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8DDWNplPkFiQI2QywLOTOLAsIA+H0kc9RjFK4pJV6MKJxvhAGsJ8uA18Wsug4YU7Kp93gV3Zv7/RlV0yMkWvCxhsQO/K9NI5MdyJSxTI7UcVukZDAQbiFBT+/1od28XKhn6eO2PqI3E7uXpN44CdO7rgtLSYBBT1/+Aw/gJHn+u5fo60xusfPEYYpXNnIHEL52niNW52wmk/LGItZDlJ+oSwZH2qRFol6t63ymzFUNbred0DwJD+RmqWEq/J/57ofCaL65148BmD2KkJoA8kMR4hNOP9cYs7iQQguboCa0SsJPl4V2SOG+Mn6IkSkZJRfYkC3SXdjmxf+i4qA801RQIDAQAB'
+export const signaturePublicKeyJWK = {
+    key_ops: ['verify'],
+    ext: true,
+    kty: 'EC',
+    x: 'd2B14ZAn-zDsqY42rHofst8rw3XB90-a5lT80NFdXo0',
+    y: 'Hxzi9DHrlJ4CVSJVRnydxFWBZAgkFxZXbyxPSa8SJQw',
+    crv: 'P-256',
+}

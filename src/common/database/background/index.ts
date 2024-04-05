@@ -1,1 +1,1 @@
-export { BackgroundInfo } from './info'
+export { DatabaseBackgroundItem } from './item'

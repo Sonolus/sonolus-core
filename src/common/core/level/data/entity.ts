@@ -1,7 +1,7 @@
 import { EngineArchetypeDataName, EngineArchetypeName } from '../../engine'
 
 export type LevelDataEntity = {
-    ref?: string
+    name?: string
     archetype: EngineArchetypeName | (string & {})
     data: (
         | {

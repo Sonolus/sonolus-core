@@ -13,5 +13,5 @@ For more advanced usage, take a look at packages like [Sonolus.js](https://githu
 ## Installation
 
 ```
-npm install sonolus-core
+npm install @sonolus/core
 ```

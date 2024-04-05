@@ -1,5 +1,5 @@
-import { promisify } from 'util'
-import { unzip, unzipSync } from 'zlib'
+import { promisify } from 'node:util'
+import { unzip, unzipSync } from 'node:zlib'
 
 const unzipPromise = promisify(unzip)
 

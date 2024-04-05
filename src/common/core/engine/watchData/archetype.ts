@@ -11,7 +11,7 @@ export type EngineWatchDataArchetype = {
     updateSequential?: EngineWatchDataArchetypeCallback
     updateParallel?: EngineWatchDataArchetypeCallback
     terminate?: EngineWatchDataArchetypeCallback
-    data: {
+    imports: {
         name: EngineArchetypeDataName | (string & {})
         index: number
     }[]
