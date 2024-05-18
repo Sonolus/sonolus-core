@@ -11,6 +11,7 @@ export {
     ServerOption,
     ServerSelectOption,
     ServerSliderOption,
+    ServerTextAreaOption,
     ServerTextOption,
     ServerToggleOption,
 } from './option'

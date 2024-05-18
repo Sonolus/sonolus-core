@@ -2,6 +2,7 @@ import { Text } from '../text'
 
 export type ServerOption =
     | ServerTextOption
+    | ServerTextAreaOption
     | ServerSliderOption
     | ServerToggleOption
     | ServerSelectOption
@@ -11,6 +12,14 @@ export type ServerTextOption = {
     query: string
     name: Text | (string & {})
     type: 'text'
+    placeholder: Text | (string & {})
+    limit?: number
+}
+
+export type ServerTextAreaOption = {
+    query: string
+    name: Text | (string & {})
+    type: 'textArea'
     placeholder: Text | (string & {})
     limit?: number
 }
