@@ -1,4 +1,5 @@
 export { AuthenticateServerRequest, AuthenticateServerResponse } from './authenticate'
+export * from './community'
 export { CreateRoomRequest, CreateRoomResponse } from './create-room'
 export { ServerForm } from './form'
 export { ItemDetails } from './item-details'
