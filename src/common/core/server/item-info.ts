@@ -1,9 +1,9 @@
 import { SRL } from '../resource/srl'
+import { ServerForm } from './form'
 import { ItemSection } from './item-section'
-import { ServerOptionsSection } from './options-section'
 
 export type ItemInfo<T> = {
-    searches?: ServerOptionsSection[]
+    searches?: ServerForm[]
     sections: ItemSection<T>[]
     banner?: SRL
 }
