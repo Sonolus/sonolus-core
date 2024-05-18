@@ -12,6 +12,7 @@ export type ServerTextOption = {
     name: Text | (string & {})
     type: 'text'
     placeholder: Text | (string & {})
+    limit?: number
 }
 
 export type ServerSliderOption = {
