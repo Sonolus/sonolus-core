@@ -23,6 +23,14 @@ export const ParticleEffectName = {
     NoteCircularHoldPurple: '#NOTE_CIRCULAR_HOLD_PURPLE',
     NoteCircularHoldCyan: '#NOTE_CIRCULAR_HOLD_CYAN',
 
+    NoteCircularSwipeNeutral: '#NOTE_CIRCULAR_SWIPE_NEUTRAL',
+    NoteCircularSwipeRed: '#NOTE_CIRCULAR_SWIPE_RED',
+    NoteCircularSwipeGreen: '#NOTE_CIRCULAR_SWIPE_GREEN',
+    NoteCircularSwipeBlue: '#NOTE_CIRCULAR_SWIPE_BLUE',
+    NoteCircularSwipeYellow: '#NOTE_CIRCULAR_SWIPE_YELLOW',
+    NoteCircularSwipePurple: '#NOTE_CIRCULAR_SWIPE_PURPLE',
+    NoteCircularSwipeCyan: '#NOTE_CIRCULAR_SWIPE_CYAN',
+
     NoteLinearTapNeutral: '#NOTE_LINEAR_TAP_NEUTRAL',
     NoteLinearTapRed: '#NOTE_LINEAR_TAP_RED',
     NoteLinearTapGreen: '#NOTE_LINEAR_TAP_GREEN',
@@ -46,6 +54,14 @@ export const ParticleEffectName = {
     NoteLinearHoldYellow: '#NOTE_LINEAR_HOLD_YELLOW',
     NoteLinearHoldPurple: '#NOTE_LINEAR_HOLD_PURPLE',
     NoteLinearHoldCyan: '#NOTE_LINEAR_HOLD_CYAN',
+
+    NoteLinearSwipeNeutral: '#NOTE_CIRCULAR_SWIPE_NEUTRAL',
+    NoteLinearSwipeRed: '#NOTE_CIRCULAR_SWIPE_RED',
+    NoteLinearSwipeGreen: '#NOTE_CIRCULAR_SWIPE_GREEN',
+    NoteLinearSwipeBlue: '#NOTE_CIRCULAR_SWIPE_BLUE',
+    NoteLinearSwipeYellow: '#NOTE_CIRCULAR_SWIPE_YELLOW',
+    NoteLinearSwipePurple: '#NOTE_CIRCULAR_SWIPE_PURPLE',
+    NoteLinearSwipeCyan: '#NOTE_CIRCULAR_SWIPE_CYAN',
 
     LaneCircular: '#LANE_CIRCULAR',
     LaneLinear: '#LANE_LINEAR',
