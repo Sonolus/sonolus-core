@@ -1,5 +1,5 @@
 import { AutoExit } from '../../../auto-exit'
-import { ServerOptionsSection } from '../../options-section'
+import { ServerForm } from '../../form'
 import { LevelLocator } from '../level-locator'
 import { LevelOptionEntry } from '../level-option-entry'
 import { ResultEntry } from '../result-entry'
@@ -12,12 +12,12 @@ import { UserStatusEntry } from '../user-status-entry'
 export type UpdateEvent = {
     type: 'update'
     allowOtherServers: boolean
-    reportUserOptions: ServerOptionsSection[]
+    reportUserOptions: ServerForm[]
     title: string
     status: RoomStatus
     master: 'room' | (string & {})
     lead: 'room' | (string & {})
-    options: ServerOptionsSection[]
+    options: ServerForm[]
     optionValues: string
     level?: LevelLocator
     levelOptions: LevelOptionEntry[]

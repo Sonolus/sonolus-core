@@ -53,6 +53,14 @@ export const Text = {
     LengthMaximum: '#LENGTH_MAXIMUM',
     /** en: Additional Information */
     AdditionalInformation: '#ADDITIONAL_INFORMATION',
+    /** en: Content */
+    Content: '#CONTENT',
+    /** en: Comment */
+    Comment: '#COMMENT',
+    /** en: Review */
+    Review: '#REVIEW',
+    /** en: Reply */
+    Reply: '#REPLY',
     /** en: Level Speed */
     Speed: '#SPEED',
     /** en: Mirror Level */
@@ -373,6 +381,14 @@ export const Text = {
     LengthMaximumPlaceholder: '#LENGTH_MAXIMUM_PLACEHOLDER',
     /** en: Enter additional information... */
     AdditionalInformationPlaceholder: '#ADDITIONAL_INFORMATION_PLACEHOLDER',
+    /** en: Enter content... */
+    ContentPlaceholder: '#CONTENT_PLACEHOLDER',
+    /** en: Enter comment... */
+    CommentPlaceholder: '#COMMENT_PLACEHOLDER',
+    /** en: Enter review... */
+    ReviewPlaceholder: '#REVIEW_PLACEHOLDER',
+    /** en: Enter reply... */
+    ReplyPlaceholder: '#REPLY_PLACEHOLDER',
     /** en: {0}% */
     PercentageUnit: '#PERCENTAGE_UNIT',
     /** en: {0} s */
@@ -621,6 +637,58 @@ export const Text = {
     TeamWhite: '#TEAM_WHITE',
     /** en: Team Black */
     TeamBlack: '#TEAM_BLACK',
+    /** en: Like */
+    Like: '#LIKE',
+    /** en: Liked */
+    Liked: '#LIKED',
+    /** en: Dislike */
+    Dislike: '#DISLIKE',
+    /** en: Disliked */
+    Disliked: '#DISLIKED',
+    /** en: Bookmark */
+    Bookmark: '#BOOKMARK',
+    /** en: Bookmarked */
+    Bookmarked: '#BOOKMARKED',
+    /** en: Delete */
+    Delete: '#DELETE',
+    /** en: Edit */
+    Edit: '#EDIT',
+    /** en: Confirm */
+    Confirm: '#CONFIRM',
+    /** en: Cancel */
+    Cancel: '#CANCEL',
+    /** en: Increase */
+    Increase: '#INCREASE',
+    /** en: Decrease */
+    Decrease: '#DECREASE',
+    /** en: Upvote */
+    Upvote: '#UPVOTE',
+    /** en: Upvoted */
+    Upvoted: '#UPVOTED',
+    /** en: Downvote */
+    Downvote: '#DOWNVOTE',
+    /** en: Downvoted */
+    Downvoted: '#DOWNVOTED',
+    /** en: Agree */
+    Agree: '#AGREE',
+    /** en: Agreed */
+    Agreed: '#AGREED',
+    /** en: Disagree */
+    Disagree: '#DISAGREE',
+    /** en: Disagreed */
+    Disagreed: '#DISAGREED',
+    /** en: Lock */
+    Lock: '#LOCK',
+    /** en: Unlock */
+    Unlock: '#UNLOCK',
+    /** en: Show */
+    Show: '#SHOW',
+    /** en: Hide */
+    Hide: '#HIDE',
+    /** en: Star */
+    Star: '#STAR',
+    /** en: Starred */
+    Starred: '#STARRED',
 } as const
 
 export type Text = (typeof Text)[keyof typeof Text]

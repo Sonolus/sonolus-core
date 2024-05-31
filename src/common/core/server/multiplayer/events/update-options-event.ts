@@ -1,7 +1,7 @@
-import { ServerOptionsSection } from '../../options-section'
+import { ServerForm } from '../../form'
 
 export type UpdateOptionsEvent = {
     type: 'updateOptions'
-    options: ServerOptionsSection[]
+    options: ServerForm[]
     optionValues: string
 }
