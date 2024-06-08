@@ -3,5 +3,5 @@ import { LocalizationText } from './localization'
 
 export type DatabaseTag = {
     title: LocalizationText
-    icon?: Icon
+    icon?: Icon | (string & {})
 }

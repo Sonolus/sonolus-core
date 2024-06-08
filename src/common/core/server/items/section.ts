@@ -1,9 +1,8 @@
 import { Icon } from '../../icon'
 import { Text } from '../../text'
-import { ScoreEntry } from './score-entry'
 
-export type ScoreboardSection = {
+export type ItemSection<T> = {
     title: Text | (string & {})
     icon?: Icon | (string & {})
-    scores: ScoreEntry[]
+    items: T[]
 }
