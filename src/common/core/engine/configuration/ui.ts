@@ -19,9 +19,16 @@ export type EngineConfigurationUI = {
 
 export type EngineConfigurationMetric =
     | 'arcade'
+    | 'arcadePercentage'
     | 'accuracy'
+    | 'accuracyPercentage'
     | 'life'
-    | 'perfectRate'
+    | 'perfect'
+    | 'perfectPercentage'
+    | 'greatGoodMiss'
+    | 'greatGoodMissPercentage'
+    | 'miss'
+    | 'missPercentage'
     | 'errorHeatmap'
 
 export type EngineConfigurationVisibility = {

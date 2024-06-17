@@ -5,6 +5,6 @@ import { ServerOption } from './option'
 export type ServerForm = {
     type: string
     title: Text | (string & {})
-    icon?: Icon
+    icon?: Icon | (string & {})
     options: ServerOption[]
 }

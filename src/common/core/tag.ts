@@ -3,5 +3,5 @@ import { Text } from './text'
 
 export type Tag = {
     title: Text | (string & {})
-    icon?: Icon
+    icon?: Icon | (string & {})
 }

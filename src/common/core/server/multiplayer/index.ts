@@ -1,6 +1,8 @@
 export { ChatMessage, QuickChatMessage, TextChatMessage } from './chat-message'
 export * from './commands'
+export { CreateRoomRequest, CreateRoomResponse } from './create-room'
 export * from './events'
+export { JoinRoomRequest, JoinRoomResponse } from './join-room'
 export { LevelLocator } from './level-locator'
 export { LevelOptionEntry } from './level-option-entry'
 export { ResultEntry } from './result-entry'

@@ -1,4 +1,4 @@
-import { ServerForm } from './form'
+import { ServerForm } from '../form'
 
 export type ItemList<T> = {
     pageCount: number
