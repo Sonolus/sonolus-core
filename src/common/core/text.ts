@@ -205,6 +205,8 @@ export const Text = {
     NoteRotation: '#NOTE_ROTATION',
     /** en: Note Direction */
     NoteDirection: '#NOTE_DIRECTION',
+    /** en: Note Color */
+    NoteColor: '#NOTE_COLOR',
     /** en: Note Transparency */
     NoteAlpha: '#NOTE_ALPHA',
     /** en: Note Animation */
@@ -219,6 +221,8 @@ export const Text = {
     NoteEffectRotation: '#NOTE_EFFECT_ROTATION',
     /** en: Note Effect Direction */
     NoteEffectDirection: '#NOTE_EFFECT_DIRECTION',
+    /** en: Note Effect Color */
+    NoteEffectColor: '#NOTE_EFFECT_COLOR',
     /** en: Note Effect Transparency */
     NoteEffectAlpha: '#NOTE_EFFECT_ALPHA',
     /** en: Marker */
@@ -231,6 +235,8 @@ export const Text = {
     MarkerRotation: '#MARKER_ROTATION',
     /** en: Marker Direction */
     MarkerDirection: '#MARKER_DIRECTION',
+    /** en: Marker Color */
+    MarkerColor: '#MARKER_COLOR',
     /** en: Marker Transparency */
     MarkerAlpha: '#MARKER_ALPHA',
     /** en: Marker Animation */
@@ -245,6 +251,8 @@ export const Text = {
     ConnectorRotation: '#CONNECTOR_ROTATION',
     /** en: Connector Direction */
     ConnectorDirection: '#CONNECTOR_DIRECTION',
+    /** en: Connector Color */
+    ConnectorColor: '#CONNECTOR_COLOR',
     /** en: Connector Transparency */
     ConnectorAlpha: '#CONNECTOR_ALPHA',
     /** en: Connector Animation */
@@ -259,6 +267,8 @@ export const Text = {
     SimlineRotation: '#SIMLINE_ROTATION',
     /** en: Simultaneous Line Direction */
     SimlineDirection: '#SIMLINE_DIRECTION',
+    /** en: Simultaneous Line Color */
+    SimlineColor: '#SIMLINE_COLOR',
     /** en: Simultaneous Line Transparency */
     SimlineAlpha: '#SIMLINE_ALPHA',
     /** en: Simultaneous Line Animation */
@@ -329,6 +339,20 @@ export const Text = {
     Forward: '#FORWARD',
     /** en: Backward */
     Backward: '#BACKWARD',
+    /** en: Neutral */
+    Neutral: '#NEUTRAL',
+    /** en: Red */
+    Red: '#RED',
+    /** en: Green */
+    Green: '#GREEN',
+    /** en: Blue */
+    Blue: '#BLUE',
+    /** en: Yellow */
+    Yellow: '#YELLOW',
+    /** en: Purple */
+    Purple: '#PURPLE',
+    /** en: Cyan */
+    Cyan: '#CYAN',
     /** en: Simple */
     Simple: '#SIMPLE',
     /** en: Easy */
