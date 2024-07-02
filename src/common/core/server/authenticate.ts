@@ -1,13 +1,13 @@
-import { UserProfile } from '../service/user-profile'
+import { ServiceUserProfile } from '../service/user-profile'
 
-export type AuthenticateServerRequest = {
+export type ServerAuthenticateRequest = {
     type: 'authenticateServer'
     address: string
     time: number
-    userProfile: UserProfile
+    userProfile: ServiceUserProfile
 }
 
-export type AuthenticateServerResponse = {
+export type ServerAuthenticateResponse = {
     session: string
     expiration: number
 }

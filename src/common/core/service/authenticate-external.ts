@@ -1,8 +1,8 @@
-import { UserProfile } from '../service/user-profile'
+import { ServiceUserProfile } from '../service/user-profile'
 
-export type AuthenticateExternalRequest = {
+export type ServiceAuthenticateExternalRequest = {
     type: 'authenticateExternal'
     url: string
     time: number
-    userProfile: UserProfile
+    userProfile: ServiceUserProfile
 }

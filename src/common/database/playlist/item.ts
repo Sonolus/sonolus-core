@@ -1,4 +1,4 @@
-import { SRL } from '../../core/resource/srl'
+import { Srl } from '../../core/srl'
 import { LocalizationText } from '../localization'
 import { DatabaseTag } from '../tag'
 
@@ -10,7 +10,7 @@ export interface DatabasePlaylistItem {
     subtitle: LocalizationText
     author: LocalizationText
     tags: DatabaseTag[]
-    description: LocalizationText
+    description?: LocalizationText
     levels: string[]
-    thumbnail?: SRL
+    thumbnail?: Srl
 }

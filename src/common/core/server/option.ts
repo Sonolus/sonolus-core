@@ -1,4 +1,5 @@
 import { ItemType } from '../item-type'
+import { Sil } from '../sil'
 import { Text } from '../text'
 
 export type ServerOption =
@@ -9,6 +10,7 @@ export type ServerOption =
     | ServerSelectOption
     | ServerMultiOption
     | ServerServerItemOption
+    | ServerServerItemsOption
     | ServerCollectionItemOption
     | ServerFileOption
 
@@ -16,27 +18,31 @@ export type ServerTextOption = {
     query: string
     name: Text | (string & {})
     description?: string
-    required?: boolean
+    required: boolean
     type: 'text'
+    def: string
     placeholder: Text | (string & {})
-    limit?: number
+    limit: number
+    shortcuts: string[]
 }
 
 export type ServerTextAreaOption = {
     query: string
     name: Text | (string & {})
     description?: string
-    required?: boolean
+    required: boolean
     type: 'textArea'
+    def: string
     placeholder: Text | (string & {})
-    limit?: number
+    limit: number
+    shortcuts: string[]
 }
 
 export type ServerSliderOption = {
     query: string
     name: Text | (string & {})
     description?: string
-    required?: boolean
+    required: boolean
     type: 'slider'
     def: number
     min: number
@@ -49,16 +55,16 @@ export type ServerToggleOption = {
     query: string
     name: Text | (string & {})
     description?: string
-    required?: boolean
+    required: boolean
     type: 'toggle'
-    def: 0 | 1
+    def: boolean
 }
 
 export type ServerSelectOption = {
     query: string
     name: Text | (string & {})
     description?: string
-    required?: boolean
+    required: boolean
     type: 'select'
     def: number
     values: (Text | (string & {}))[]
@@ -68,9 +74,9 @@ export type ServerMultiOption = {
     query: string
     name: Text | (string & {})
     description?: string
-    required?: boolean
+    required: boolean
     type: 'multi'
-    defs: boolean[]
+    def: boolean[]
     values: (Text | (string & {}))[]
 }
 
@@ -78,16 +84,30 @@ export type ServerServerItemOption = {
     query: string
     name: Text | (string & {})
     description?: string
-    required?: boolean
+    required: boolean
     type: 'serverItem'
     itemType: ItemType
+    def: Sil | null
+    allowOtherServers: boolean
+}
+
+export type ServerServerItemsOption = {
+    query: string
+    name: Text | (string & {})
+    description?: string
+    required: boolean
+    type: 'serverItems'
+    itemType: ItemType
+    def: Sil[]
+    allowOtherServers: boolean
+    limit: number
 }
 
 export type ServerCollectionItemOption = {
     query: string
     name: Text | (string & {})
     description?: string
-    required?: boolean
+    required: boolean
     type: 'collectionItem'
     itemType: ItemType
 }
@@ -96,6 +116,6 @@ export type ServerFileOption = {
     query: string
     name: Text | (string & {})
     description?: string
-    required?: boolean
+    required: boolean
     type: 'file'
 }

@@ -1,6 +1,7 @@
 import { GameplayResult } from '../../gameplay-result'
+import { ServiceUserId } from '../../service/user-profile'
 
 export type ResultEntry = {
-    userId: string
+    userId: ServiceUserId
     result: GameplayResult
 }

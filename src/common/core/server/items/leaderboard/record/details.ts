@@ -1,5 +1,5 @@
 import { ReplayItem } from '../../../../replay'
 
-export type ItemLeaderboardRecordDetails = {
+export type ServerItemLeaderboardRecordDetails = {
     replays: ReplayItem[]
 }

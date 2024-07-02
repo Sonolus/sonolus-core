@@ -1,4 +1,4 @@
-import { SRL } from '../resource/srl'
+import { Srl } from '../srl'
 import { Tag } from '../tag'
 
 export type RoomItem = {
@@ -7,7 +7,7 @@ export type RoomItem = {
     subtitle: string
     master: string
     tags: Tag[]
-    cover?: SRL
-    bgm?: SRL
-    preview?: SRL
+    cover?: Srl
+    bgm?: Srl
+    preview?: Srl
 }

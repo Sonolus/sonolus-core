@@ -1,1 +1,1 @@
-export type UploadItemResponse = {}
+export type ServerUploadItemResponse = {}

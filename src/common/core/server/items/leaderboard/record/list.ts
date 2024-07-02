@@ -1,6 +1,6 @@
-import { ItemLeaderboardRecord } from './record'
+import { ServerItemLeaderboardRecord } from './record'
 
-export type ItemLeaderboardRecordList = {
+export type ServerItemLeaderboardRecordList = {
     pageCount: number
-    records: ItemLeaderboardRecord[]
+    records: ServerItemLeaderboardRecord[]
 }

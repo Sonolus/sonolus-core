@@ -1,4 +1,4 @@
-import { SRL } from '../../core/resource/srl'
+import { Srl } from '../../core/srl'
 import { LocalizationText } from '../localization'
 import { DatabaseTag } from '../tag'
 
@@ -20,14 +20,14 @@ export interface DatabaseLevelItem {
     artists: LocalizationText
     author: LocalizationText
     tags: DatabaseTag[]
-    description: LocalizationText
+    description?: LocalizationText
     engine: string
     useSkin: DatabaseUseItem
     useBackground: DatabaseUseItem
     useEffect: DatabaseUseItem
     useParticle: DatabaseUseItem
-    cover: SRL
-    bgm: SRL
-    preview?: SRL
-    data: SRL
+    cover: Srl
+    bgm: Srl
+    preview?: Srl
+    data: Srl
 }

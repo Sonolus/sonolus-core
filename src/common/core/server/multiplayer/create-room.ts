@@ -1,6 +1,6 @@
-export type CreateRoomRequest = {}
+export type ServerCreateRoomRequest = {}
 
-export type CreateRoomResponse = {
+export type ServerCreateRoomResponse = {
     name: string
     key: string
 }

@@ -1,4 +1,6 @@
+import { ServiceUserId } from '../../../service/user-profile'
+
 export type UpdateMasterEvent = {
     type: 'updateMaster'
-    master: 'room' | (string & {})
+    master: ServiceUserId | null
 }

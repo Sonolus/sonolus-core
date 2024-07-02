@@ -1,3 +1,3 @@
-export { ItemLeaderboardRecordDetails } from './details'
-export { ItemLeaderboardRecordList } from './list'
-export { ItemLeaderboardRecord } from './record'
+export { ServerItemLeaderboardRecordDetails } from './details'
+export { ServerItemLeaderboardRecordList } from './list'
+export { ServerItemLeaderboardRecord } from './record'

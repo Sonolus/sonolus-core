@@ -1,8 +1,8 @@
-export type ServerSubmitItemCommunityActionRequest = {
+export type ServerSubmitItemCommunityCommentActionRequest = {
     values: string
 }
 
-export type ServerSubmitItemCommunityActionResponse = {
+export type ServerSubmitItemCommunityCommentActionResponse = {
     shouldUpdateCommunity?: boolean
     shouldNavigateCommentsToPage?: number
     key: string

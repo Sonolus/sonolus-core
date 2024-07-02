@@ -1,10 +1,10 @@
-import { SRL } from '../../resource/srl'
+import { Srl } from '../../srl'
 import { ServerForm } from '../form'
-import { ItemSection } from './section'
+import { ServerItemSection } from './section'
 
-export type ItemInfo<T> = {
+export type ServerItemInfo = {
     creates?: ServerForm[]
     searches?: ServerForm[]
-    sections: ItemSection<T>[]
-    banner?: SRL
+    sections: ServerItemSection[]
+    banner?: Srl
 }

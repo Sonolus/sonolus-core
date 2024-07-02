@@ -1,4 +1,24 @@
 export const Text = {
+    /** en: Post */
+    Post: '#POST',
+    /** en: Playlist */
+    Playlist: '#PLAYLIST',
+    /** en: Level */
+    Level: '#LEVEL',
+    /** en: Skin */
+    Skin: '#SKIN',
+    /** en: Background */
+    Background: '#BACKGROUND',
+    /** en: SFX */
+    Effect: '#EFFECT',
+    /** en: Particle */
+    Particle: '#PARTICLE',
+    /** en: Engine */
+    Engine: '#ENGINE',
+    /** en: Replay */
+    Replay: '#REPLAY',
+    /** en: Room */
+    Room: '#ROOM',
     /** en: Grade */
     Grade: '#GRADE',
     /** en: Arcade Score */
@@ -31,6 +51,8 @@ export const Text = {
     Subtitle: '#SUBTITLE',
     /** en: Artists */
     Artists: '#ARTISTS',
+    /** en: Time */
+    Time: '#TIME',
     /** en: Author */
     Author: '#AUTHOR',
     /** en: Genre */
@@ -44,7 +66,7 @@ export const Text = {
     /** en: Difficulty */
     Difficulty: '#DIFFICULTY',
     /** en: Version */
-    Versions: '#VERSIONS',
+    Version: '#VERSION',
     /** en: Length */
     Length: '#LENGTH',
     /** en: Minimum Length */
@@ -53,6 +75,10 @@ export const Text = {
     LengthMaximum: '#LENGTH_MAXIMUM',
     /** en: Additional Information */
     AdditionalInformation: '#ADDITIONAL_INFORMATION',
+    /** en: Timezone */
+    Timezone: '#TIMEZONE',
+    /** en: Region */
+    Region: '#REGION',
     /** en: Content */
     Content: '#CONTENT',
     /** en: Comment */
@@ -61,6 +87,14 @@ export const Text = {
     Review: '#REVIEW',
     /** en: Reply */
     Reply: '#REPLY',
+    /** en: Message */
+    Message: '#MESSAGE',
+    /** en: Role */
+    Role: '#ROLE',
+    /** en: Permission */
+    Permission: '#PERMISSION',
+    /** en: User */
+    User: '#USER',
     /** en: Level Speed */
     Speed: '#SPEED',
     /** en: Mirror Level */
@@ -73,8 +107,6 @@ export const Text = {
     JudgmentStrict: '#JUDGMENT_STRICT',
     /** en: Loose Judgment */
     JudgmentLoose: '#JUDGMENT_LOOSE',
-    /** en: SFX */
-    Effect: '#EFFECT',
     /** en: Auto SFX */
     EffectAuto: '#EFFECT_AUTO',
     /** en: Stage */
@@ -339,6 +371,8 @@ export const Text = {
     Forward: '#FORWARD',
     /** en: Backward */
     Backward: '#BACKWARD',
+    /** en: Default */
+    Default: '#DEFAULT',
     /** en: Neutral */
     Neutral: '#NEUTRAL',
     /** en: Red */
@@ -387,10 +421,14 @@ export const Text = {
     SubtitlePlaceholder: '#SUBTITLE_PLACEHOLDER',
     /** en: Enter artists... */
     ArtistsPlaceholder: '#ARTISTS_PLACEHOLDER',
+    /** en: Enter time... */
+    TimePlaceholder: '#TIME_PLACEHOLDER',
     /** en: Enter author... */
     AuthorPlaceholder: '#AUTHOR_PLACEHOLDER',
     /** en: Enter genre... */
     GenrePlaceholder: '#GENRE_PLACEHOLDER',
+    /** en: Enter type... */
+    TypePlaceholder: '#TYPE_PLACEHOLDER',
     /** en: Enter category... */
     CategoryPlaceholder: '#CATEGORY_PLACEHOLDER',
     /** en: Enter language... */
@@ -405,6 +443,10 @@ export const Text = {
     LengthMaximumPlaceholder: '#LENGTH_MAXIMUM_PLACEHOLDER',
     /** en: Enter additional information... */
     AdditionalInformationPlaceholder: '#ADDITIONAL_INFORMATION_PLACEHOLDER',
+    /** en: Enter timezone... */
+    TimezonePlaceholder: '#TIMEZONE_PLACEHOLDER',
+    /** en: Enter region... */
+    RegionPlaceholder: '#REGION_PLACEHOLDER',
     /** en: Enter content... */
     ContentPlaceholder: '#CONTENT_PLACEHOLDER',
     /** en: Enter comment... */
@@ -413,6 +455,14 @@ export const Text = {
     ReviewPlaceholder: '#REVIEW_PLACEHOLDER',
     /** en: Enter reply... */
     ReplyPlaceholder: '#REPLY_PLACEHOLDER',
+    /** en: Enter message... */
+    MessagePlaceholder: '#MESSAGE_PLACEHOLDER',
+    /** en: Enter role... */
+    RolePlaceholder: '#ROLE_PLACEHOLDER',
+    /** en: Enter permission... */
+    PermissionPlaceholder: '#PERMISSION_PLACEHOLDER',
+    /** en: Enter user... */
+    UserPlaceholder: '#USER_PLACEHOLDER',
     /** en: {0}% */
     PercentageUnit: '#PERCENTAGE_UNIT',
     /** en: {0} s */
@@ -675,6 +725,8 @@ export const Text = {
     Bookmarked: '#BOOKMARKED',
     /** en: Delete */
     Delete: '#DELETE',
+    /** en: Restore */
+    Restore: '#RESTORE',
     /** en: Edit */
     Edit: '#EDIT',
     /** en: Confirm */
@@ -705,10 +757,34 @@ export const Text = {
     Lock: '#LOCK',
     /** en: Unlock */
     Unlock: '#UNLOCK',
+    /** en: Pin */
+    Pin: '#PIN',
+    /** en: Unpin */
+    Unpin: '#UNPIN',
+    /** en: Follow */
+    Follow: '#FOLLOW',
+    /** en: Unfollow */
+    Unfollow: '#UNFOLLOW',
+    /** en: Subscribe */
+    Subscribe: '#SUBSCRIBE',
+    /** en: Unsubscribe */
+    Unsubscribe: '#UNSUBSCRIBE',
     /** en: Show */
     Show: '#SHOW',
     /** en: Hide */
     Hide: '#HIDE',
+    /** en: Allow */
+    Allow: '#ALLOW',
+    /** en: Disallow */
+    Disallow: '#DISALLOW',
+    /** en: Approve */
+    Approve: '#APPROVE',
+    /** en: Deny */
+    Deny: '#DENY',
+    /** en: Accept */
+    Accept: '#ACCEPT',
+    /** en: Reject */
+    Reject: '#REJECT',
     /** en: Star */
     Star: '#STAR',
     /** en: Starred */

@@ -1,3 +1,3 @@
 export type PackageInfo = {
-    shouldUpdate: boolean
+    shouldUpdate?: boolean
 }

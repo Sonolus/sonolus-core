@@ -1,6 +1,6 @@
-import { LevelLocator } from '../level-locator'
+import { Sil } from '../../../sil'
 
 export type UpdateLevelEvent = {
     type: 'updateLevel'
-    level?: LevelLocator
+    level: Sil | null
 }

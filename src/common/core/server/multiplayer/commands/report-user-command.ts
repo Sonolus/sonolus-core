@@ -1,5 +1,7 @@
+import { ServiceUserId } from '../../../service/user-profile'
+
 export type ReportUserCommand = {
     type: 'reportUser'
-    userId: string
+    userId: ServiceUserId
     optionValues: string
 }

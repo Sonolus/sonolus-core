@@ -1,4 +1,4 @@
-import { SRL } from '../../core/resource/srl'
+import { Srl } from '../../core/srl'
 import { LocalizationText } from '../localization'
 import { DatabaseTag } from '../tag'
 
@@ -10,6 +10,6 @@ export interface DatabasePostItem {
     time: number
     author: LocalizationText
     tags: DatabaseTag[]
-    description: LocalizationText
-    thumbnail?: SRL
+    description?: LocalizationText
+    thumbnail?: Srl
 }

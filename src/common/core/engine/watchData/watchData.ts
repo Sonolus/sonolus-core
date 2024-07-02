@@ -26,6 +26,6 @@ export type EngineWatchData = {
     }
     buckets: EngineDataBucket[]
     archetypes: EngineWatchDataArchetype[]
-    updateSpawn: number
+    updateSpawn?: number
     nodes: EngineDataNode[]
 }
