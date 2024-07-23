@@ -1,8 +1,8 @@
-export type CreateItemRequest = {
+export type ServerCreateItemRequest = {
     values: string
 }
 
-export type CreateItemResponse = {
+export type ServerCreateItemResponse = {
     name: string
     key: string
     hashes: string[]

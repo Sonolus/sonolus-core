@@ -1,3 +1,7 @@
 export * from './comment'
-export { ItemCommunityInfo } from './info'
-export { SubmitItemCommunityActionRequest, SubmitItemCommunityActionResponse } from './submit'
+export { ServerItemCommunityInfo } from './info'
+export {
+    ServerSubmitItemCommunityActionRequest,
+    ServerSubmitItemCommunityActionResponse,
+} from './submit'
+export { ServerUploadItemCommunityActionResponse } from './upload'

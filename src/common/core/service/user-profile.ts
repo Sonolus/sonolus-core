@@ -1,5 +1,5 @@
-export type UserProfile = {
-    id: string
+export type ServiceUserProfile = {
+    id: ServiceUserId
     handle: string
     name: string
     avatarForegroundColor: string
@@ -8,3 +8,7 @@ export type UserProfile = {
     socialLinks: { title: string; address: string }[]
     favorites: string[]
 }
+
+declare const serviceUserId: unique symbol
+
+export type ServiceUserId = string & { [serviceUserId]: never }

@@ -1,14 +1,14 @@
-import { UserProfile } from '../../service/user-profile'
+import { ServiceUserProfile } from '../../service/user-profile'
 
-export type JoinRoomRequest = {
+export type ServerJoinRoomRequest = {
     type: 'authenticateMultiplayer'
     address: string
     room: string
     time: number
-    userProfile: UserProfile
+    userProfile: ServiceUserProfile
 }
 
-export type JoinRoomResponse = {
+export type ServerJoinRoomResponse = {
     url: string
     type: 'round'
     session: string

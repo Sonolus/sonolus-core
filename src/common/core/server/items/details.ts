@@ -1,10 +1,12 @@
-import { ItemLeaderboard } from './leaderboard/leaderboard'
-import { ItemSection } from './section'
+import { ServerForm } from '../form'
+import { ServerItemLeaderboard } from './leaderboard/leaderboard'
+import { ServerItemSection } from './section'
 
-export type ItemDetails<T> = {
+export type ServerItemDetails<T> = {
     item: T
-    description: string
+    description?: string
+    actions: ServerForm[]
     hasCommunity: boolean
-    leaderboards: ItemLeaderboard[]
-    sections: ItemSection<T>[]
+    leaderboards: ServerItemLeaderboard[]
+    sections: ServerItemSection[]
 }

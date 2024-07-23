@@ -1,5 +1,5 @@
 import { LevelItem } from '../level/item'
-import { SRL } from '../resource/srl'
+import { Srl } from '../srl'
 import { Tag } from '../tag'
 
 export type PlaylistItem = {
@@ -11,5 +11,5 @@ export type PlaylistItem = {
     author: string
     tags: Tag[]
     levels: LevelItem[]
-    thumbnail?: SRL
+    thumbnail?: Srl
 }

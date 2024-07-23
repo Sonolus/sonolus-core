@@ -1,4 +1,5 @@
-export { AuthenticateServerRequest, AuthenticateServerResponse } from './authenticate'
+export { ServerAuthenticateRequest, ServerAuthenticateResponse } from './authenticate'
+export { ServerConfiguration } from './configuration'
 export { ServerForm } from './form'
 export { ServerInfo, ServerInfoButton } from './info'
 export * from './items'
@@ -10,6 +11,7 @@ export {
     ServerOption,
     ServerSelectOption,
     ServerServerItemOption,
+    ServerServerItemsOption,
     ServerSliderOption,
     ServerTextAreaOption,
     ServerTextOption,

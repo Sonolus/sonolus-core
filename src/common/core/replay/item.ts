@@ -1,5 +1,5 @@
 import { LevelItem } from '../level/item'
-import { SRL } from '../resource/srl'
+import { Srl } from '../srl'
 import { Tag } from '../tag'
 
 export type ReplayItem = {
@@ -11,6 +11,6 @@ export type ReplayItem = {
     author: string
     tags: Tag[]
     level: LevelItem
-    data: SRL
-    configuration: SRL
+    data: Srl
+    configuration: Srl
 }

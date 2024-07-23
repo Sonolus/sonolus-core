@@ -1,2 +1,7 @@
-export { ItemCommunityComment } from './comment'
-export { ItemCommunityCommentList } from './list'
+export { ServerItemCommunityComment } from './comment'
+export { ServerItemCommunityCommentList } from './list'
+export {
+    ServerSubmitItemCommunityCommentActionRequest,
+    ServerSubmitItemCommunityCommentActionResponse,
+} from './submit'
+export { ServerUploadItemCommunityCommentActionResponse } from './upload'

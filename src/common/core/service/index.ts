@@ -1,3 +1,3 @@
-export { AuthenticateExternalRequest } from './authenticate-external'
+export { ServiceAuthenticateExternalRequest } from './authenticate-external'
 export { signaturePublicKeyJWK } from './keys'
-export { UserProfile } from './user-profile'
+export { ServiceUserId, ServiceUserProfile } from './user-profile'

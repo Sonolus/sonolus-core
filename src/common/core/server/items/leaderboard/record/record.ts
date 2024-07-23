@@ -1,6 +1,6 @@
 import { Text } from '../../../../text'
 
-export type ItemLeaderboardRecord = {
+export type ServerItemLeaderboardRecord = {
     name: string
     rank: Text | (string & {})
     player: string

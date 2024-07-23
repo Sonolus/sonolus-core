@@ -1,4 +1,4 @@
-import { SRL } from '../../core/resource/srl'
+import { Srl } from '../../core/srl'
 import { LocalizationText } from '../localization'
 import { DatabaseTag } from '../tag'
 
@@ -10,16 +10,16 @@ export interface DatabaseEngineItem {
     subtitle: LocalizationText
     author: LocalizationText
     tags: DatabaseTag[]
-    description: LocalizationText
+    description?: LocalizationText
     skin: string
     background: string
     effect: string
     particle: string
-    thumbnail: SRL
-    playData: SRL
-    watchData: SRL
-    previewData: SRL
-    tutorialData: SRL
-    rom?: SRL
-    configuration: SRL
+    thumbnail: Srl
+    playData: Srl
+    watchData: Srl
+    previewData: Srl
+    tutorialData: Srl
+    rom?: Srl
+    configuration: Srl
 }

@@ -1,7 +1,7 @@
 import { ServerForm } from '../../form'
-import { ItemCommunityComment } from './comment/comment'
+import { ServerItemCommunityComment } from './comment/comment'
 
-export type ItemCommunityInfo = {
+export type ServerItemCommunityInfo = {
     actions: ServerForm[]
-    topComments: ItemCommunityComment[]
+    topComments: ServerItemCommunityComment[]
 }

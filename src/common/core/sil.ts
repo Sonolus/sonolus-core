@@ -1,4 +1,4 @@
-export type LevelLocator = {
+export type Sil = {
     address: string
     name: string
 }

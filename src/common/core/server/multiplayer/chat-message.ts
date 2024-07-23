@@ -1,13 +1,15 @@
+import { ServiceUserId } from '../../service/user-profile'
+
 export type ChatMessage = TextChatMessage | QuickChatMessage
 
 export type QuickChatMessage = {
-    userId: string
+    userId: ServiceUserId
     type: 'quick'
     value: 'hello' | 'glhf' | 'gg' | 'ns' | 'ty'
 }
 
 export type TextChatMessage = {
-    userId: 'room' | (string & {})
+    userId: ServiceUserId | null
     type: 'text'
     value: string
 }

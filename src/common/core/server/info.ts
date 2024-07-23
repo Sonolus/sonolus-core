@@ -1,10 +1,12 @@
-import { SRL } from '../resource/srl'
+import { Srl } from '../srl'
+import { ServerConfiguration } from './configuration'
 
 export type ServerInfo = {
     title: string
     description?: string
     buttons: ServerInfoButton[]
-    banner?: SRL
+    configuration: ServerConfiguration
+    banner?: Srl
 }
 
 export type ServerInfoButton = {
@@ -20,4 +22,5 @@ export type ServerInfoButton = {
         | 'effect'
         | 'particle'
         | 'engine'
+        | 'configuration'
 }

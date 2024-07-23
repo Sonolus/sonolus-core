@@ -1,5 +1,5 @@
-import { ItemLeaderboardRecord } from './record'
+import { ServerItemLeaderboardRecord } from './record'
 
-export type ItemLeaderboardDetails = {
-    topRecords: ItemLeaderboardRecord[]
+export type ServerItemLeaderboardDetails = {
+    topRecords: ServerItemLeaderboardRecord[]
 }

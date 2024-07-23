@@ -1,4 +1,4 @@
-import { SRL } from '../../core/resource/srl'
+import { Srl } from '../../core/srl'
 import { LocalizationText } from '../localization'
 import { DatabaseTag } from '../tag'
 
@@ -10,8 +10,8 @@ export interface DatabaseSkinItem {
     subtitle: LocalizationText
     author: LocalizationText
     tags: DatabaseTag[]
-    description: LocalizationText
-    thumbnail: SRL
-    data: SRL
-    texture: SRL
+    description?: LocalizationText
+    thumbnail: Srl
+    data: Srl
+    texture: Srl
 }

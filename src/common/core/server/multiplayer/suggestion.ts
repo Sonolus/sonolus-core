@@ -1,6 +1,7 @@
-import { LevelLocator } from './level-locator'
+import { ServiceUserId } from '../../service/user-profile'
+import { Sil } from '../../sil'
 
 export type Suggestion = {
-    userId: string
-    level: LevelLocator
+    userId: ServiceUserId
+    level: Sil
 }

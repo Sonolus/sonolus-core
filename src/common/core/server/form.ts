@@ -6,5 +6,7 @@ export type ServerForm = {
     type: string
     title: Text | (string & {})
     icon?: Icon | (string & {})
+    description?: string
+    requireConfirmation: boolean
     options: ServerOption[]
 }

@@ -1,4 +1,4 @@
-import { SRL } from '../resource/srl'
+import { Srl } from '../srl'
 import { Tag } from '../tag'
 
 export type EffectItem = {
@@ -9,7 +9,7 @@ export type EffectItem = {
     subtitle: string
     author: string
     tags: Tag[]
-    thumbnail: SRL
-    data: SRL
-    audio: SRL
+    thumbnail: Srl
+    data: Srl
+    audio: Srl
 }

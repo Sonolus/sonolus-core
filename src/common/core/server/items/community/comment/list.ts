@@ -1,6 +1,6 @@
-import { ItemCommunityComment } from './comment'
+import { ServerItemCommunityComment } from './comment'
 
-export type ItemCommunityCommentList = {
+export type ServerItemCommunityCommentList = {
     pageCount: number
-    comments: ItemCommunityComment[]
+    comments: ServerItemCommunityComment[]
 }

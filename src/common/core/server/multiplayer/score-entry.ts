@@ -1,6 +1,7 @@
+import { ServiceUserId } from '../../service/user-profile'
 import { Text } from '../../text'
 
 export type ScoreEntry = {
-    userId: string
+    userId: ServiceUserId
     value: Text | (string & {})
 }

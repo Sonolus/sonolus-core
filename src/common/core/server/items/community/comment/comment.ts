@@ -1,6 +1,6 @@
 import { ServerForm } from '../../../form'
 
-export type ItemCommunityComment = {
+export type ServerItemCommunityComment = {
     name: string
     author: string
     time: number

@@ -1,4 +1,4 @@
-import { SRL } from '../resource/srl'
+import { Srl } from '../srl'
 import { Tag } from '../tag'
 
 export type PostItem = {
@@ -9,5 +9,5 @@ export type PostItem = {
     time: number
     author: string
     tags: Tag[]
-    thumbnail?: SRL
+    thumbnail?: Srl
 }

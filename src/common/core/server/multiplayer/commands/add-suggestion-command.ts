@@ -1,6 +1,6 @@
-import { LevelLocator } from '../level-locator'
+import { Sil } from '../../../sil'
 
 export type AddSuggestionCommand = {
     type: 'addSuggestion'
-    level: LevelLocator
+    level: Sil
 }

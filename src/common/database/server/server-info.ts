@@ -1,8 +1,8 @@
-import { SRL } from '../../core/resource/srl'
+import { Srl } from '../../core/srl'
 import { LocalizationText } from '../localization'
 
 export type DatabaseServerInfo = {
     title: LocalizationText
     description?: LocalizationText
-    banner?: SRL
+    banner?: Srl
 }

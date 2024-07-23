@@ -1,6 +1,7 @@
 import { AutoExit } from '../../../auto-exit'
+import { ServiceUserId } from '../../../service/user-profile'
+import { Sil } from '../../../sil'
 import { ServerForm } from '../../form'
-import { LevelLocator } from '../level-locator'
 import { LevelOptionEntry } from '../level-option-entry'
 import { ResultEntry } from '../result-entry'
 import { RoomStatus } from '../room-status'
@@ -15,16 +16,16 @@ export type UpdateEvent = {
     reportUserOptions: ServerForm[]
     title: string
     status: RoomStatus
-    master: 'room' | (string & {})
-    lead: 'room' | (string & {})
+    master: ServiceUserId | null
+    lead: ServiceUserId | null
     options: ServerForm[]
     optionValues: string
-    level?: LevelLocator
+    level: Sil | null
     levelOptions: LevelOptionEntry[]
     autoExit: AutoExit
     isSuggestionsLocked: boolean
     suggestions: Suggestion[]
-    scoreboardDescription: string
+    scoreboardDescription?: string
     scoreboardSections: ScoreboardSection[]
     results: ResultEntry[]
     users: RoomUser[]
