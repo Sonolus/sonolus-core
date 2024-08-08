@@ -1,4 +1,4 @@
-export type ServerCreateRoomRequest = {}
+export type ServerCreateRoomRequest = object
 
 export type ServerCreateRoomResponse = {
     name: string
