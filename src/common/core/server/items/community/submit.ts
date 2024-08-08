@@ -3,8 +3,9 @@ export type ServerSubmitItemCommunityActionRequest = {
 }
 
 export type ServerSubmitItemCommunityActionResponse = {
-    shouldUpdateCommunity?: boolean
-    shouldNavigateCommentsToPage?: number
     key: string
     hashes: string[]
+    shouldUpdateCommunity?: boolean
+    shouldUpdateComments?: boolean
+    shouldNavigateCommentsToPage?: number
 }

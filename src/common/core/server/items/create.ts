@@ -3,7 +3,8 @@ export type ServerCreateItemRequest = {
 }
 
 export type ServerCreateItemResponse = {
-    name: string
     key: string
     hashes: string[]
+    shouldUpdateInfo?: boolean
+    shouldNavigateToItem?: string
 }

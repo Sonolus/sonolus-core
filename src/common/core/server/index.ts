@@ -3,6 +3,7 @@ export { ServerConfiguration } from './configuration'
 export { ServerForm } from './form'
 export { ServerInfo, ServerInfoButton } from './info'
 export * from './items'
+export { ServerMessage } from './message'
 export * from './multiplayer'
 export {
     ServerCollectionItemOption,
