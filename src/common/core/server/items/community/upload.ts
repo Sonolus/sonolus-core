@@ -1,1 +1,1 @@
-export type ServerUploadItemCommunityActionResponse = {}
+export type ServerUploadItemCommunityActionResponse = object

@@ -14,7 +14,7 @@ export default tsEslint.config(
     {
         languageOptions: {
             parserOptions: {
-                project: true,
+                projectService: true,
                 tsconfigRootDir: import.meta.dirname,
             },
         },
@@ -22,15 +22,6 @@ export default tsEslint.config(
             '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
             '@typescript-eslint/explicit-module-boundary-types': 'error',
             '@typescript-eslint/switch-exhaustiveness-check': 'error',
-            '@typescript-eslint/ban-types': [
-                'error',
-                {
-                    types: {
-                        '{}': false,
-                    },
-                    extendDefaults: true,
-                },
-            ],
         },
     },
 
