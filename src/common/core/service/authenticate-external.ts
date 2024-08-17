@@ -1,3 +1,4 @@
+import { ServerMessage } from '../server/message'
 import { ServiceUserProfile } from '../service/user-profile'
 
 export type ServiceAuthenticateExternalRequest = {
@@ -6,3 +7,5 @@ export type ServiceAuthenticateExternalRequest = {
     time: number
     userProfile: ServiceUserProfile
 }
+
+export type ServiceAuthenticateExternalResponse = ServerMessage

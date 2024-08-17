@@ -3,8 +3,9 @@ export type ServerSubmitItemActionRequest = {
 }
 
 export type ServerSubmitItemActionResponse = {
-    shouldUpdate?: boolean
-    shouldRemove?: boolean
     key: string
     hashes: string[]
+    shouldUpdateItem?: boolean
+    shouldRemoveItem?: boolean
+    shouldNavigateToItem?: string
 }

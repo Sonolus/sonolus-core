@@ -519,6 +519,8 @@ export const Text = {
     Announcement: '#ANNOUNCEMENT',
     /** en: Information */
     Information: '#INFORMATION',
+    /** en: Help */
+    Help: '#HELP',
     /** en: Maintenance */
     Maintenance: '#MAINTENANCE',
     /** en: Event */
@@ -559,6 +561,12 @@ export const Text = {
     OtherGenres: '#OTHER_GENRES',
     /** en: Other Versions */
     OtherVersions: '#OTHER_VERSIONS',
+    /** en: Draft */
+    Draft: '#DRAFT',
+    /** en: Reviewing */
+    Reviewing: '#REVIEWING',
+    /** en: Published */
+    Published: '#PUBLISHED',
     /** en: Verifying */
     Verifying: '#VERIFYING',
     /** en: Verified */
@@ -711,6 +719,12 @@ export const Text = {
     TeamWhite: '#TEAM_WHITE',
     /** en: Team Black */
     TeamBlack: '#TEAM_BLACK',
+    /** en: Upload */
+    Upload: '#UPLOAD',
+    /** en: Submit */
+    Submit: '#SUBMIT',
+    /** en: Edit */
+    Edit: '#EDIT',
     /** en: Like */
     Like: '#LIKE',
     /** en: Liked */
@@ -727,8 +741,6 @@ export const Text = {
     Delete: '#DELETE',
     /** en: Restore */
     Restore: '#RESTORE',
-    /** en: Edit */
-    Edit: '#EDIT',
     /** en: Confirm */
     Confirm: '#CONFIRM',
     /** en: Cancel */
@@ -769,6 +781,10 @@ export const Text = {
     Subscribe: '#SUBSCRIBE',
     /** en: Unsubscribe */
     Unsubscribe: '#UNSUBSCRIBE',
+    /** en: Publish */
+    Publish: '#PUBLISH',
+    /** en: Unpublish */
+    Unpublish: '#UNPUBLISH',
     /** en: Show */
     Show: '#SHOW',
     /** en: Hide */
