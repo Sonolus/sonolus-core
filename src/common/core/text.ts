@@ -83,10 +83,6 @@ export const Text = {
     Content: '#CONTENT',
     /** en: Comment */
     Comment: '#COMMENT',
-    /** en: Review */
-    Review: '#REVIEW',
-    /** en: Reply */
-    Reply: '#REPLY',
     /** en: Message */
     Message: '#MESSAGE',
     /** en: Role */
@@ -513,8 +509,6 @@ export const Text = {
     Holiday: '#HOLIDAY',
     /** en: Limited */
     Limited: '#LIMITED',
-    /** en: Following */
-    Following: '#FOLLOWING',
     /** en: Announcement */
     Announcement: '#ANNOUNCEMENT',
     /** en: Information */
@@ -563,22 +557,10 @@ export const Text = {
     OtherVersions: '#OTHER_VERSIONS',
     /** en: Draft */
     Draft: '#DRAFT',
-    /** en: Reviewing */
-    Reviewing: '#REVIEWING',
-    /** en: Published */
-    Published: '#PUBLISHED',
-    /** en: Verifying */
-    Verifying: '#VERIFYING',
-    /** en: Verified */
-    Verified: '#VERIFIED',
-    /** en: Removed */
-    Removed: '#REMOVED',
     /** en: Public */
     Public: '#PUBLIC',
     /** en: Private */
     Private: '#PRIVATE',
-    /** en: Locked */
-    Locked: '#LOCKED',
     /** en: Pop */
     Pop: '#POP',
     /** en: Rock */
@@ -719,12 +701,40 @@ export const Text = {
     TeamWhite: '#TEAM_WHITE',
     /** en: Team Black */
     TeamBlack: '#TEAM_BLACK',
+    /** en: Reply */
+    Reply: '#REPLY',
+    /** en: Replied */
+    Replied: '#REPLIED',
+    /** en: Review */
+    Review: '#REVIEW',
+    /** en: Reviewing */
+    Reviewing: '#REVIEWING',
+    /** en: Reviewed */
+    Reviewed: '#REVIEWED',
+    /** en: Verify */
+    Verify: '#VERIFY',
+    /** en: Verifying */
+    Verifying: '#VERIFYING',
+    /** en: Verified */
+    Verified: '#VERIFIED',
     /** en: Upload */
     Upload: '#UPLOAD',
+    /** en: Uploading */
+    Uploading: '#UPLOADING',
+    /** en: Uploaded */
+    Uploaded: '#UPLOADED',
     /** en: Submit */
     Submit: '#SUBMIT',
+    /** en: Submitting */
+    Submitting: '#SUBMITTING',
+    /** en: Submitted */
+    Submitted: '#SUBMITTED',
     /** en: Edit */
     Edit: '#EDIT',
+    /** en: Editing */
+    Editing: '#EDITING',
+    /** en: Edited */
+    Edited: '#EDITED',
     /** en: Like */
     Like: '#LIKE',
     /** en: Liked */
@@ -739,12 +749,30 @@ export const Text = {
     Bookmarked: '#BOOKMARKED',
     /** en: Delete */
     Delete: '#DELETE',
+    /** en: Deleting */
+    Deleting: '#DELETING',
+    /** en: Deleted */
+    Deleted: '#DELETED',
+    /** en: Remove */
+    Remove: '#REMOVE',
+    /** en: Removing */
+    Removing: '#REMOVING',
+    /** en: Removed */
+    Removed: '#REMOVED',
     /** en: Restore */
     Restore: '#RESTORE',
+    /** en: Restoring */
+    Restoring: '#RESTORING',
+    /** en: Restored */
+    Restored: '#RESTORED',
     /** en: Confirm */
     Confirm: '#CONFIRM',
+    /** en: Confirmed */
+    Confirmed: '#CONFIRMED',
     /** en: Cancel */
     Cancel: '#CANCEL',
+    /** en: Canceled */
+    Canceled: '#CANCELED',
     /** en: Increase */
     Increase: '#INCREASE',
     /** en: Decrease */
@@ -767,22 +795,42 @@ export const Text = {
     Disagreed: '#DISAGREED',
     /** en: Lock */
     Lock: '#LOCK',
+    /** en: Locked */
+    Locked: '#LOCKED',
     /** en: Unlock */
     Unlock: '#UNLOCK',
+    /** en: Unlocked */
+    Unlocked: '#UNLOCKED',
     /** en: Pin */
     Pin: '#PIN',
+    /** en: Pinned */
+    Pinned: '#PINNED',
     /** en: Unpin */
     Unpin: '#UNPIN',
+    /** en: Unpinned */
+    Unpinned: '#UNPINNED',
     /** en: Follow */
     Follow: '#FOLLOW',
+    /** en: Following */
+    Following: '#FOLLOWING',
+    /** en: Followed */
+    Followed: '#FOLLOWED',
     /** en: Unfollow */
     Unfollow: '#UNFOLLOW',
     /** en: Subscribe */
     Subscribe: '#SUBSCRIBE',
+    /** en: Subscribing */
+    Subscribing: '#SUBSCRIBING',
+    /** en: Subscribed */
+    Subscribed: '#SUBSCRIBED',
     /** en: Unsubscribe */
     Unsubscribe: '#UNSUBSCRIBE',
     /** en: Publish */
     Publish: '#PUBLISH',
+    /** en: Publishing */
+    Publishing: '#PUBLISHING',
+    /** en: Published */
+    Published: '#PUBLISHED',
     /** en: Unpublish */
     Unpublish: '#UNPUBLISH',
     /** en: Show */
@@ -791,16 +839,28 @@ export const Text = {
     Hide: '#HIDE',
     /** en: Allow */
     Allow: '#ALLOW',
+    /** en: Allowed */
+    Allowed: '#ALLOWED',
     /** en: Disallow */
     Disallow: '#DISALLOW',
+    /** en: DisallowED */
+    Disallowed: '#DISALLOWED',
     /** en: Approve */
     Approve: '#APPROVE',
+    /** en: Approved */
+    Approved: '#APPROVED',
     /** en: Deny */
     Deny: '#DENY',
+    /** en: Denied */
+    Denied: '#DENIED',
     /** en: Accept */
     Accept: '#ACCEPT',
+    /** en: Accepted */
+    Accepted: '#ACCEPTED',
     /** en: Reject */
     Reject: '#REJECT',
+    /** en: Rejected */
+    Rejected: '#REJECTED',
     /** en: Star */
     Star: '#STAR',
     /** en: Starred */
