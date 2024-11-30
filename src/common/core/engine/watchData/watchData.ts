@@ -7,6 +7,7 @@ import { EngineWatchDataArchetype } from './archetype'
 
 export type EngineWatchData = {
     skin: {
+        renderMode?: 'default' | 'standard' | 'lightweight'
         sprites: {
             name: SkinSpriteName | (string & {})
             id: number

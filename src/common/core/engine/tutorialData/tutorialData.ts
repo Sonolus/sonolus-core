@@ -7,6 +7,7 @@ import { EngineDataNode } from '../node'
 
 export type EngineTutorialData = {
     skin: {
+        renderMode?: 'default' | 'standard' | 'lightweight'
         sprites: {
             name: SkinSpriteName | (string & {})
             id: number
