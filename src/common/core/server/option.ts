@@ -66,8 +66,11 @@ export type ServerSelectOption = {
     description?: string
     required: boolean
     type: 'select'
-    def: number
-    values: (Text | (string & {}))[]
+    def: string
+    values: {
+        name: string
+        title: Text | (string & {})
+    }[]
 }
 
 export type ServerMultiOption = {
@@ -77,7 +80,10 @@ export type ServerMultiOption = {
     required: boolean
     type: 'multi'
     def: boolean[]
-    values: (Text | (string & {}))[]
+    values: {
+        name: string
+        title: Text | (string & {})
+    }[]
 }
 
 export type ServerServerItemOption = {
@@ -118,4 +124,5 @@ export type ServerFileOption = {
     description?: string
     required: boolean
     type: 'file'
+    def: string
 }
