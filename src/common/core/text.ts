@@ -1,4 +1,22 @@
 export const Text = {
+    /** en: Custom Server */
+    CustomServer: '#CUSTOM_SERVER',
+    /** en: Collection */
+    Collection: '#COLLECTION',
+    /** en: Server */
+    Server: '#SERVER',
+    /** en: Address */
+    Address: '#ADDRESS',
+    /** en: Expiration */
+    Expiration: '#EXPIRATION',
+    /** en: Storage */
+    Storage: '#STORAGE',
+    /** en: Log */
+    Log: '#LOG',
+    /** en: Inquiry */
+    Inquiry: '#INQUIRY',
+    /** en: Banner */
+    Banner: '#BANNER',
     /** en: Post */
     Post: '#POST',
     /** en: Playlist */
@@ -55,6 +73,8 @@ export const Text = {
     Time: '#TIME',
     /** en: Author */
     Author: '#AUTHOR',
+    /** en: Description */
+    Description: '#DESCRIPTION',
     /** en: Genre */
     Genre: '#GENRE',
     /** en: Type */
@@ -421,6 +441,8 @@ export const Text = {
     TimePlaceholder: '#TIME_PLACEHOLDER',
     /** en: Enter author... */
     AuthorPlaceholder: '#AUTHOR_PLACEHOLDER',
+    /** en: Enter description... */
+    DescriptionPlaceholder: '#DESCRIPTION_PLACEHOLDER',
     /** en: Enter genre... */
     GenrePlaceholder: '#GENRE_PLACEHOLDER',
     /** en: Enter type... */
@@ -649,6 +671,16 @@ export const Text = {
     Ranking: '#RANKING',
     /** en: Score */
     Score: '#SCORE',
+    /** en: Owner */
+    Owner: '#OWNER',
+    /** en: Admin */
+    Admin: '#ADMIN',
+    /** en: Moderator */
+    Moderator: '#MODERATOR',
+    /** en: Reviewer */
+    Reviewer: '#REVIEWER',
+    /** en: Banned */
+    Banned: '#BANNED',
     /** en: Player */
     Player: '#PLAYER',
     /** en: Spectator */
@@ -843,7 +875,7 @@ export const Text = {
     Allowed: '#ALLOWED',
     /** en: Disallow */
     Disallow: '#DISALLOW',
-    /** en: DisallowED */
+    /** en: Disallowed */
     Disallowed: '#DISALLOWED',
     /** en: Approve */
     Approve: '#APPROVE',

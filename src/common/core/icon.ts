@@ -22,6 +22,7 @@ export const Icon = {
     Clock: 'clock',
     Comment: 'comment',
     Crown: 'crown',
+    CustomServer: 'customServer',
     Delete: 'delete',
     Edit: 'edit',
     Effect: 'effect',
