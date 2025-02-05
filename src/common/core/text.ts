@@ -37,6 +37,68 @@ export const Text = {
     Replay: '#REPLAY',
     /** en: Room */
     Room: '#ROOM',
+    /** en: Thumbnail */
+    PostThumbnail: '#POST_THUMBNAIL',
+    /** en: Thumbnail */
+    PlaylistThumbnail: '#PLAYLIST_THUMBNAIL',
+    /** en: Cover */
+    LevelCover: '#LEVEL_COVER',
+    /** en: BGM */
+    LevelBgm: '#LEVEL_BGM',
+    /** en: Preview */
+    LevelPreview: '#LEVEL_PREVIEW',
+    /** en: Data */
+    LevelData: '#LEVEL_DATA',
+    /** en: Thumbnail */
+    SkinThumbnail: '#SKIN_THUMBNAIL',
+    /** en: Data */
+    SkinData: '#SKIN_DATA',
+    /** en: Texture */
+    SkinTexture: '#SKIN_TEXTURE',
+    /** en: Thumbnail */
+    BackgroundThumbnail: '#BACKGROUND_THUMBNAIL',
+    /** en: Image */
+    BackgroundImage: '#BACKGROUND_IMAGE',
+    /** en: Data */
+    BackgroundData: '#BACKGROUND_DATA',
+    /** en: Configuration */
+    BackgroundConfiguration: '#BACKGROUND_CONFIGURATION',
+    /** en: Thumbnail */
+    EffectThumbnail: '#EFFECT_THUMBNAIL',
+    /** en: Data */
+    EffectData: '#EFFECT_DATA',
+    /** en: Audio */
+    EffectAudio: '#EFFECT_AUDIO',
+    /** en: Thumbnail */
+    ParticleThumbnail: '#PARTICLE_THUMBNAIL',
+    /** en: Data */
+    ParticleData: '#PARTICLE_DATA',
+    /** en: Texture */
+    ParticleTexture: '#PARTICLE_TEXTURE',
+    /** en: Thumbnail */
+    EngineThumbnail: '#ENGINE_THUMBNAIL',
+    /** en: Play Data */
+    EnginePlaydata: '#ENGINE_PLAYDATA',
+    /** en: Watch Data */
+    EngineWatchdata: '#ENGINE_WATCHDATA',
+    /** en: Preview Data */
+    EnginePreviewdata: '#ENGINE_PREVIEWDATA',
+    /** en: Tutorial Data */
+    EngineTutorialdata: '#ENGINE_TUTORIALDATA',
+    /** en: ROM */
+    EngineRom: '#ENGINE_ROM',
+    /** en: Configuration */
+    EngineConfiguration: '#ENGINE_CONFIGURATION',
+    /** en: Data */
+    ReplayData: '#REPLAY_DATA',
+    /** en: Configuration */
+    ReplayConfiguration: '#REPLAY_CONFIGURATION',
+    /** en: Cover */
+    RoomCover: '#ROOM_COVER',
+    /** en: BGM */
+    RoomBgm: '#ROOM_BGM',
+    /** en: Preview */
+    RoomPreview: '#ROOM_PREVIEW',
     /** en: Grade */
     Grade: '#GRADE',
     /** en: Arcade Score */
@@ -53,6 +115,10 @@ export const Text = {
     Good: '#GOOD',
     /** en: Miss */
     Miss: '#MISS',
+    /** en: Filter */
+    Filter: '#FILTER',
+    /** en: Sort */
+    Sort: '#SORT',
     /** en: Keywords */
     Keywords: '#KEYWORDS',
     /** en: Name */
@@ -81,6 +147,8 @@ export const Text = {
     Type: '#TYPE',
     /** en: Category */
     Category: '#CATEGORY',
+    /** en: Status */
+    Status: '#STATUS',
     /** en: Language */
     Language: '#LANGUAGE',
     /** en: Difficulty */
@@ -483,10 +551,48 @@ export const Text = {
     UserPlaceholder: '#USER_PLACEHOLDER',
     /** en: {0}% */
     PercentageUnit: '#PERCENTAGE_UNIT',
+    /** en: {0} yr */
+    YearUnit: '#YEAR_UNIT',
+    /** en: {0} mo */
+    MonthUnit: '#MONTH_UNIT',
+    /** en: {0} d */
+    DayUnit: '#DAY_UNIT',
+    /** en: {0} h */
+    HourUnit: '#HOUR_UNIT',
+    /** en: {0} m */
+    MinuteUnit: '#MINUTE_UNIT',
     /** en: {0} s */
     SecondUnit: '#SECOND_UNIT',
     /** en: {0} ms */
     MillisecondUnit: '#MILLISECOND_UNIT',
+    /** en: {0} yr ago */
+    YearPast: '#YEAR_PAST',
+    /** en: {0} mo ago */
+    MonthPast: '#MONTH_PAST',
+    /** en: {0} d ago */
+    DayPast: '#DAY_PAST',
+    /** en: {0} h ago */
+    HourPast: '#HOUR_PAST',
+    /** en: {0} m ago */
+    MinutePast: '#MINUTE_PAST',
+    /** en: {0} s ago */
+    SecondPast: '#SECOND_PAST',
+    /** en: {0} ms ago */
+    MillisecondPast: '#MILLISECOND_PAST',
+    /** en: In {0} yr */
+    YearFuture: '#YEAR_FUTURE',
+    /** en: In {0} mo */
+    MonthFuture: '#MONTH_FUTURE',
+    /** en: In {0} d */
+    DayFuture: '#DAY_FUTURE',
+    /** en: In {0} h */
+    HourFuture: '#HOUR_FUTURE',
+    /** en: In {0} m */
+    MinuteFuture: '#MINUTE_FUTURE',
+    /** en: In {0} s */
+    SecondFuture: '#SECOND_FUTURE',
+    /** en: In {0} ms */
+    MillisecondFuture: '#MILLISECOND_FUTURE',
     /** en: Tap */
     Tap: '#TAP',
     /** en: Tap and Hold */
