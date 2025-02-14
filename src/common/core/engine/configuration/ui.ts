@@ -62,6 +62,8 @@ export type EngineConfigurationAnimationTween = {
 
 export type EngineConfigurationJudgmentErrorStyle =
     | 'none'
+    | 'late'
+    | 'early'
     | 'plus'
     | 'minus'
     | 'arrowUp'
@@ -73,4 +75,11 @@ export type EngineConfigurationJudgmentErrorStyle =
     | 'triangleLeft'
     | 'triangleRight'
 
-export type EngineConfigurationJudgmentErrorPlacement = 'both' | 'left' | 'right'
+export type EngineConfigurationJudgmentErrorPlacement =
+    | 'left'
+    | 'right'
+    | 'leftRight'
+    | 'top'
+    | 'bottom'
+    | 'topBottom'
+    | 'center'
