@@ -5,7 +5,7 @@ import { DatabaseTag } from '../tag'
 // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
 export interface DatabaseEngineItem {
     name: string
-    version: 12
+    version: 13
     title: LocalizationText
     subtitle: LocalizationText
     author: LocalizationText
