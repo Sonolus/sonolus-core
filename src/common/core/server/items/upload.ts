@@ -1,1 +1,4 @@
-export type ServerUploadItemResponse = object
+export type ServerUploadItemResponse = {
+    shouldUpdateInfo?: boolean
+    shouldNavigateToItem?: string
+}

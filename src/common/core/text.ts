@@ -389,6 +389,24 @@ export const Text = {
     SimlineAlpha: '#SIMLINE_ALPHA',
     /** en: Simultaneous Line Animation */
     SimlineAnimation: '#SIMLINE_ANIMATION',
+    /** en: Preview Vertical Scale */
+    PreviewScaleVertical: '#PREVIEW_SCALE_VERTICAL',
+    /** en: Preview Horizontal Scale */
+    PreviewScaleHorizontal: '#PREVIEW_SCALE_HORIZONTAL',
+    /** en: Preview Time */
+    PreviewTime: '#PREVIEW_TIME',
+    /** en: Preview Score */
+    PreviewScore: '#PREVIEW_SCORE',
+    /** en: Preview BPM */
+    PreviewBpm: '#PREVIEW_BPM',
+    /** en: Preview Time Scale */
+    PreviewTimescale: '#PREVIEW_TIMESCALE',
+    /** en: Preview Beat */
+    PreviewBeat: '#PREVIEW_BEAT',
+    /** en: Preview Measure */
+    PreviewMeasure: '#PREVIEW_MEASURE',
+    /** en: Preview Combo */
+    PreviewCombo: '#PREVIEW_COMBO',
     /** en: None */
     None: '#NONE',
     /** en: Any */
