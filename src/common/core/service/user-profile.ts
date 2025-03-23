@@ -5,7 +5,6 @@ export type ServiceUserProfile = {
     avatarForegroundColor: string
     avatarBackgroundColor: string
     aboutMe: string
-    socialLinks: { title: string; address: string }[]
     favorites: string[]
 }
 
