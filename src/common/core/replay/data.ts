@@ -28,4 +28,9 @@ export type ReplayData = {
         x: number[]
         y: number[]
     }
+    streams?: {
+        id: number
+        keys: number[]
+        values: number[]
+    }[]
 }
