@@ -1,5 +1,5 @@
 export type BackgroundData = {
-    aspectRatio: number
+    aspectRatio?: number
     fit: 'width' | 'height' | 'contain' | 'cover'
     color: string
 }
