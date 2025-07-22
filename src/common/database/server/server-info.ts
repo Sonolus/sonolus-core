@@ -1,5 +1,5 @@
-import { Srl } from '../../core/srl'
-import { LocalizationText } from '../localization'
+import { Srl } from '../../core/srl.js'
+import { LocalizationText } from '../localization.js'
 
 export type DatabaseServerInfo = {
     title: LocalizationText

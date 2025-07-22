@@ -1,13 +1,13 @@
-import { DatabaseBackgroundItem } from './background/item'
-import { DatabaseEffectItem } from './effect/item'
-import { DatabaseEngineItem } from './engine/item'
-import { DatabaseLevelItem } from './level/item'
-import { DatabaseParticleItem } from './particle/item'
-import { DatabasePlaylistItem } from './playlist/item'
-import { DatabasePostItem } from './post/item'
-import { DatabaseReplayItem } from './replay/item'
-import { DatabaseServerInfo } from './server/server-info'
-import { DatabaseSkinItem } from './skin/item'
+import { DatabaseBackgroundItem } from './background/item.js'
+import { DatabaseEffectItem } from './effect/item.js'
+import { DatabaseEngineItem } from './engine/item.js'
+import { DatabaseLevelItem } from './level/item.js'
+import { DatabaseParticleItem } from './particle/item.js'
+import { DatabasePlaylistItem } from './playlist/item.js'
+import { DatabasePostItem } from './post/item.js'
+import { DatabaseReplayItem } from './replay/item.js'
+import { DatabaseServerInfo } from './server/server-info.js'
+import { DatabaseSkinItem } from './skin/item.js'
 
 export type Database = {
     info: DatabaseServerInfo

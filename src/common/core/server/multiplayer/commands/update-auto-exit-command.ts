@@ -1,4 +1,4 @@
-import { AutoExit } from '../../../auto-exit'
+import { AutoExit } from '../../../auto-exit.js'
 
 export type UpdateAutoExitCommand = {
     type: 'updateAutoExit'

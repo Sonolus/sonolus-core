@@ -1,1 +1,1 @@
-export { DatabaseEffectItem } from './item'
+export { DatabaseEffectItem } from './item.js'

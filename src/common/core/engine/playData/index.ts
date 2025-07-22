@@ -1,2 +1,2 @@
-export { EnginePlayDataArchetype, EnginePlayDataArchetypeCallback } from './archetype'
-export { EnginePlayData } from './playData'
+export { EnginePlayDataArchetype, EnginePlayDataArchetypeCallback } from './archetype.js'
+export { EnginePlayData } from './playData.js'

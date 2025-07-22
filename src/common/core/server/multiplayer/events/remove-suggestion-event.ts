@@ -1,4 +1,4 @@
-import { Suggestion } from '../suggestion'
+import { Suggestion } from '../suggestion.js'
 
 export type RemoveSuggestionEvent = {
     type: 'removeSuggestion'

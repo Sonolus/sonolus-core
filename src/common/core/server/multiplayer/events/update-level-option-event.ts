@@ -1,4 +1,4 @@
-import { LevelOptionEntry } from '../level-option-entry'
+import { LevelOptionEntry } from '../level-option-entry.js'
 
 export type UpdateLevelOptionEvent = {
     type: 'updateLevelOption'

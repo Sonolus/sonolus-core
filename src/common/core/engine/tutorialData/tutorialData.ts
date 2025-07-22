@@ -1,9 +1,9 @@
-import { EffectClipName } from '../../effect'
-import { InstructionIconName } from '../../instruction/instruction-icon-name'
-import { ParticleEffectName } from '../../particle'
-import { SkinSpriteName } from '../../skin'
-import { Text } from '../../text'
-import { EngineDataNode } from '../node'
+import { EffectClipName } from '../../effect/effect-clip-name.js'
+import { InstructionIconName } from '../../instruction/instruction-icon-name.js'
+import { ParticleEffectName } from '../../particle/particle-effect-name.js'
+import { SkinSpriteName } from '../../skin/skin-sprite-name.js'
+import { Text } from '../../text.js'
+import { EngineDataNode } from '../node.js'
 
 export type EngineTutorialData = {
     skin: {

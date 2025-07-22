@@ -1,2 +1,2 @@
-export { SkinData } from './data'
-export { SkinDataExpression, SkinDataSprite, SkinDataTransform } from './sprite'
+export { SkinData } from './data.js'
+export { SkinDataExpression, SkinDataSprite, SkinDataTransform } from './sprite.js'

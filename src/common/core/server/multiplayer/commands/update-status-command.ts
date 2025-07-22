@@ -1,4 +1,4 @@
-import { RoomStatus } from '../room-status'
+import { RoomStatus } from '../room-status.js'
 
 export type UpdateStatusCommand = {
     type: 'updateStatus'

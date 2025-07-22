@@ -1,4 +1,4 @@
-import { ServerItemCommunityComment } from './comment'
+import { ServerItemCommunityComment } from './comment.js'
 
 export type ServerItemCommunityCommentList = {
     pageCount: number

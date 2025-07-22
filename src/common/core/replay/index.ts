@@ -1,3 +1,3 @@
-export { ReplayConfiguration } from './configuration'
-export { ReplayData } from './data'
-export { ReplayItem } from './item'
+export { ReplayConfiguration } from './configuration.js'
+export { ReplayData } from './data.js'
+export { ReplayItem } from './item.js'

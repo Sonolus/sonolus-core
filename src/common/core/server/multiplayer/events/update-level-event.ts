@@ -1,4 +1,4 @@
-import { Sil } from '../../../sil'
+import { Sil } from '../../../sil.js'
 
 export type UpdateLevelEvent = {
     type: 'updateLevel'

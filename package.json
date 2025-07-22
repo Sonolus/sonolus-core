@@ -8,8 +8,13 @@
   "keywords": [
     "Sonolus"
   ],
-  "main": "dist/index.node",
-  "browser": "dist/index.browser",
+  "type": "module",
+  "exports": {
+    ".": {
+      "node": "./dist/index.node.js",
+      "default": "./dist/index.default.js"
+    }
+  },
   "files": [
     "dist"
   ],

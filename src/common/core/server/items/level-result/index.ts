@@ -1,3 +1,3 @@
-export { ServerLevelResultInfo } from './info'
-export { ServerSubmitLevelResultRequest, ServerSubmitLevelResultResponse } from './submit'
-export { ServerUploadLevelResultResponse } from './upload'
+export { ServerLevelResultInfo } from './info.js'
+export { ServerSubmitLevelResultRequest, ServerSubmitLevelResultResponse } from './submit.js'
+export { ServerUploadLevelResultResponse } from './upload.js'

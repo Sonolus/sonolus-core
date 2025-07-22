@@ -1,9 +1,9 @@
-import { BackgroundItem } from '../background/item'
-import { EffectItem } from '../effect/item'
-import { ParticleItem } from '../particle/item'
-import { SkinItem } from '../skin/item'
-import { Srl } from '../srl'
-import { Tag } from '../tag'
+import { BackgroundItem } from '../background/item.js'
+import { EffectItem } from '../effect/item.js'
+import { ParticleItem } from '../particle/item.js'
+import { SkinItem } from '../skin/item.js'
+import { Srl } from '../srl.js'
+import { Tag } from '../tag.js'
 
 export type EngineItem = {
     name: string

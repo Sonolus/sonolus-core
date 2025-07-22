@@ -1,4 +1,4 @@
-import { ReplayItem } from '../../../replay/item'
+import { ReplayItem } from '../../../replay/item.js'
 
 export type ServerSubmitLevelResultRequest = {
     replay: ReplayItem

@@ -1,6 +1,6 @@
-import { SkinSpriteName } from '../../skin'
-import { EngineDataNode } from '../node'
-import { EnginePreviewDataArchetype } from './archetype'
+import { SkinSpriteName } from '../../skin/skin-sprite-name.js'
+import { EngineDataNode } from '../node.js'
+import { EnginePreviewDataArchetype } from './archetype.js'
 
 export type EnginePreviewData = {
     skin: {

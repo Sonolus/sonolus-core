@@ -1,4 +1,4 @@
-import { ScoreEntry } from '../score-entry'
+import { ScoreEntry } from '../score-entry.js'
 
 export type InsertScoreboardSectionScoreEvent = {
     type: 'insertScoreboardSectionScore'

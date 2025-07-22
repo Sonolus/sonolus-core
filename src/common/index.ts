@@ -1,3 +1,3 @@
-export * from './core'
-export * from './database'
-export { version } from './version'
+export * from './core/index.js'
+export * from './database/index.js'
+export { version } from './version.js'

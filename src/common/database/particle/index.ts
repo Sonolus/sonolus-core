@@ -1,1 +1,1 @@
-export { DatabaseParticleItem } from './item'
+export { DatabaseParticleItem } from './item.js'

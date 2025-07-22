@@ -1,4 +1,4 @@
-import { SkinDataSprite } from './sprite'
+import { SkinDataSprite } from './sprite.js'
 
 export type SkinData = {
     width: number

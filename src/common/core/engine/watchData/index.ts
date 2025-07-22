@@ -1,2 +1,2 @@
-export { EngineWatchDataArchetype, EngineWatchDataArchetypeCallback } from './archetype'
-export { EngineWatchData } from './watchData'
+export { EngineWatchDataArchetype, EngineWatchDataArchetypeCallback } from './archetype.js'
+export { EngineWatchData } from './watchData.js'

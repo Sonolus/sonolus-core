@@ -1,4 +1,4 @@
-export { ParticleData } from './data'
+export { ParticleData } from './data.js'
 export {
     ParticleDataEffect,
     ParticleDataGroup,
@@ -6,5 +6,5 @@ export {
     ParticleDataGroupParticleProperty,
     ParticleDataGroupParticlePropertyExpression,
     ParticleDataTransform,
-} from './effect'
-export { ParticleDataSprite } from './sprite'
+} from './effect.js'
+export { ParticleDataSprite } from './sprite.js'

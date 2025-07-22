@@ -1,4 +1,4 @@
-import { Text } from '../core/text'
+import { Text } from '../core/text.js'
 
 export type LocalizationText = Record<string, Text | (string & {})>
 

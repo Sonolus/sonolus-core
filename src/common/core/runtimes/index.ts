@@ -1,1 +1,1 @@
-export { RuntimeFunction } from './function'
+export { RuntimeFunction } from './function.js'

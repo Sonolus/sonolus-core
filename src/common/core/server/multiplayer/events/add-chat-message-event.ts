@@ -1,4 +1,4 @@
-import { ChatMessage } from '../chat-message'
+import { ChatMessage } from '../chat-message.js'
 
 export type AddChatMessageEvent = {
     type: 'addChatMessage'

@@ -1,3 +1,3 @@
-export * from './data'
-export { EffectClipName } from './effect-clip-name'
-export { EffectItem } from './item'
+export * from './data/index.js'
+export { EffectClipName } from './effect-clip-name.js'
+export { EffectItem } from './item.js'

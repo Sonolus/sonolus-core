@@ -1,5 +1,5 @@
-import { ServiceUserId } from '../../service/user-profile'
-import { Text } from '../../text'
+import { ServiceUserId } from '../../service/user-profile.js'
+import { Text } from '../../text.js'
 
 export type ScoreEntry = {
     userId: ServiceUserId

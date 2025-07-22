@@ -1,6 +1,6 @@
-import { Icon } from '../icon'
-import { Text } from '../text'
-import { ServerOption } from './option'
+import { Icon } from '../icon.js'
+import { Text } from '../text.js'
+import { ServerOption } from './option.js'
 
 export type ServerForm = {
     type: string

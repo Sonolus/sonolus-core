@@ -1,4 +1,4 @@
-import { GameplayResult } from '../gameplay-result'
+import { GameplayResult } from '../gameplay-result.js'
 
 export type ReplayData = {
     startTime: number

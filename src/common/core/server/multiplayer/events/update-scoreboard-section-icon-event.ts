@@ -1,4 +1,4 @@
-import { Icon } from '../../../icon'
+import { Icon } from '../../../icon.js'
 
 export type UpdateScoreboardSectionIconEvent = {
     type: 'updateScoreboardSectionIcon'

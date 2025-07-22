@@ -1,1 +1,1 @@
-export { PlaylistItem } from './item'
+export { PlaylistItem } from './item.js'

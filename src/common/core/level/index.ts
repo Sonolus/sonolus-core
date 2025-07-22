@@ -1,2 +1,2 @@
-export * from './data'
-export { LevelItem, UseItem } from './item'
+export * from './data/index.js'
+export { LevelItem, UseItem } from './item.js'

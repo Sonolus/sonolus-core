@@ -1,4 +1,4 @@
-import { ServiceUserProfile } from '../../service/user-profile'
+import { ServiceUserProfile } from '../../service/user-profile.js'
 
 export type ServerJoinRoomRequest = {
     type: 'authenticateMultiplayer'

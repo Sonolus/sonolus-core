@@ -1,4 +1,4 @@
-import { ResultEntry } from '../result-entry'
+import { ResultEntry } from '../result-entry.js'
 
 export type AddResultEvent = {
     type: 'addResult'

@@ -1,6 +1,6 @@
-import { Icon } from '../../icon'
-import { Text } from '../../text'
-import { ScoreEntry } from './score-entry'
+import { Icon } from '../../icon.js'
+import { Text } from '../../text.js'
+import { ScoreEntry } from './score-entry.js'
 
 export type ScoreboardSection = {
     title: Text | (string & {})

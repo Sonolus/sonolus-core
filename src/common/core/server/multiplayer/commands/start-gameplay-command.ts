@@ -1,4 +1,4 @@
-import { LevelItem } from '../../../level/item'
+import { LevelItem } from '../../../level/item.js'
 
 export type StartGameplayCommand = {
     type: 'startGameplay'

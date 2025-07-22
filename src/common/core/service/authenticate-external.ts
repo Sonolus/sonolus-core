@@ -1,5 +1,5 @@
-import { ServerMessage } from '../server/message'
-import { ServiceUserProfile } from '../service/user-profile'
+import { ServerMessage } from '../server/message.js'
+import { ServiceUserProfile } from '../service/user-profile.js'
 
 export type ServiceAuthenticateExternalRequest = {
     type: 'authenticateExternal'

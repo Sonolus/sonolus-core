@@ -1,1 +1,1 @@
-export { DatabaseServerInfo } from './server-info'
+export { DatabaseServerInfo } from './server-info.js'

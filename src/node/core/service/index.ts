@@ -1,1 +1,1 @@
-export { getSignaturePublicKey } from './keys'
+export { getSignaturePublicKey } from './keys.js'

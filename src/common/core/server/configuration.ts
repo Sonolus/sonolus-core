@@ -1,4 +1,4 @@
-import { ServerOption } from './option'
+import { ServerOption } from './option.js'
 
 export type ServerConfiguration = {
     options: ServerOption[]

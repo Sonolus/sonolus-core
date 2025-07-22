@@ -1,5 +1,5 @@
-import { Srl } from '../srl'
-import { Tag } from '../tag'
+import { Srl } from '../srl.js'
+import { Tag } from '../tag.js'
 
 export type RoomItem = {
     name: string

@@ -1,4 +1,4 @@
-import { UserStatus } from '../user-status'
+import { UserStatus } from '../user-status.js'
 
 export type UpdateUserStatusCommand = {
     type: 'updateUserStatus'

@@ -1,1 +1,1 @@
-export { DatabaseReplayItem } from './item'
+export { DatabaseReplayItem } from './item.js'

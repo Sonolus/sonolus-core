@@ -1,4 +1,4 @@
-import { ScoreboardSection } from '../scoreboard-section'
+import { ScoreboardSection } from '../scoreboard-section.js'
 
 export type UpdateScoreboardSectionEvent = {
     type: 'updateScoreboardSection'

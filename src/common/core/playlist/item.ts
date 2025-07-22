@@ -1,6 +1,6 @@
-import { LevelItem } from '../level/item'
-import { Srl } from '../srl'
-import { Tag } from '../tag'
+import { LevelItem } from '../level/item.js'
+import { Srl } from '../srl.js'
+import { Tag } from '../tag.js'
 
 export type PlaylistItem = {
     name: string
