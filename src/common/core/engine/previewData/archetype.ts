@@ -1,5 +1,5 @@
-import { EngineArchetypeDataName } from '../engine-archetype-data-name'
-import { EngineArchetypeName } from '../engine-archetype-name'
+import { EngineArchetypeDataName } from '../engineArchetypeDataName.js'
+import { EngineArchetypeName } from '../engineArchetypeName.js'
 
 export type EnginePreviewDataArchetype = {
     name: EngineArchetypeName | (string & {})

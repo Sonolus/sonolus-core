@@ -1,1 +1,1 @@
-export { PostItem } from './item'
+export { PostItem } from './item.js'

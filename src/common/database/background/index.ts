@@ -1,1 +1,1 @@
-export { DatabaseBackgroundItem } from './item'
+export { DatabaseBackgroundItem } from './item.js'

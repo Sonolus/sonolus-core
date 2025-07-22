@@ -1,1 +1,1 @@
-export { RoomItem } from './item'
+export { RoomItem } from './item.js'

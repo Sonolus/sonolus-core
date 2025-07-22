@@ -1,4 +1,4 @@
-import { LevelDataEntity } from './entity'
+import { LevelDataEntity } from './entity.js'
 
 export type LevelData = {
     bgmOffset: number

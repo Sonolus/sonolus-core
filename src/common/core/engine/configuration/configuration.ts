@@ -1,5 +1,5 @@
-import { EngineConfigurationOption } from './option'
-import { EngineConfigurationUI } from './ui'
+import { EngineConfigurationOption } from './option.js'
+import { EngineConfigurationUI } from './ui.js'
 
 export type EngineConfiguration = {
     options: EngineConfigurationOption[]

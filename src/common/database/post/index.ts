@@ -1,1 +1,1 @@
-export { DatabasePostItem } from './item'
+export { DatabasePostItem } from './item.js'

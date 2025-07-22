@@ -1,6 +1,6 @@
-import { ServerForm } from '../form'
-import { ServerItemLeaderboard } from './leaderboard/leaderboard'
-import { ServerItemSection } from './section'
+import { ServerForm } from '../form.js'
+import { ServerItemLeaderboard } from './leaderboard/leaderboard.js'
+import { ServerItemSection } from './section.js'
 
 export type ServerItemDetails<T> = {
     item: T

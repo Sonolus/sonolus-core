@@ -1,3 +1,3 @@
-export { compress, compressSync } from './compress'
-export { decompress, decompressSync } from './decompress'
-export { hash } from './hash'
+export { compress, compressSync } from './compress.js'
+export { decompress, decompressSync } from './decompress.js'
+export { hash } from './hash.js'

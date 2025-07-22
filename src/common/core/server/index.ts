@@ -1,10 +1,10 @@
-export { ServerAuthenticateRequest, ServerAuthenticateResponse } from './authenticate'
-export { ServerConfiguration } from './configuration'
-export { ServerForm } from './form'
-export { ServerInfo, ServerInfoButton } from './info'
-export * from './items'
-export { ServerMessage } from './message'
-export * from './multiplayer'
+export { ServerAuthenticateRequest, ServerAuthenticateResponse } from './authenticate.js'
+export { ServerConfiguration } from './configuration.js'
+export { ServerForm } from './form.js'
+export { ServerInfo, ServerInfoButton } from './info.js'
+export * from './items/index.js'
+export { ServerMessage } from './message.js'
+export * from './multiplayer/index.js'
 export {
     ServerCollectionItemOption,
     ServerFileOption,
@@ -17,4 +17,4 @@ export {
     ServerTextAreaOption,
     ServerTextOption,
     ServerToggleOption,
-} from './option'
+} from './option.js'

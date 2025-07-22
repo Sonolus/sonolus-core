@@ -1,10 +1,10 @@
-export { EngineConfiguration } from './configuration'
+export { EngineConfiguration } from './configuration.js'
 export {
     EngineConfigurationOption,
     EngineConfigurationSelectOption,
     EngineConfigurationSliderOption,
     EngineConfigurationToggleOption,
-} from './option'
+} from './option.js'
 export {
     EngineConfigurationAnimation,
     EngineConfigurationAnimationTween,
@@ -13,4 +13,4 @@ export {
     EngineConfigurationMetric,
     EngineConfigurationUI,
     EngineConfigurationVisibility,
-} from './ui'
+} from './ui.js'

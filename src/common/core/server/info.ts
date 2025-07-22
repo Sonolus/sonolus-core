@@ -1,5 +1,5 @@
-import { Srl } from '../srl'
-import { ServerConfiguration } from './configuration'
+import { Srl } from '../srl.js'
+import { ServerConfiguration } from './configuration.js'
 
 export type ServerInfo = {
     title: string

@@ -1,5 +1,5 @@
-import { ParticleDataEffect } from './effect'
-import { ParticleDataSprite } from './sprite'
+import { ParticleDataEffect } from './effect.js'
+import { ParticleDataSprite } from './sprite.js'
 
 export type ParticleData = {
     width: number

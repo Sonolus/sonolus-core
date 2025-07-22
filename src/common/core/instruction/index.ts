@@ -1,1 +1,1 @@
-export { InstructionIconName } from './instruction-icon-name'
+export { InstructionIconName } from './instructionIconName.js'

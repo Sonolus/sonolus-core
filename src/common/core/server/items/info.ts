@@ -1,6 +1,6 @@
-import { Srl } from '../../srl'
-import { ServerForm } from '../form'
-import { ServerItemSection } from './section'
+import { Srl } from '../../srl.js'
+import { ServerForm } from '../form.js'
+import { ServerItemSection } from './section.js'
 
 export type ServerItemInfo = {
     creates?: ServerForm[]

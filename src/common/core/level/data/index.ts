@@ -1,2 +1,2 @@
-export { LevelData } from './data'
-export { LevelDataEntity } from './entity'
+export { LevelData } from './data.js'
+export { LevelDataEntity } from './entity.js'

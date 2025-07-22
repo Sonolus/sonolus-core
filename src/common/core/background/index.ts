@@ -1,3 +1,3 @@
-export { BackgroundConfiguration } from './configuration'
-export { BackgroundData } from './data'
-export { BackgroundItem } from './item'
+export { BackgroundConfiguration } from './configuration.js'
+export { BackgroundData } from './data.js'
+export { BackgroundItem } from './item.js'
