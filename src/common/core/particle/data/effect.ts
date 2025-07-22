@@ -1,4 +1,4 @@
-import { ParticleEffectName } from '../particle-effect-name.js'
+import { ParticleEffectName } from '../particleEffectName.js'
 
 export type ParticleDataEffect = {
     name: ParticleEffectName | (string & {})

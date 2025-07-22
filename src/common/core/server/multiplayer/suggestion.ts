@@ -1,4 +1,4 @@
-import { ServiceUserId } from '../../service/user-profile.js'
+import { ServiceUserId } from '../../service/userProfile.js'
 import { Sil } from '../../sil.js'
 
 export type Suggestion = {

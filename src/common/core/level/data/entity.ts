@@ -1,5 +1,5 @@
-import { EngineArchetypeDataName } from '../../engine/engine-archetype-data-name.js'
-import { EngineArchetypeName } from '../../engine/engine-archetype-name.js'
+import { EngineArchetypeDataName } from '../../engine/engineArchetypeDataName.js'
+import { EngineArchetypeName } from '../../engine/engineArchetypeName.js'
 
 export type LevelDataEntity = {
     name?: string

@@ -6,7 +6,7 @@ import { DatabaseParticleItem } from './particle/item.js'
 import { DatabasePlaylistItem } from './playlist/item.js'
 import { DatabasePostItem } from './post/item.js'
 import { DatabaseReplayItem } from './replay/item.js'
-import { DatabaseServerInfo } from './server/server-info.js'
+import { DatabaseServerInfo } from './server/info.js'
 import { DatabaseSkinItem } from './skin/item.js'
 
 export type Database = {

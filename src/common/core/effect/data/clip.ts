@@ -1,4 +1,4 @@
-import { EffectClipName } from '../effect-clip-name.js'
+import { EffectClipName } from '../effectClipName.js'
 
 export type EffectDataClip = {
     name: EffectClipName | (string & {})

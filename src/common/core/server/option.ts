@@ -1,4 +1,4 @@
-import { ItemType } from '../item-type.js'
+import { ItemType } from '../itemType.js'
 import { Sil } from '../sil.js'
 import { Text } from '../text.js'
 
