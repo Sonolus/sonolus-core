@@ -167,12 +167,16 @@ export const Text = {
     Timezone: '#TIMEZONE',
     /** en: Region */
     Region: '#REGION',
+    /** en: Tag */
+    Tag: '#TAG',
     /** en: Content */
     Content: '#CONTENT',
     /** en: Comment */
     Comment: '#COMMENT',
     /** en: Message */
     Message: '#MESSAGE',
+    /** en: Notification */
+    Notification: '#NOTIFICATION',
     /** en: Role */
     Role: '#ROLE',
     /** en: Permission */
@@ -407,6 +411,10 @@ export const Text = {
     PreviewMeasure: '#PREVIEW_MEASURE',
     /** en: Preview Combo */
     PreviewCombo: '#PREVIEW_COMBO',
+    /** en: ON */
+    On: '#ON',
+    /** en: OFF */
+    Off: '#OFF',
     /** en: None */
     None: '#NONE',
     /** en: Any */
@@ -507,6 +515,8 @@ export const Text = {
     Technical: '#TECHNICAL',
     /** en: Special */
     Special: '#SPECIAL',
+    /** en: Append */
+    Append: '#APPEND',
     /** en: Enter keywords... */
     KeywordsPlaceholder: '#KEYWORDS_PLACEHOLDER',
     /** en: Enter name... */
@@ -737,6 +747,8 @@ export const Text = {
     ShortVersion: '#SHORT_VERSION',
     /** en: Long Version */
     LongVersion: '#LONG_VERSION',
+    /** en: Full Version */
+    FullVersion: '#FULL_VERSION',
     /** en: Live Version */
     LiveVersion: '#LIVE_VERSION',
     /** en: Report */
@@ -857,6 +869,14 @@ export const Text = {
     TeamWhite: '#TEAM_WHITE',
     /** en: Team Black */
     TeamBlack: '#TEAM_BLACK',
+    /** en: Add */
+    Add: '#ADD',
+    /** en: Added */
+    Added: '#ADDED',
+    /** en: Create */
+    Create: '#CREATE',
+    /** en: Created */
+    Created: '#CREATED',
     /** en: Reply */
     Reply: '#REPLY',
     /** en: Replied */
