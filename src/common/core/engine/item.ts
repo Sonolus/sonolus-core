@@ -4,6 +4,7 @@ import { ParticleItem } from '../particle/item.js'
 import { SkinItem } from '../skin/item.js'
 import { Srl } from '../srl.js'
 import { Tag } from '../tag.js'
+import { UserItem } from '../user/item.js'
 
 export type EngineItem = {
     name: string
@@ -12,6 +13,7 @@ export type EngineItem = {
     title: string
     subtitle: string
     author: string
+    authorUser?: UserItem
     tags: Tag[]
     skin: SkinItem
     background: BackgroundItem
