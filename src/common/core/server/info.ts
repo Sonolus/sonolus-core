@@ -1,4 +1,6 @@
+import { Icon } from '../icon.js'
 import { Srl } from '../srl.js'
+import { Text } from '../text.js'
 import { ServerConfiguration } from './configuration.js'
 
 export type ServerInfo = {
@@ -9,10 +11,18 @@ export type ServerInfo = {
     banner?: Srl
 }
 
-export type ServerInfoButton = {
+export type ServerInfoButton =
+    | ServerInfoAuthenticationButton
+    | ServerInfoItemButton
+    | ServerInfoConfigurationButton
+
+export type ServerInfoAuthenticationButton = {
+    type: 'authentication'
+}
+
+export type ServerInfoItemButton = {
     type:
-        | 'authentication'
-        | 'multiplayer'
+        | 'room'
         | 'post'
         | 'playlist'
         | 'level'
@@ -23,4 +33,11 @@ export type ServerInfoButton = {
         | 'particle'
         | 'engine'
         | 'configuration'
+    title?: Text | (string & {})
+    icon?: Icon | (string & {})
+    badgeCount?: number
+}
+
+export type ServerInfoConfigurationButton = {
+    type: 'configuration'
 }
