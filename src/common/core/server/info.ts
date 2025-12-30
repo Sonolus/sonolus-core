@@ -32,6 +32,7 @@ export type ServerInfoItemButton = {
         | 'effect'
         | 'particle'
         | 'engine'
+        | 'user'
         | 'configuration'
     title?: Text | (string & {})
     icon?: Icon | (string & {})

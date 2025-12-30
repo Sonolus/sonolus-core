@@ -9,3 +9,4 @@ export type ItemType =
     | 'engine'
     | 'replay'
     | 'room'
+    | 'user'

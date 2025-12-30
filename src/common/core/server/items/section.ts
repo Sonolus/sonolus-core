@@ -10,6 +10,7 @@ import { ReplayItem } from '../../replay/item.js'
 import { RoomItem } from '../../room/item.js'
 import { SkinItem } from '../../skin/item.js'
 import { Text } from '../../text.js'
+import { UserItem } from '../../user/item.js'
 import { ServerForm } from '../form.js'
 
 export type ServerItemSection =
@@ -23,6 +24,7 @@ export type ServerItemSection =
     | ServerItemSectionTyped<'engine', EngineItem>
     | ServerItemSectionTyped<'replay', ReplayItem>
     | ServerItemSectionTyped<'room', RoomItem>
+    | ServerItemSectionTyped<'user', UserItem>
 
 export type ServerItemSectionTyped<TItemType, TItem> = {
     title: Text | (string & {})
