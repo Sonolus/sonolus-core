@@ -35,6 +35,8 @@ export const Text = {
     Engine: '#ENGINE',
     /** en: Replay */
     Replay: '#REPLAY',
+    /** en: User */
+    User: '#USER',
     /** en: Room */
     Room: '#ROOM',
     /** en: Thumbnail */
@@ -115,6 +117,10 @@ export const Text = {
     Good: '#GOOD',
     /** en: Miss */
     Miss: '#MISS',
+    /** en: Judgment */
+    Judgment: '#JUDGMENT',
+    /** en: Accuracy */
+    Accuracy: '#ACCURACY',
     /** en: Filter */
     Filter: '#FILTER',
     /** en: Sort */
@@ -139,6 +145,10 @@ export const Text = {
     Time: '#TIME',
     /** en: Author */
     Author: '#AUTHOR',
+    /** en: Coauthor */
+    Coauthor: '#COAUTHOR',
+    /** en: Collaborator */
+    Collaborator: '#COLLABORATOR',
     /** en: Description */
     Description: '#DESCRIPTION',
     /** en: Genre */
@@ -169,6 +179,10 @@ export const Text = {
     Region: '#REGION',
     /** en: Tag */
     Tag: '#TAG',
+    /** en: Include Tag */
+    IncludeTag: '#INCLUDE_TAG',
+    /** en: Exclude Tag */
+    ExcludeTag: '#EXCLUDE_TAG',
     /** en: Content */
     Content: '#CONTENT',
     /** en: Comment */
@@ -181,8 +195,6 @@ export const Text = {
     Role: '#ROLE',
     /** en: Permission */
     Permission: '#PERMISSION',
-    /** en: User */
-    User: '#USER',
     /** en: Level Speed */
     Speed: '#SPEED',
     /** en: Mirror Level */
@@ -197,6 +209,8 @@ export const Text = {
     JudgmentLoose: '#JUDGMENT_LOOSE',
     /** en: Auto SFX */
     EffectAuto: '#EFFECT_AUTO',
+    /** en: Haptic */
+    Haptic: '#HAPTIC',
     /** en: Stage */
     Stage: '#STAGE',
     /** en: Stage Position */
@@ -411,6 +425,20 @@ export const Text = {
     PreviewMeasure: '#PREVIEW_MEASURE',
     /** en: Preview Combo */
     PreviewCombo: '#PREVIEW_COMBO',
+    /** en: UI */
+    Ui: '#UI',
+    /** en: UI Metric */
+    UiMetric: '#UI_METRIC',
+    /** en: UI Primary Metric */
+    UiPrimaryMetric: '#UI_PRIMARY_METRIC',
+    /** en: UI Secondary Metric */
+    UiSecondaryMetric: '#UI_SECONDARY_METRIC',
+    /** en: UI Judgment */
+    UiJudgment: '#UI_JUDGMENT',
+    /** en: UI Combo */
+    UiCombo: '#UI_Combo',
+    /** en: UI Menu */
+    UiMenu: '#UI_Menu',
     /** en: ON */
     On: '#ON',
     /** en: OFF */
@@ -517,6 +545,28 @@ export const Text = {
     Special: '#SPECIAL',
     /** en: Append */
     Append: '#APPEND',
+    /** en: Enter post... */
+    PostPlaceholder: '#POST_PLACEHOLDER',
+    /** en: Enter playlist... */
+    PlaylistPlaceholder: '#PLAYLIST_PLACEHOLDER',
+    /** en: Enter level... */
+    LevelPlaceholder: '#LEVEL_PLACEHOLDER',
+    /** en: Enter skin... */
+    SkinPlaceholder: '#SKIN_PLACEHOLDER',
+    /** en: Enter background... */
+    BackgroundPlaceholder: '#BACKGROUND_PLACEHOLDER',
+    /** en: Enter SFX... */
+    EffectPlaceholder: '#EFFECT_PLACEHOLDER',
+    /** en: Enter particle... */
+    ParticlePlaceholder: '#PARTICLE_PLACEHOLDER',
+    /** en: Enter engine... */
+    EnginePlaceholder: '#ENGINE_PLACEHOLDER',
+    /** en: Enter replay... */
+    ReplayPlaceholder: '#REPLAY_PLACEHOLDER',
+    /** en: Enter user... */
+    UserPlaceholder: '#USER_PLACEHOLDER',
+    /** en: Enter room... */
+    RoomPlaceholder: '#ROOM_PLACEHOLDER',
     /** en: Enter keywords... */
     KeywordsPlaceholder: '#KEYWORDS_PLACEHOLDER',
     /** en: Enter name... */
@@ -537,6 +587,10 @@ export const Text = {
     TimePlaceholder: '#TIME_PLACEHOLDER',
     /** en: Enter author... */
     AuthorPlaceholder: '#AUTHOR_PLACEHOLDER',
+    /** en: Enter coauthor... */
+    CoauthorPlaceholder: '#COAUTHOR_PLACEHOLDER',
+    /** en: Enter collaborator... */
+    CollaboratorPlaceholder: '#COLLABORATOR_PLACEHOLDER',
     /** en: Enter description... */
     DescriptionPlaceholder: '#DESCRIPTION_PLACEHOLDER',
     /** en: Enter genre... */
@@ -575,51 +629,49 @@ export const Text = {
     RolePlaceholder: '#ROLE_PLACEHOLDER',
     /** en: Enter permission... */
     PermissionPlaceholder: '#PERMISSION_PLACEHOLDER',
-    /** en: Enter user... */
-    UserPlaceholder: '#USER_PLACEHOLDER',
     /** en: {0}% */
     PercentageUnit: '#PERCENTAGE_UNIT',
-    /** en: {0} yr */
+    /** en: {0}yr */
     YearUnit: '#YEAR_UNIT',
-    /** en: {0} mo */
+    /** en: {0}mo */
     MonthUnit: '#MONTH_UNIT',
-    /** en: {0} d */
+    /** en: {0}d */
     DayUnit: '#DAY_UNIT',
-    /** en: {0} h */
+    /** en: {0}h */
     HourUnit: '#HOUR_UNIT',
-    /** en: {0} m */
+    /** en: {0}m */
     MinuteUnit: '#MINUTE_UNIT',
-    /** en: {0} s */
+    /** en: {0}s */
     SecondUnit: '#SECOND_UNIT',
-    /** en: {0} ms */
+    /** en: {0}ms */
     MillisecondUnit: '#MILLISECOND_UNIT',
-    /** en: {0} yr ago */
+    /** en: {0}yr ago */
     YearPast: '#YEAR_PAST',
-    /** en: {0} mo ago */
+    /** en: {0}mo ago */
     MonthPast: '#MONTH_PAST',
-    /** en: {0} d ago */
+    /** en: {0}d ago */
     DayPast: '#DAY_PAST',
-    /** en: {0} h ago */
+    /** en: {0}h ago */
     HourPast: '#HOUR_PAST',
-    /** en: {0} m ago */
+    /** en: {0}m ago */
     MinutePast: '#MINUTE_PAST',
-    /** en: {0} s ago */
+    /** en: {0}s ago */
     SecondPast: '#SECOND_PAST',
-    /** en: {0} ms ago */
+    /** en: {0}ms ago */
     MillisecondPast: '#MILLISECOND_PAST',
-    /** en: In {0} yr */
+    /** en: In {0}yr */
     YearFuture: '#YEAR_FUTURE',
-    /** en: In {0} mo */
+    /** en: In {0}mo */
     MonthFuture: '#MONTH_FUTURE',
-    /** en: In {0} d */
+    /** en: In {0}d */
     DayFuture: '#DAY_FUTURE',
-    /** en: In {0} h */
+    /** en: In {0}h */
     HourFuture: '#HOUR_FUTURE',
-    /** en: In {0} m */
+    /** en: In {0}m */
     MinuteFuture: '#MINUTE_FUTURE',
-    /** en: In {0} s */
+    /** en: In {0}s */
     SecondFuture: '#SECOND_FUTURE',
-    /** en: In {0} ms */
+    /** en: In {0}ms */
     MillisecondFuture: '#MILLISECOND_FUTURE',
     /** en: Tap */
     Tap: '#TAP',
@@ -661,6 +713,8 @@ export const Text = {
     Featured: '#FEATURED',
     /** en: Competitive */
     Competitive: '#COMPETITIVE',
+    /** en: Tournament */
+    Tournament: '#TOURNAMENT',
     /** en: Holiday */
     Holiday: '#HOLIDAY',
     /** en: Limited */
@@ -747,10 +801,26 @@ export const Text = {
     ShortVersion: '#SHORT_VERSION',
     /** en: Long Version */
     LongVersion: '#LONG_VERSION',
+    /** en: Cut Version */
+    CutVersion: '#CUT_VERSION',
     /** en: Full Version */
     FullVersion: '#FULL_VERSION',
+    /** en: Extended Version */
+    ExtendedVersion: '#EXTENDED_VERSION',
     /** en: Live Version */
     LiveVersion: '#LIVE_VERSION',
+    /** en: Explicit */
+    Explicit: '#EXPLICIT',
+    /** en: Multi Finger */
+    MultiFinger: '#MULTI_FINGER',
+    /** en: Full Hand */
+    FullHand: '#FULL_HAND',
+    /** en: Cross Hand */
+    CrossHand: '#CROSS_HAND',
+    /** en: Gimmick */
+    Gimmick: '#GIMMICK',
+    /** en: Collaboration */
+    Collaboration: '#COLLABORATION',
     /** en: Report */
     Report: '#REPORT',
     /** en: Reason */
