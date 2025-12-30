@@ -36,6 +36,7 @@ export type ServerInfoItemButton = {
     title?: Text | (string & {})
     icon?: Icon | (string & {})
     badgeCount?: number
+    infoType?: string
 }
 
 export type ServerInfoConfigurationButton = {

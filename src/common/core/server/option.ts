@@ -93,6 +93,7 @@ export type ServerServerItemOption = {
     required: boolean
     type: 'serverItem'
     itemType: ItemType
+    infoType?: string
     def: Sil | null
     allowOtherServers: boolean
 }
@@ -104,6 +105,7 @@ export type ServerServerItemsOption = {
     required: boolean
     type: 'serverItems'
     itemType: ItemType
+    infoType?: string
     def: Sil[]
     allowOtherServers: boolean
     limit: number
