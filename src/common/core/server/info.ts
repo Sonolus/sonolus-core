@@ -38,6 +38,7 @@ export type ServerInfoItemButton = {
     icon?: Icon | (string & {})
     badgeCount?: number
     infoType?: string
+    itemName?: string
 }
 
 export type ServerInfoConfigurationButton = {
