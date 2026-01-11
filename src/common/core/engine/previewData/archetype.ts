@@ -8,6 +8,7 @@ export type EnginePreviewDataArchetype = {
     imports: {
         name: EngineArchetypeDataName | (string & {})
         index: number
+        def?: number
     }[]
 }
 

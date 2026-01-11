@@ -15,6 +15,7 @@ export type EnginePlayDataArchetype = {
     imports: {
         name: EngineArchetypeDataName | (string & {})
         index: number
+        def?: number
     }[]
     exports: (EngineArchetypeDataName | (string & {}))[]
 }
