@@ -1,6 +1,7 @@
 export const RuntimeFunction = {
     Abs: 'Abs',
     Add: 'Add',
+    AddLifeScheduled: 'AddLifeScheduled',
     And: 'And',
     Arccos: 'Arccos',
     Arcsin: 'Arcsin',

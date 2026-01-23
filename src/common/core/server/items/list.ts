@@ -5,4 +5,5 @@ export type ServerItemList<T> = {
     cursor?: string
     items: T[]
     searches?: ServerForm[]
+    quickSearchValues?: string
 }

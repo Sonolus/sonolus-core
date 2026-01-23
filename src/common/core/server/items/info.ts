@@ -5,6 +5,7 @@ import { ServerItemSection } from './section.js'
 export type ServerItemInfo = {
     creates?: ServerForm[]
     searches?: ServerForm[]
+    quickSearchValues?: string
     sections: ServerItemSection[]
     banner?: Srl
 }

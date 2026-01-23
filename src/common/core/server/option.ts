@@ -93,6 +93,7 @@ export type ServerServerItemOption = {
     required: boolean
     type: 'serverItem'
     itemType: ItemType
+    infoType?: string
     def: Sil | null
     allowOtherServers: boolean
 }
@@ -104,6 +105,7 @@ export type ServerServerItemsOption = {
     required: boolean
     type: 'serverItems'
     itemType: ItemType
+    infoType?: string
     def: Sil[]
     allowOtherServers: boolean
     limit: number
@@ -125,4 +127,77 @@ export type ServerFileOption = {
     required: boolean
     type: 'file'
     def: string
+    validation?:
+        | ServerFileOptionValidationFile<'file'>
+        | ServerFileOptionValidationImage<'image'>
+        | ServerFileOptionValidationAudio<'audio'>
+        | ServerFileOptionValidationZip<'zip'>
+        | ServerFileOptionValidationImage<'serverBanner'>
+        | ServerFileOptionValidationImage<'postThumbnail'>
+        | ServerFileOptionValidationImage<'playlistThumbnail'>
+        | ServerFileOptionValidationImage<'levelCover'>
+        | ServerFileOptionValidationAudio<'levelBgm'>
+        | ServerFileOptionValidationAudio<'levelPreview'>
+        | ServerFileOptionValidationJson<'levelData'>
+        | ServerFileOptionValidationImage<'skinThumbnail'>
+        | ServerFileOptionValidationJson<'skinData'>
+        | ServerFileOptionValidationImage<'skinTexture'>
+        | ServerFileOptionValidationImage<'backgroundThumbnail'>
+        | ServerFileOptionValidationImage<'backgroundImage'>
+        | ServerFileOptionValidationJson<'backgroundData'>
+        | ServerFileOptionValidationJson<'backgroundConfiguration'>
+        | ServerFileOptionValidationImage<'effectThumbnail'>
+        | ServerFileOptionValidationJson<'effectData'>
+        | ServerFileOptionValidationZip<'effectAudio'>
+        | ServerFileOptionValidationImage<'particleThumbnail'>
+        | ServerFileOptionValidationJson<'particleData'>
+        | ServerFileOptionValidationImage<'particleTexture'>
+        | ServerFileOptionValidationImage<'engineThumbnail'>
+        | ServerFileOptionValidationJson<'enginePlayData'>
+        | ServerFileOptionValidationJson<'engineWatchData'>
+        | ServerFileOptionValidationJson<'enginePreviewData'>
+        | ServerFileOptionValidationJson<'engineTutorialData'>
+        | ServerFileOptionValidationFile<'engineRom'>
+        | ServerFileOptionValidationJson<'engineConfiguration'>
+        | ServerFileOptionValidationJson<'replayData'>
+        | ServerFileOptionValidationJson<'replayConfiguration'>
+        | ServerFileOptionValidationImage<'roomCover'>
+        | ServerFileOptionValidationAudio<'roomBgm'>
+        | ServerFileOptionValidationAudio<'roomPreview'>
+}
+
+export type ServerFileOptionValidationFile<T> = {
+    type: T
+    minSize?: number
+    maxSize?: number
+}
+
+export type ServerFileOptionValidationImage<T> = {
+    type: T
+    minSize?: number
+    maxSize?: number
+    minWidth?: number
+    maxWidth?: number
+    minHeight?: number
+    maxHeight?: number
+}
+
+export type ServerFileOptionValidationAudio<T> = {
+    type: T
+    minSize?: number
+    maxSize?: number
+    minLength?: number
+    maxLength?: number
+}
+
+export type ServerFileOptionValidationZip<T> = {
+    type: T
+    minSize?: number
+    maxSize?: number
+}
+
+export type ServerFileOptionValidationJson<T> = {
+    type: T
+    minSize?: number
+    maxSize?: number
 }

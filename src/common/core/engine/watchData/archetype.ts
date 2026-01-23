@@ -14,6 +14,7 @@ export type EngineWatchDataArchetype = {
     imports: {
         name: EngineArchetypeDataName | (string & {})
         index: number
+        def?: number
     }[]
 }
 
