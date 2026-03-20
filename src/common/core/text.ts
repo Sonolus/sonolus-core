@@ -129,6 +129,8 @@ export const Text = {
     Keywords: '#KEYWORDS',
     /** en: Name */
     Name: '#NAME',
+    /** en: Source */
+    Source: '#SOURCE',
     /** en: Rating */
     Rating: '#RATING',
     /** en: Minimum Rating */
@@ -809,6 +811,8 @@ export const Text = {
     ExtendedVersion: '#EXTENDED_VERSION',
     /** en: Live Version */
     LiveVersion: '#LIVE_VERSION',
+    /** en: Medley */
+    Medley: '#MEDLEY',
     /** en: Explicit */
     Explicit: '#EXPLICIT',
     /** en: Multi Finger */
