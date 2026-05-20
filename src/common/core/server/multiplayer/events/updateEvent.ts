@@ -1,6 +1,7 @@
 import { AutoExit } from '../../../autoExit.js'
 import { ServiceUserId } from '../../../service/userProfile.js'
 import { Sil } from '../../../sil.js'
+import { Text } from '../../../text/index.js'
 import { ServerForm } from '../../form.js'
 import { LevelOptionEntry } from '../levelOptionEntry.js'
 import { ResultEntry } from '../resultEntry.js'
@@ -25,7 +26,7 @@ export type UpdateEvent = {
     autoExit: AutoExit
     isSuggestionsLocked: boolean
     suggestions: Suggestion[]
-    scoreboardDescription?: string
+    scoreboardDescription?: Text | (string & {})
     scoreboardSections: ScoreboardSection[]
     results: ResultEntry[]
     users: RoomUser[]

@@ -29,7 +29,7 @@ export type ServerItemSection =
 export type ServerItemSectionTyped<TItemType, TItem> = {
     title: Text | (string & {})
     icon?: Icon | (string & {})
-    description?: string
+    description?: Text | (string & {})
     help?: string
     itemType: TItemType
     items: TItem[]

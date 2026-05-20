@@ -1,4 +1,10 @@
-export { ChatMessage, QuickChatMessage, TextChatMessage } from './chatMessage.js'
+export {
+    ChatMessage,
+    QuickChatMessage,
+    RoomTextChatMessage,
+    TextChatMessage,
+    UserTextChatMessage,
+} from './chatMessage.js'
 export * from './commands/index.js'
 export { ServerCreateRoomRequest, ServerCreateRoomResponse } from './createRoom.js'
 export * from './events/index.js'
