@@ -1,4 +1,4 @@
-import { Text } from '../../../../text.js'
+import { Text } from '../../../../text/index.js'
 import { UserItem } from '../../../../user/item.js'
 
 export type ServerItemLeaderboardRecord = {

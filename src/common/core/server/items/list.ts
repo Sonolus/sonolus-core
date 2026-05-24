@@ -1,4 +1,4 @@
-import { Text } from '../../text.js'
+import { Text } from '../../text/index.js'
 import { ServerForm } from '../form.js'
 
 export type ServerItemList<T> = {
