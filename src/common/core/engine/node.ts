@@ -1,4 +1,4 @@
-import { RuntimeFunction } from '../runtimes/function.js'
+import { RuntimeFunction } from '../runtimes/function/index.js'
 
 export type EngineDataNode = EngineDataValueNode | EngineDataFunctionNode
 

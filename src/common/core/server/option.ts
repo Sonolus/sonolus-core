@@ -1,6 +1,6 @@
 import { ItemType } from '../itemType.js'
 import { Sil } from '../sil.js'
-import { Text } from '../text.js'
+import { Text } from '../text/index.js'
 
 export type ServerOption =
     | ServerTextOption

@@ -1,4 +1,4 @@
-import { Text } from '../../text.js'
+import { Text } from '../../text/index.js'
 import { EngineConfigurationOption } from './option.js'
 import { EngineConfigurationUI } from './ui.js'
 

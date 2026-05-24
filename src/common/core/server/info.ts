@@ -1,6 +1,6 @@
-import { Icon } from '../icon.js'
+import { Icon } from '../icon/index.js'
 import { Srl } from '../srl.js'
-import { Text } from '../text.js'
+import { Text } from '../text/index.js'
 import { ServerConfiguration } from './configuration.js'
 
 export type ServerInfo = {

@@ -1,1 +1,1 @@
-export { InstructionIconName } from './instructionIconName.js'
+export * from './iconName/index.js'

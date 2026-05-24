@@ -1,4 +1,4 @@
-import { Icon } from '../core/icon.js'
+import { Icon } from '../core/icon/index.js'
 import { LocalizationText } from './localization.js'
 
 export type DatabaseTag = {

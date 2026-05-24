@@ -1,4 +1,4 @@
-import { SkinSpriteName } from '../../skin/skinSpriteName.js'
+import { SkinSpriteName } from '../../skin/spriteName/index.js'
 import { EngineDataNode } from '../node.js'
 import { EnginePreviewDataArchetype } from './archetype.js'
 
