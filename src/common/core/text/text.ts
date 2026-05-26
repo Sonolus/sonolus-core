@@ -1,3 +1,47 @@
+/** en: -  */
+export const PrefixList = '#PREFIX_LIST' as const
+/** en: >  */
+export const PrefixQuote = '#PREFIX_QUOTE' as const
+/** en:   */
+export const SeparatorSpace = '#SEPARATOR_SPACE' as const
+/** en: ,  */
+export const SeparatorComma = '#SEPARATOR_COMMA' as const
+/** en: :  */
+export const SeparatorColon = '#SEPARATOR_COLON' as const
+/** en:  &  */
+export const SeparatorAnd = '#SEPARATOR_AND' as const
+/** en:  +  */
+export const SeparatorPlus = '#SEPARATOR_PLUS' as const
+/** en:  /  */
+export const SeparatorSlash = '#SEPARATOR_SLASH' as const
+/** en:  <  */
+export const SeparatorLesser = '#SEPARATOR_LESSER' as const
+/** en:  >  */
+export const SeparatorGreater = '#SEPARATOR_GREATER' as const
+/** en: ' */
+export const SeparatorQuoteSingleLeft = '#SEPARATOR_QUOTE_SINGLE_LEFT' as const
+/** en: ' */
+export const SeparatorQuoteSingleRight = '#SEPARATOR_QUOTE_SINGLE_RIGHT' as const
+/** en: " */
+export const SeparatorQuoteDoubleLeft = '#SEPARATOR_QUOTE_DOUBLE_LEFT' as const
+/** en: " */
+export const SeparatorQuoteDoubleRight = '#SEPARATOR_QUOTE_DOUBLE_RIGHT' as const
+/** en: ( */
+export const SeparatorParenthesisLeft = '#SEPARATOR_PARENTHESIS_LEFT' as const
+/** en: ) */
+export const SeparatorParenthesisRight = '#SEPARATOR_PARENTHESIS_RIGHT' as const
+/** en: [ */
+export const SeparatorBracketLeft = '#SEPARATOR_BRACKET_LEFT' as const
+/** en: ] */
+export const SeparatorBracketRight = '#SEPARATOR_BRACKET_RIGHT' as const
+/** en: '{0}' */
+export const SurroundQuotesSingle = '#SURROUND_QUOTES_SINGLE' as const
+/** en: "{0}" */
+export const SurroundQuotesDouble = '#SURROUND_QUOTES_DOUBLE' as const
+/** en: ({0}) */
+export const SurroundParentheses = '#SURROUND_PARENTHESES' as const
+/** en: [{0}] */
+export const SurroundBrackets = '#SURROUND_BRACKETS' as const
 /** en: Custom Server */
 export const CustomServer = '#CUSTOM_SERVER' as const
 /** en: Collection */
@@ -16,6 +60,8 @@ export const Log = '#LOG' as const
 export const Inquiry = '#INQUIRY' as const
 /** en: Banner */
 export const Banner = '#BANNER' as const
+/** en: Icon */
+export const Icon = '#ICON' as const
 /** en: Post */
 export const Post = '#POST' as const
 /** en: Playlist */
@@ -150,6 +196,12 @@ export const Author = '#AUTHOR' as const
 export const Coauthor = '#COAUTHOR' as const
 /** en: Collaborator */
 export const Collaborator = '#COLLABORATOR' as const
+/** en: Lyricist */
+export const Lyricist = '#LYRICIST' as const
+/** en: Composer */
+export const Composer = '#COMPOSER' as const
+/** en: Arranger */
+export const Arranger = '#ARRANGER' as const
 /** en: Description */
 export const Description = '#DESCRIPTION' as const
 /** en: Genre */
@@ -822,6 +874,8 @@ export const FullHand = '#FULL_HAND' as const
 export const CrossHand = '#CROSS_HAND' as const
 /** en: Gimmick */
 export const Gimmick = '#GIMMICK' as const
+/** en: Epilepsy */
+export const Epilepsy = '#EPILEPSY' as const
 /** en: Collaboration */
 export const Collaboration = '#COLLABORATION' as const
 /** en: Report */

@@ -1,3 +1,4 @@
+import { Text } from '../../../../text/index.js'
 import { UserItem } from '../../../../user/item.js'
 import { ServerForm } from '../../../form.js'
 
@@ -6,6 +7,6 @@ export type ServerItemCommunityComment = {
     author: string
     authorUser?: UserItem
     time: number
-    content: string
+    content: Text | (string & {})
     actions: ServerForm[]
 }
