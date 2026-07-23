@@ -1,4 +1,5 @@
 import { webcrypto } from 'node:crypto'
+
 import { signaturePublicKeyJWK } from '../../../common/core/service/keys.js'
 
 let signaturePublicKey: webcrypto.CryptoKey | undefined

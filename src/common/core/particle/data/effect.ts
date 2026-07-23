@@ -42,7 +42,15 @@ export type ParticleDataGroupParticleProperty = {
     ease?:
         | 'linear'
         | `${'in' | 'out' | 'inOut' | 'outIn'}${
-              'Sine' | 'Quad' | 'Cubic' | 'Quart' | 'Quint' | 'Expo' | 'Circ' | 'Back' | 'Elastic'}`
+              | 'Sine'
+              | 'Quad'
+              | 'Cubic'
+              | 'Quart'
+              | 'Quint'
+              | 'Expo'
+              | 'Circ'
+              | 'Back'
+              | 'Elastic'}`
         | 'none'
 }
 

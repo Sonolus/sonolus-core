@@ -7,8 +7,8 @@ For more advanced usage, take a look at packages like [Sonolus.js](https://githu
 
 ## Links
 
--   [Sonolus Website](https://sonolus.com)
--   [Sonolus Wiki](https://wiki.sonolus.com)
+- [Sonolus Website](https://sonolus.com)
+- [Sonolus Wiki](https://wiki.sonolus.com)
 
 ## Installation
 

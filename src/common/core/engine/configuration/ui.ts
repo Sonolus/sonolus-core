@@ -48,7 +48,15 @@ export type EngineConfigurationAnimationTween = {
     ease:
         | 'linear'
         | `${'in' | 'out' | 'inOut' | 'outIn'}${
-              'Sine' | 'Quad' | 'Cubic' | 'Quart' | 'Quint' | 'Expo' | 'Circ' | 'Back' | 'Elastic'}`
+              | 'Sine'
+              | 'Quad'
+              | 'Cubic'
+              | 'Quart'
+              | 'Quint'
+              | 'Expo'
+              | 'Circ'
+              | 'Back'
+              | 'Elastic'}`
         | 'none'
 }
 
@@ -68,4 +76,10 @@ export type EngineConfigurationJudgmentErrorStyle =
     | 'triangleRight'
 
 export type EngineConfigurationJudgmentErrorPlacement =
-    'left' | 'right' | 'leftRight' | 'top' | 'bottom' | 'topBottom' | 'center'
+    | 'left'
+    | 'right'
+    | 'leftRight'
+    | 'top'
+    | 'bottom'
+    | 'topBottom'
+    | 'center'

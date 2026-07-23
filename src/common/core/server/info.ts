@@ -12,7 +12,9 @@ export type ServerInfo = {
 }
 
 export type ServerInfoButton =
-    ServerInfoAuthenticationButton | ServerInfoItemButton | ServerInfoConfigurationButton
+    | ServerInfoAuthenticationButton
+    | ServerInfoItemButton
+    | ServerInfoConfigurationButton
 
 export type ServerInfoAuthenticationButton = {
     type: 'authentication'
