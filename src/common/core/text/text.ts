@@ -170,6 +170,10 @@ export const Accuracy = '#ACCURACY' as const
 export const Filter = '#FILTER' as const
 /** en: Sort */
 export const Sort = '#SORT' as const
+/** en: Sort By */
+export const SortBy = '#SORT_BY' as const
+/** en: Sort Order */
+export const SortOrder = '#SORT_ORDER' as const
 /** en: Keywords */
 export const Keywords = '#KEYWORDS' as const
 /** en: Name */
@@ -562,6 +566,10 @@ export const Counterclockwise = '#COUNTERCLOCKWISE' as const
 export const Forward = '#FORWARD' as const
 /** en: Backward */
 export const Backward = '#BACKWARD' as const
+/** en: Ascending */
+export const Ascending = '#ASCENDING' as const
+/** en: Descending */
+export const Descending = '#DESCENDING' as const
 /** en: Default */
 export const Default = '#DEFAULT' as const
 /** en: Neutral */
@@ -598,6 +606,8 @@ export const Technical = '#TECHNICAL' as const
 export const Special = '#SPECIAL' as const
 /** en: Append */
 export const Append = '#APPEND' as const
+/** en: Enter icon... */
+export const IconPlaceholder = '#ICON_PLACEHOLDER' as const
 /** en: Enter post... */
 export const PostPlaceholder = '#POST_PLACEHOLDER' as const
 /** en: Enter playlist... */

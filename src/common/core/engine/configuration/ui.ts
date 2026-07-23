@@ -23,6 +23,7 @@ export type EngineConfigurationMetric =
     | 'accuracy'
     | 'accuracyPercentage'
     | 'life'
+    | 'time'
     | 'perfect'
     | 'perfectPercentage'
     | 'greatGoodMiss'
