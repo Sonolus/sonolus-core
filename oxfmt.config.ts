@@ -8,8 +8,8 @@ export default defineConfig({
     ignorePatterns: [
         '**/*.*',
 
-        '!eslint.config.js',
         '!oxfmt.config.ts',
+        '!oxlint.config.ts',
         '!README.md',
 
         '!src/**/*.*',

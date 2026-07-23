@@ -7,10 +7,10 @@ const zlibOptions = {
 
 const gzipPromise = promisify(gzip)
 
-// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
+// oxlint-disable-next-line typescript/no-unnecessary-type-parameters
 export const compress = <T>(data: T): Promise<Buffer<ArrayBuffer>> =>
     gzipPromise(JSON.stringify(data), zlibOptions)
 
-// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
+// oxlint-disable-next-line typescript/no-unnecessary-type-parameters
 export const compressSync = <T>(data: T): Buffer<ArrayBuffer> =>
     gzipSync(JSON.stringify(data), zlibOptions)

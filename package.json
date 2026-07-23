@@ -20,17 +20,15 @@
   ],
   "scripts": {
     "check-type": "tsc -p . --noEmit",
-    "check-lint": "eslint .",
+    "check-lint": "oxlint",
     "check-format": "oxfmt --check",
     "build": "tsc -p ."
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
     "@types/node": "^22.20.1",
-    "eslint": "^10.7.0",
-    "eslint-config-prettier": "^10.1.8",
     "oxfmt": "^0.60.0",
-    "typescript": "~6.0.3",
-    "typescript-eslint": "^8.65.0"
+    "oxlint": "^1.75.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "typescript": "~6.0.3"
   }
 }
