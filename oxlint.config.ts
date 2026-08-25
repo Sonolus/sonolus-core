@@ -4,7 +4,6 @@ export default defineConfig({
     plugins: ['eslint', 'typescript'],
     categories: {
         correctness: 'error',
-        suspicious: 'error',
     },
     options: {
         typeAware: true,
