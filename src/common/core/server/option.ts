@@ -23,7 +23,7 @@ export type ServerTextOption = {
     def: string
     placeholder: Text | (string & {})
     limit: number
-    shortcuts: string[]
+    shortcuts: (Text | (string & {}))[]
 }
 
 export type ServerTextAreaOption = {
@@ -35,7 +35,7 @@ export type ServerTextAreaOption = {
     def: string
     placeholder: Text | (string & {})
     limit: number
-    shortcuts: string[]
+    shortcuts: (Text | (string & {}))[]
 }
 
 export type ServerSliderOption = {

@@ -4,14 +4,15 @@ import { ParticleItem } from '../particle/item.js'
 import { SkinItem } from '../skin/item.js'
 import { Srl } from '../srl.js'
 import { Tag } from '../tag.js'
+import { Text } from '../text/index.js'
 import { UserItem } from '../user/item.js'
 
 export type EngineItem = {
     name: string
     source?: string
     version: 13
-    title: string
-    subtitle: string
+    title: Text | (string & {})
+    subtitle: Text | (string & {})
     author: string
     authorUser?: UserItem
     tags: Tag[]

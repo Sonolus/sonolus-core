@@ -5,6 +5,7 @@ import { ParticleItem } from '../particle/item.js'
 import { SkinItem } from '../skin/item.js'
 import { Srl } from '../srl.js'
 import { Tag } from '../tag.js'
+import { Text } from '../text/index.js'
 import { UserItem } from '../user/item.js'
 
 export type UseItem<T> =
@@ -21,8 +22,8 @@ export type LevelItem = {
     source?: string
     version: 1
     rating: number
-    title: string
-    artists: string
+    title: Text | (string & {})
+    artists: Text | (string & {})
     author: string
     authorUser?: UserItem
     tags: Tag[]

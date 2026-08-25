@@ -30,7 +30,7 @@ export type ServerItemSectionTyped<TItemType, TItem> = {
     title: Text | (string & {})
     icon?: Icon | (string & {})
     description?: Text | (string & {})
-    help?: string
+    help?: Text | (string & {})
     itemType: TItemType
     items: TItem[]
     search?: ServerForm
