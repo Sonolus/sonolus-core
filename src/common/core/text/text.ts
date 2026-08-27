@@ -252,6 +252,14 @@ export const Notification = '#NOTIFICATION' as const
 export const Role = '#ROLE' as const
 /** en: Permission */
 export const Permission = '#PERMISSION' as const
+/** en: Graphics */
+export const Graphics = '#GRAPHICS' as const
+/** en: Audio */
+export const Audio = '#AUDIO' as const
+/** en: Gameplay */
+export const Gameplay = '#GAMEPLAY' as const
+/** en: Miscellaneous */
+export const Miscellaneous = '#MISCELLANEOUS' as const
 /** en: Level Speed */
 export const Speed = '#SPEED' as const
 /** en: Mirror Level */
@@ -284,6 +292,8 @@ export const StageAlpha = '#STAGE_ALPHA' as const
 export const StageAnimation = '#STAGE_ANIMATION' as const
 /** en: Stage Tilt */
 export const StageTilt = '#STAGE_TILT' as const
+/** en: Stage Cover */
+export const StageCover = '#STAGE_COVER' as const
 /** en: Vertical Stage Cover */
 export const StageCoverVertical = '#STAGE_COVER_VERTICAL' as const
 /** en: Horizontal Stage Cover */
@@ -834,6 +844,8 @@ export const Draft = '#DRAFT' as const
 export const Public = '#PUBLIC' as const
 /** en: Private */
 export const Private = '#PRIVATE' as const
+/** en: Favorite */
+export const Favorite = '#FAVORITE' as const
 /** en: Pop */
 export const Pop = '#POP' as const
 /** en: Rock */

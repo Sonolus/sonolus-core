@@ -1,3 +1,5 @@
+import { Text } from '../text/index.js'
+
 export type ServerMessage = {
-    message?: string
+    message?: Text | (string & {})
 }

@@ -5,6 +5,7 @@ export {
     EngineConfigurationSliderOption,
     EngineConfigurationToggleOption,
 } from './option.js'
+export { EngineConfigurationOptionCategory } from './optionCategory.js'
 export {
     EngineConfigurationAnimation,
     EngineConfigurationAnimationTween,

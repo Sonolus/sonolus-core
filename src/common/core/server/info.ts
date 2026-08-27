@@ -4,7 +4,7 @@ import { Text } from '../text/index.js'
 import { ServerConfiguration } from './configuration.js'
 
 export type ServerInfo = {
-    title: string
+    title: Text | (string & {})
     description?: Text | (string & {})
     buttons: ServerInfoButton[]
     configuration: ServerConfiguration
