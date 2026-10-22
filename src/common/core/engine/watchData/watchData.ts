@@ -29,4 +29,7 @@ export type EngineWatchData = {
     archetypes: EngineWatchDataArchetype[]
     updateSpawn?: number
     nodes: EngineDataNode[]
+    entityMemoryLength?: number
+    entityDataLength?: number
+    entitySharedMemoryLength?: number
 }
