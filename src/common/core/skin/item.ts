@@ -9,7 +9,7 @@ export type SkinItem = {
     version: 4
     title: Text | (string & {})
     subtitle: Text | (string & {})
-    author: string
+    author: Text | (string & {})
     authorUser?: UserItem
     tags: Tag[]
     thumbnail: Srl

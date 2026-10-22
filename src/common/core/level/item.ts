@@ -24,7 +24,7 @@ export type LevelItem = {
     rating: number
     title: Text | (string & {})
     artists: Text | (string & {})
-    author: string
+    author: Text | (string & {})
     authorUser?: UserItem
     tags: Tag[]
     engine: EngineItem

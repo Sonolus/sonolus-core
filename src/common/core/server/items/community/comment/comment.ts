@@ -4,7 +4,7 @@ import { ServerForm } from '../../../form.js'
 
 export type ServerItemCommunityComment = {
     name: string
-    author: string
+    author: Text | (string & {})
     authorUser?: UserItem
     time: number
     content: Text | (string & {})
