@@ -7,7 +7,7 @@ export type RoomItem = {
     name: string
     title: Text | (string & {})
     subtitle: Text | (string & {})
-    master: string
+    master: Text | (string & {})
     masterUser?: UserItem
     tags: Tag[]
     cover?: Srl

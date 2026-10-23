@@ -12,4 +12,6 @@ export type EnginePreviewData = {
     }
     archetypes: EnginePreviewDataArchetype[]
     nodes: EngineDataNode[]
+    entityDataLength?: number
+    entitySharedMemoryLength?: number
 }

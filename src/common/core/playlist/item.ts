@@ -10,7 +10,7 @@ export type PlaylistItem = {
     version: 1
     title: Text | (string & {})
     subtitle: Text | (string & {})
-    author: string
+    author: Text | (string & {})
     authorUser?: UserItem
     tags: Tag[]
     levels: LevelItem[]

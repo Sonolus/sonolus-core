@@ -28,4 +28,7 @@ export type EnginePlayData = {
     buckets: EngineDataBucket[]
     archetypes: EnginePlayDataArchetype[]
     nodes: EngineDataNode[]
+    entityMemoryLength?: number
+    entityDataLength?: number
+    entitySharedMemoryLength?: number
 }

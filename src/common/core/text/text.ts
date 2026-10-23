@@ -492,6 +492,10 @@ export const PreviewBeat = '#PREVIEW_BEAT' as const
 export const PreviewMeasure = '#PREVIEW_MEASURE' as const
 /** en: Preview Combo */
 export const PreviewCombo = '#PREVIEW_COMBO' as const
+/** en: Beat Line */
+export const BeatLine = '#BEAT_LINE' as const
+/** en: Measure Line */
+export const MeasureLine = '#MEASURE_LINE' as const
 /** en: UI */
 export const Ui = '#UI' as const
 /** en: UI Metric */
@@ -960,6 +964,8 @@ export const Score = '#SCORE' as const
 export const Owner = '#OWNER' as const
 /** en: Admin */
 export const Admin = '#ADMIN' as const
+/** en: Developer */
+export const Developer = '#DEVELOPER' as const
 /** en: Moderator */
 export const Moderator = '#MODERATOR' as const
 /** en: Reviewer */
