@@ -25,10 +25,10 @@
     "build": "tsc -p ."
   },
   "devDependencies": {
-    "@types/node": "^22.20.1",
-    "oxfmt": "^0.65.0",
-    "oxlint": "^1.80.0",
-    "oxlint-tsgolint": "^7.0.2001",
+    "@types/node": "^22.20.5",
+    "oxfmt": "^0.74.0",
+    "oxlint": "^1.89.0",
+    "oxlint-tsgolint": "^7.0.2004",
     "typescript": "^7.0.2"
   }
 }
